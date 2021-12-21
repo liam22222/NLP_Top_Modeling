@@ -1,0 +1,1029 @@
+<!DOCTYPE html><!-- page:hide-template-menu-items /-->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="he" />
+	<meta name="viewport" content="width=1024" />
+	<link href="/sites/styles/vgn-ext-templating-delivery.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="/sites/scripts/async/ajax.jsp"></script>
+<script>
+	function setRefCookie(){
+		var ref = document.referrer.length > 0;
+		if(ref){
+			var d = new Date();
+			d.setTime(d.getTime()+(30 * 1000));
+			var expires = "expires="+d.toGMTString();
+			document.cookie = "mako_referrer=" + window.location.href +"|"+document.referrer+"; " + expires + ";domain=.mako.co.il;path=/";
+		}
+	}
+	function getStatsParams(altUrl){
+		var params = '';
+		if (location.search && altUrl.indexOf('mako.')!=-1) {
+		    var parts = location.search.substring(1).split('&');
+		    for (var i = 0; i < parts.length; i++) {
+		        var nv = parts[i].split('=');
+		        if (nv[0] && (nv[0] == 'sCh' || nv[0] == 'pId' || nv[0].toLowerCase() == 'partner' || nv[0].indexOf('utm') == 0)) {
+		              params += '&' + nv[0] +'='+ nv[1];
+		          }
+		    }
+		    if (params !== ''){
+		    	params = (altUrl.indexOf('?') !== altUrl.indexOf('&') ? '&' : '?') + params.substring(1);
+		    }
+		}
+		return params;
+	}
+		var agent = navigator.userAgent.toLowerCase();
+		var myUrl = window.location.href.toLowerCase();
+		var isSmartPhone = (agent.indexOf('ipad') == -1 && (agent.indexOf('iphone') != -1 || agent.indexOf('android') != -1 ) )
+		if(isSmartPhone){
+			//var isTvbeeDomain = location.host.indexOf("tvbee.co.il") != -1;
+			var isSateliteDomain = location.host.indexOf("tvbee.co.il") != -1 || location.host.indexOf("www.n12")!= -1;
+			var altUrl="";
+			if((myUrl.indexOf(".mako") != -1  || isSateliteDomain) && myUrl.indexOf("rdr=1") == -1 && myUrl.indexOf("partner=switch") == -1)
+			{
+					setRefCookie();
+					var mobileHostPrefix = isSateliteDomain ? 'm.' : 'mobile.';
+					var isValidUrl = new RegExp("^(http|https)\://.*$").test(altUrl);
+					if(altUrl.length && isValidUrl && (myUrl.toLowerCase().indexOf(altUrl.toLowerCase()) == -1)){
+						window.location=altUrl + getStatsParams(altUrl);
+					}else{
+						window.location = window.location.href.replace(location.host.split('.')[0]+'.', mobileHostPrefix);
+					}
+			}
+		}
+		</script>
+<link rel="canonical" href="https://www.mako.co.il/news-law/2021_q4/Article-3fca36855b4ad71026.htm"/>
+		<link rel="alternate" media="handheld" href="https://mobile.mako.co.il/news-law/2021_q4/Article-3fca36855b4ad71026.htm" />
+			<link rel="apple-touch-icon" href="//rcs.mako.co.il/images/apple-touch-icon.png"/>
+
+
+		<link rel="shortcut icon" href="//rcs.mako.co.il/images/N12favicon/favicon.ico"/>
+		<link rel="alternate" href="android-app://com.channel2.mobile.ui/news12/?link=/news-law/2021_q4/Article-3fca36855b4ad71026.htm?utm_source=Google&utm_medium=OrganicSearchResults&utm_campaign=AppIndexing&firstinter=false&secondinter=false"/>
+<link rel="alternate" href="ios-app://333211486/news12?link=/news-law/2021_q4/Article-3fca36855b4ad71026.htm?utm_source=Google&utm_medium=OrganicSearchResults&utm_campaign=AppIndexing&firstinter=false&secondinter=false"/>
+<link rel="alternate" href="ios-app://340173260/mako/openArticle?url=/news-law/2021_q4/Article-3fca36855b4ad71026.htm?utm_source=Google&utm_medium=OrganicSearchResults&utm_campaign=AppIndexing&firstinter=false&secondinter=false" />
+<link rel="alternate" href="android-app://com.goldtouch.mako/mako/openArticle?url=/news-law/2021_q4/Article-3fca36855b4ad71026.htm?utm_source=Google&utm_medium=OrganicSearchResults&utm_campaign=AppIndexing&firstinter=false&secondinter=false" />
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "NewsArticle",
+ "mainEntityOfPage":  {
+  "@type": "WebPage",
+  "@id": "https://www.mako.co.il/news-law/2021_q4/Article-3fca36855b4ad71026.htm"
+ },
+ "headline": "נתניהו הגיב על דברי טראמפ: &quot;מעריך מאוד את התרומה הגדולה שלו&quot;",
+ "image":  {
+  "@type": "ImageObject",
+  "url": "https://img.mako.co.il/2020/09/15/2020-09-15T175324Z_1604421588_RC25ZI98JBAT_RTRMADP_3_ISRAEL-GULF-USA_b.jpg",
+  "height": 174,
+  "width": 232
+ },
+ "author":  {
+  "@type": "Person",
+  "name": "mako"
+ },
+ "datePublished": "2021-12-10T14:44+0000",
+ "dateModified": "2021-12-10T14:44+0000",
+ "publisher":  {
+  "@type": "Organization",
+  "name": "N12",
+  "logo":   {
+   "@type": "ImageObject",
+   "url": "https://rcs.mako.co.il/images/header/mako_logo_neo_schema.png",
+   "width": "165",
+   "height": "60"
+  }
+ }
+}</script>
+
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "Organization",
+ "name": "N12",
+ "url": "https://www.n12.co.il/",
+ "sameAs":  [
+  "http://www.n12.co.il/",
+  "https://www.facebook.com/N12News/",
+  "https://www.instagram.com/n12news/",
+  "https://twitter.com/NewsChannelIL",
+  "https://he.wikipedia.org/wiki/N12_-_%D7%94%D7%97%D7%93%D7%A9%D7%95%D7%AA"
+ ],
+ "logo": "https://rcs.mako.co.il/images/news/logo-x2.png"
+}
+</script><meta property="al:android:package" content="com.goldtouch.mako" />
+<meta property="al:android:url" content="mako://openArticle?url=/news-law/2021_q4/Article-3fca36855b4ad71026.htm?utm_source=AppLinks&utm_medium=ReferalTraffic&utm_campaign=AppLinks&firstinter=false&secondinter=false" />
+<meta property="al:android:app_name" content="mako mobile" />
+<meta property="al:ios:url" content="mako://openArticle?url=/news-law/2021_q4/Article-3fca36855b4ad71026.htm?utm_source=AppLinks&utm_medium=ReferalTraffic&utm_campaign=AppLinks&firstinter=false&secondinter=false" />
+<meta property="al:ios:app_store_id" content="340173260" />
+<meta property="al:ios:app_name" content="mako mobile" />
+<meta property="al:web:url" content="https://www.mako.co.il/news-law/2021_q4/Article-3fca36855b4ad71026.htm" />
+<meta name="description" content="ראש האופוזיציה הגיב על התקפת נשיא ארה&quot;ב לשעבר, שאמר כי נתניהו &quot;בגד בו&quot; והוסיף: Fuck him • במקביל, הודיע נתניהו כי הוא מתכוון להגיש תלונה במשטרה בגין איומים"/>
+	<title> N12 - נתניהו הגיב על דברי טראמפ: &quot;מעריך מאוד את התרומה הגדולה...</title>
+	<meta property="og:title" content=" N12 - נתניהו הגיב על דברי טראמפ: &quot;מעריך מאוד את התרומה הגדולה..."/>
+	<meta property="og:type" content="article"/>
+	<meta property="og:url" content="https://www.mako.co.il/news-law/2021_q4/Article-3fca36855b4ad71026.htm"/>
+	<meta property="og:image" content="https://img.mako.co.il/2020/09/15/2020-09-15T175324Z_1604421588_RC25ZI98JBAT_RTRMADP_3_ISRAEL-GULF-USA_i.jpg"/>
+	<meta property="og:site_name" content="N12"/>
+	<meta property="fb:app_id" content="225736910835244"/>
+	<meta property="og:description" content="ראש האופוזיציה הגיב על התקפת נשיא ארה&quot;ב לשעבר, שאמר כי נתניהו &quot;בגד בו&quot; והוסיף: Fuck him • במקביל, הודיע נתניהו כי הוא מתכוון להגיש תלונה במשטרה בגין איומים"/>
+	<meta property="fb:pages" content="100462013796" />
+
+	<meta name="external_title" content="נתניהו הגיב לטראמפ: &quot;מעריך את תרומתו&quot;"/>
+	<meta property="article:published_time" content="2021-12-10T16:44:00+0200" />
+		<meta property="article:section" content="החדשות" />
+    <meta name="apple-itunes-app" content="app-id=340173260, app-argument=mako://openArticle?url=https://www.mako.co.il/news-law/2021_q4/Article-3fca36855b4ad71026.htm&utm_source=makoMobile&utm_medium=SmartAppBanner&utm_campaign=makoMobilePromo&firstinter=false&secondinter=false" />
+		<meta name="google-play-app" content="app-id=com.goldtouch.mako, app-argument=mako://openArticle?url=https://www.mako.co.il/news-law/2021_q4/Article-3fca36855b4ad71026.htm&utm_source=makoMobile&utm_medium=SmartAppBanner&utm_campaign=makoMobilePromo&firstinter=false&secondinter=false" />
+	<script type="text/javascript">
+		var adsArea  = 'MAKOAREA=articleins';
+		var contentType = 'articleins';
+		var contentUsername = '';
+		function MAKO_SETTINGS() {
+            return {
+                            'url' : "https://www.mako.co.il/news-law/2021_q4/Article-3fca36855b4ad71026.htm",
+                            'type' : "article"
+            }
+		}
+	</script>
+	<link rel="image_src" href="https://img.mako.co.il/2020/09/15/2020-09-15T175324Z_1604421588_RC25ZI98JBAT_RTRMADP_3_ISRAEL-GULF-USA_i.jpg" />
+<!-- Menuitem:  / nEditorsAdmin / nRenderPortletCacheTag /   -->
+<!-- google plus 1 -->
+<script>
+	var vcmidOfContent = '3fca36855b4ad710VgnVCM200000650a10acRCRD';
+	var currentChannelId = '70a4c2c5f933c710VgnVCM100000700a10acRCRD';
+	var mainChannelId = '31750a2610f26110VgnVCM1000005201000aRCRD';
+	var parentsChannels='70a4c2c5f933c710VgnVCM100000700a10acRCRD,a52cb2eb226bb110VgnVCM100000290c10acRCRD,31750a2610f26110VgnVCM1000005201000aRCRD';
+	var isCM8 =  true;
+	var OB_ContextKeyValue = 'n12';
+	var OB_Platform = 'desktop';
+</script>
+
+
+<!-- new article -->
+
+		<link href="https://rcs.mako.co.il/css/news/article/cssBundle.css" rel="stylesheet" /><link href="https://rcs.mako.co.il/css/news/themes/header.css" rel="stylesheet" /><script src="https://rcs.mako.co.il/js/p13n_mako_v7.js"></script>
+		<script src="https://rcs.mako.co.il/js/bannend.js"></script>
+		<script>
+			var staticResourcesUriPrefix = 'https://rcs.mako.co.il';
+			var skinsUriPrefix = 'https://skn.mako.co.il';
+			var imagesUriPrefix = 'https://img.mako.co.il';
+		</script>
+		<script src="https://rcs.mako.co.il/js/mako-article-V2019/preBundle.js"></script>
+		<!-- Vignette Application Portal 16.2 (build 849477) (JAR 16.2.cumulative 2018-06-06 12:54:12 build 866503) -->
+	<base target="_top" />
+</head>
+<body class="article news">
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0"></script>
+<script>
+function CM8MakoBuildCat(){if(MakoCat=="mako.home"){CM8Cat=MakoCat;return}var c=MakoCat.split(".");var a=new Array();var b=c.length;a[0]=c[0];for(i=1;i<b;i++){a[i]=a[i-1]+"."+c[i]}a[b]=a[b-1]+".lobby";for(i=0;i<b;i++){a[i]+=".general"}CM8Cat=a[b];for(i=b-1;i>=0;i--){CM8Cat+=","+a[i]}};
+</script>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T87PQS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T87PQS');</script>
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WH7Q78" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WH7Q78');</script>
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MJ2NPR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJ2NPR');</script>
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PHR3MZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PHR3MZ');</script>
+<!-- End Google Tag Manager -->
+<script>(window.upManager || []).push("76410001");</script>
+<!-- GPT script begin -->
+<script>var makoReferrer = 'mako';if(document.referrer.length == 0){	makoReferrer = 'empty';	}else{var ref = document.referrer.split('?');	if (ref[0].indexOf("mako.co.il") ==-1)makoReferrer = 'other';}</script>
+<script src="//www.mako.co.il/Collab/cm8/360Advert.js"></script>
+<style>#Fullscreen_Wrapper iframe{width:100%;height:100%;position:fixed;left:0}</style>
+<div id="Fullscreen_Wrapper" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;visibility:visible;z-index:2147483638;"></div>
+
+<script async src="//www.googletagservices.com/tag/js/gpt.js"></script>
+<script>
+var gclidVal = 'FALSE';
+try{gclidVal =(localStorage.getItem('mako_gclid') || location.search.indexOf('gclid=') > -1) ? 'TRUE' : 'FALSE';}catch(err){}
+var agent = navigator.userAgent.toLowerCase();
+var isNoOzenNeeded = (agent.indexOf('ipad') != -1 || agent.indexOf('iphone') != -1 || agent.indexOf('android') != -1 )
+if (isNoOzenNeeded && window.DFP){DFP.ozenReady=true;}
+
+var CM8MakoHN = window.houseNumbers ? ("&makoHN="+houseNumbers) : "";
+isCM8 = isCM8 && location.href.toLowerCase().indexOf('&partner=inner')==-1 && location.href.toLowerCase().indexOf('&partner=m_inner')==-1;
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+	function addCustomCriteria(name, val){
+		 (val &&  val != '' && val != 'null') ? googletag.pubads().setTargeting(name, val) : '';
+}
+
+if (isCM8){
+	var googleAds = [];
+    googletag.cmd.push(function (){
+    // permutive code
+    if (0===window.googletag.pubads().getTargeting("permutive").length){try{var g=window.localStorage.getItem("_pdfps");window.googletag.pubads().setTargeting("permutive",g?JSON.parse(g):[])}catch(e){}}
+
+    var fullscreen = googletag.defineSlot('/242748299/mako/news/News_law/FULLSCREEN', [[970,250],[970,540]],'Fullscreen_Wrapper').setTargeting("FORMAT","FULLSCREEN").addService(googletag.pubads());
+
+    // end permutive code
+
+
+   	googleAds[0]=googletag.defineSlot('/242748299/mako/news/News_law/PREMIUM', [[970,540],[970,330],[5,5],[3,3],[970,250]],'CM8ShowAd_MEGA_PLASMA_970X330').addService(googletag.pubads()).setTargeting("FORMAT", ["PLASMA1_970","MEGA_PLASMA","ELVIS_MEGAPLASMA","ELVIS_PLASMA","Billboard970"]).setCollapseEmptyDiv(true,true);
+
+
+    googleAds[1]=googletag.defineSlot('/242748299/mako/news/News_law/PLASMA1_750', [[750,140],[5,5]],'CM8ShowAd_PLASMA1_750X140').addService(googletag.pubads()).setTargeting("FORMAT", ["PLASMA1_750"]).setCollapseEmptyDiv(true,true);
+
+    googleAds[2]=googletag.defineSlot('/242748299/mako/news/News_law/OZEN',[[160,600],[120,600],[240,400]],'mako_main_glideDiv').addService(googletag.pubads()).setTargeting("FORMAT","OZEN");
+	googleAds[3] = googletag.defineSlot('/242748299/mako/news/News_law/JAMBO1_728',[728,90], 'CM8ShowAd_JAMBO1_728X90').addService(googletag.pubads()).setTargeting("FORMAT", "JAMBO1_728").setCollapseEmptyDiv(true,true);
+    googleAds[4] = googletag.defineSlot('/242748299/mako/news/News_law/JAMBO1_970',[970,90], 'CM8ShowAd_JAMBO1_970X90').addService(googletag.pubads()).setTargeting("FORMAT", "JAMBO1_970").setCollapseEmptyDiv(true,true);
+	googleAds[5] = googletag.defineSlot('/242748299/mako/news/News_law/CORNER_PEEL',[1,1], 'CM8ShowAd_CORNER_PEEL_1X1').addService(googletag.pubads()).setTargeting("FORMAT", "CORNER_PEEL").setCollapseEmptyDiv(true,true);
+
+    googleAds[6] = googletag.defineSlot('/242748299/mako/news/News_law/MONSTER1_300',[300,250], 'CM8ShowAd_MONSTER1_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER1_300").setCollapseEmptyDiv(true,true);
+
+    googleAds[7] = googletag.defineSlot('/242748299/mako/news/News_law/MONSTER2_300',[300,250], 'CM8ShowAd_MONSTER2_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER2_300");
+
+    googleAds[8] = googletag.defineSlot('/242748299/mako/news/News_law/MONSTER3_300',[300,250], 'CM8ShowAd_MONSTER3_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER3_300");
+
+    googleAds[9] = googletag.defineSlot('/242748299/mako/news/News_law/MONSTER1_250',[250,250], 'CM8ShowAd_MONSTER1_250X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER1_250");
+
+    googleAds[10] = googletag.defineSlot('/242748299/mako/news/News_law/MONSTER2_250',[250,250], 'CM8ShowAd_MONSTER2_250X250').addService(googletag.pubads()).setTargeting("FORMAT","MONSTER2_250");
+
+    googleAds[11] = googletag.defineSlot('/242748299/mako/news/News_law/MONSTER3_250',[250,250], 'CM8ShowAd_MONSTER3_250X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER3_250");
+
+    googleAds[12] = googletag.defineSlot('/242748299/mako/news/News_law/POSTER',[300,600], 'CM8ShowAd_POSTER_300X600').addService(googletag.pubads()).setTargeting("FORMAT", "POSTER");
+
+    googleAds[13] = googletag.defineSlot('/242748299/mako/news/News_law/POSTER2',[300,600], 'CM8ShowAd_POSTER2_300X600').addService(googletag.pubads()).setTargeting("FORMAT", "POSTER2");
+
+    googleAds[14] = googletag.defineSlot('/242748299/mako/news/News_law/POSTER3',[300,600], 'CM8ShowAd_POSTER3_300X600').addService(googletag.pubads()).setTargeting("FORMAT", "POSTER3");
+
+	googleAds[15]=googletag.defineSlot('/242748299/mako/news/News_law/INNER_OZEN',[120,600],'CM8ShowAd_OZEN1_120X600').addService(googletag.pubads()).setTargeting("FORMAT","OZEN_INNER").setCollapseEmptyDiv(true,true);
+
+	googleAds[16]=googletag.defineSlot('/242748299/mako/news/News_law/COAST2COAST1_970',[970,90],'CM8ShowAd_COAST2COAST1_970X90').addService(googletag.pubads()).setTargeting("FORMAT","COAST2COAST1_970");
+
+    googleAds[17]=googletag.defineSlot('/242748299/mako/news/News_law/COAST2COAST1_728',[728,90],'CM8ShowAd_COAST2COAST1_728X90').addService(googletag.pubads()).setTargeting("FORMAT","COAST2COAST1_728");
+
+    googleAds[18]=googletag.defineSlot('/242748299/mako/news/News_law/STANDARD1',[234,60],'CM8ShowAd_STANDARD1_234X60').addService(googletag.pubads()).setTargeting("FORMAT","STANDARD1");
+
+    googleAds[19]=googletag.defineSlot('/242748299/mako/news/News_law/CUBE1',[276,174],'CM8ShowAd_CUBE1_276X174').addService(googletag.pubads()).setTargeting("FORMAT","CUBE1");
+
+	googleAds[20] = googletag.defineSlot('/242748299/mako/news/News_law/ARTICLE1_250X250',[250,250], 'CM8ShowAd_ARTICLE1_250X250').addService(googletag.pubads()).setTargeting("FORMAT", "ARTICLE1_250X250").setCollapseEmptyDiv(true,true);
+
+    googleAds[21] = googletag.defineSlot('/242748299/mako/news/News_law/ARTICLE1_300X250',[300,250],'CM8ShowAd_ARTICLE1_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "ARTICLE1_300X250").setCollapseEmptyDiv(true,true);
+
+    googleAds[22] = googletag.defineSlot('/242748299/mako/news/News_law/MONSTER4_300',[300,250], 'CM8ShowAd_MONSTER4_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER4_300");
+    googleAds[23] = googletag.defineSlot('/242748299/mako/news/News_law/MONSTER5_300',[300,250], 'CM8ShowAd_MONSTER5_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER5_300");
+    googleAds[24] = googletag.defineSlot('/242748299/mako/news/News_law/MONSTER6_300',[300,250], 'CM8ShowAd_MONSTER6_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER6_300");
+    googleAds[25] = googletag.defineSlot('/242748299/mako/news/News_law/MONSTER7_300',[300,250], 'CM8ShowAd_MONSTER7_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER7_300");
+    googleAds[26] = googletag.defineSlot('/242748299/mako/news/News_law/MONSTER8_300',[300,250], 'CM8ShowAd_MONSTER8_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER8_300");
+    googleAds[27] = googletag.defineSlot('/242748299/mako/news/News_law/MONSTER9_300',[300,250], 'CM8ShowAd_MONSTER9_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER9_300");
+    googleAds[28] = googletag.defineSlot('/242748299/mako/news/News_law/MONSTER10_300',[300,250], 'CM8ShowAd_MONSTER10_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER10_300");
+    googleAds[29] = googletag.defineSlot('/242748299/mako/news/News_law/ARTICLE2_300X250',[300,250],'CM8ShowAd_ARTICLE2_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "ARTICLE2_300X250").setCollapseEmptyDiv(true,true);
+    googleAds[30] = googletag.defineSlot('/242748299/mako/news/News_law/ARTICLE3_300X250',[300,250],'CM8ShowAd_ARTICLE3_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "ARTICLE3_300X250").setCollapseEmptyDiv(true,true);
+    googleAds[31] = googletag.defineSlot('/242748299/mako/news/News_law/ARTICLE4_300X250',[300,250],'CM8ShowAd_ARTICLE4_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "ARTICLE4_300X250").setCollapseEmptyDiv(true,true);
+    googleAds[32] = googletag.defineSlot('/242748299/mako/news/News_law/ARTICLE5_300X250',[300,250],'CM8ShowAd_ARTICLE5_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "ARTICLE5_300X250").setCollapseEmptyDiv(true,true);
+    googleAds[33] = googletag.defineSlot('/242748299/mako/news/News_law/ARTICLE6_300X250',[300,250],'CM8ShowAd_ARTICLE6_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "ARTICLE6_300X250").setCollapseEmptyDiv(true,true);
+
+    googleAds[34]=googletag.defineSlot('/242748299/mako/news/News_law/MONSTER_300',[300,250], 'CM8ShowAd_MONSTER_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER_300").setCollapseEmptyDiv(true,true);
+    googleAds[35]=googletag.defineSlot('/242748299/mako/news/News_law/DOUBLESTANDARD',[468,60],'CM8ShowAd_DOUBLESTANDARD_468X60').addService(googletag.pubads()).setTargeting("FORMAT","DOUBLESTANDARD").setCollapseEmptyDiv(true,true);
+
+
+    //googleAds[29] = googletag.defineSlot('/242748299/mako/news/News_law/PREMIUM', [[6,6],[3,3]],'CM8ShowAd_BILLBOARD_970X400').addService(googletag.pubads()).setTargeting("FORMAT", "Billboard970").setCollapseEmptyDiv(true,true);
+
+    if(window.contentType=='articleins'){
+    	if(document.querySelector('link[rel="video_src"]')!=null){
+    		addCustomCriteria("video","true");
+    	}
+    }
+
+    window.DFP && googletag.defineOutOfPageSlot('/242748299/mako/news/News_law/TOPLAYER','DFP_TOPLAYER').addService(googletag.pubads()).setTargeting("FORMAT", "TOPLAYER");
+
+       addCustomCriteria("makoHN", window.houseNumbers);
+       //addCustomCriteria("MAKOAREA", '');
+       addCustomCriteria("MAKOPAGE", '3fca36855b4ad710VgnVCM200000650a10acRCRD');
+       addCustomCriteria("mako_referrer", makoReferrer);
+       addCustomCriteria("CONTENTTYPE", window.contentType);
+       addCustomCriteria("LEVEL4", 'News_law');
+       addCustomCriteria("LEVEL5", 'null');
+       addCustomCriteria("LEVEL6", 'null');
+       addCustomCriteria("LEVEL7", 'null');
+       addCustomCriteria("GCLID", gclidVal);
+	   // for test use
+       if (location.hostname.match('int|adm')) {
+       	   addCustomCriteria("TEST", "WINT");
+       }
+	   //googletag.pubads().collapseEmptyDivs(true);
+	   //if (DFP && DFP.isHP){
+	   //   googletag.pubads().enableSingleRequest();
+       //}
+       googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+            DFP && DFP.renderAdEnded && DFP.renderAdEnded(event);
+            if (event.slot.getSlotElementId() === 'Fullscreen_Wrapper' && event.isEmpty == false){
+                document.querySelector('#Fullscreen_Wrapper').style.display = 'block';
+            }
+	    });
+        googletag.enableServices();
+    });
+    googletag.cmd.push(function (){
+        googletag.display('Fullscreen_Wrapper');
+    });
+}
+</script>
+<div id="DFP_TOPLAYER" style="height:0px"></div>
+<script>googletag.cmd.push(function() { googletag.display('DFP_TOPLAYER'); });</script>
+<script>
+    !function(n,e,o,r,i){if(!e){e=e||{},window.permutive=e,e.q=[],e.config=i||{},e.config.projectId=o,e.config.apiKey=r,e.config.environment=e.config.environment||"production";for(var t=["addon","identify","track","trigger","query","segment","segments","ready","on","once","user","consent"],c=0;c<t.length;c++){var f=t[c];e[f]=function(n){return function(){var o=Array.prototype.slice.call(arguments,0);e.q.push({functionName:n,arguments:o})}}(f)}}}(document,window.permutive,"e40fe333-ed16-40e2-902d-2810c99b8c80","34892ffd-594e-409e-a5b1-d4caa1655e1a",{});
+    window.addEventListener('DOMContentLoaded', function(){
+        function category() {
+            try {
+                return location.pathname.replace(/(?=\?)(.[^?]*$)/, '').replace(/(?=A)(.[^A]*$)/, '');
+            }
+            catch (e) {
+                return null
+            }
+        }
+        function desc() {
+            try {
+                return document.querySelector("meta[name='description']").getAttribute('content');
+            }
+            catch (e) {
+                return null
+            }
+        }
+        function pdate() {
+            try {
+                return document.querySelector("meta[property='article:published_time']").getAttribute('content').slice(0, -2) +":"+document.querySelector("meta[property='article:published_time']").getAttribute('content').slice(-2);
+            }
+            catch (e) {
+                return null
+            }
+        }
+        function author() {
+            try {
+                return document.querySelector("span[itemprop='author']").getAttribute('content');
+            }
+            catch (e) {
+                return null
+            }
+        }
+        function tags() {
+        	try {
+                var nodes = document.querySelectorAll('meta[property="article:tag"]');
+                var keywords = [];
+                for (var i = 0; i < nodes.length; ++i) {
+                    keywords[i] = nodes[i].content;
+                }
+                return keywords;
+            } catch (e) {
+                return null;
+            };
+        }
+            permutive.addon('web', { page: {
+                    "publisher": "keshet",
+                    "category": category(),
+                    "description": desc(),
+                    "dayofweek": new Date().toLocaleDateString('en-us', {weekday: 'long'}),
+                    "article":{
+                        "publishingdate": pdate(),
+                        "author": author(),
+                        "editortags": tags()
+                    }}})});
+                    var ptag = document.createElement('script');
+					ptag.src = "https://cdn.permutive.com/e40fe333-ed16-40e2-902d-2810c99b8c80-web.js?d=" + new Date().toISOString().substring(0, 10);
+					var f = document.getElementsByTagName('script')[0];
+					f.parentNode.insertBefore(ptag, f);
+</script>
+<script async src="//mrb.upapi.net/code?w=5632346594213888&uponit=true"></script>
+<header class="toolbar">
+		<div class="inner">
+<a class="logo" href="/news?partner=Newsheaderlogo"></a>
+			<ul class="weather-slider" data-feed="/AjaxPage?jspName=sideBarJsonResponse.jsp&type=weather"></ul>
+			<span class="date"></span>
+			<a class="s-logo" href="/news?partner=Newsheaderlogo"></a>
+		</div>
+	</header>
+
+<nav class="menu responsive v-2020">
+		<ul>
+			<li>
+				<ul>
+					<li class="logo">
+						<a href="/news?partner=NewsNavBar"></a>
+					</li>
+					<li ><a href="/news-politics?partner=NewsNavBar">פוליטי</a></li><li class="selected" ><a href="/news-law?partner=NewsNavBar">פלילי</a></li><li ><a href="/news-israel?partner=NewsNavBar">פנים</a></li><li ><a href="/news-money?partner=NewsNavBar">כלכלה</a></li><li ><a href="/news-world?partner=NewsNavBar">בעולם</a></li><li ><a href="https://www.mako.co.il/news-n12_magazine?partner=NewsNavBar">המגזין</a></li><li ><a href="/news-sport?partner=NewsNavBar">ספורט</a></li><li ><a href="https://www.mako.co.il/news-podcast_n12?partner=NewsNavBar">הפודקאסטים</a></li><li ><a href="/news-entertainment?partner=NewsNavBar">תרבות</a></li><li ><a href="https://www.shop5.co.il/?utm_source=N12&utm_medium=link&utm_campaign=shop5_hpbar0308&partner=NewsNavBar"target="_blank">קניות</a></li><li ><a href="/news-military?partner=NewsNavBar">ביטחוני</a></li><li ><a href="https://corona.mako.co.il/?partner=NewsNavBar">קורונה</a></li><li ><a href="/news-lifestyle?partner=NewsNavBar">בריאות</a></li><li ><a href="/news-education?partner=NewsNavBar">חינוך</a></li><li ><a href="/news-money/consumer?partner=NewsNavBar">צרכנות</a></li><li ><a href="https://www.mako.co.il/news-money/real_estate?partner=NewsNavBar">נדל"ן</a></li><li ><a href="https://www.mako.co.il/news-business?partner=NewsNavBar">d&b Business</a></li><li ><a href="/news-science?partner=NewsNavBar">מדע וסביבה</a></li><li ><a href="/news-columns?partner=NewsNavBar">פרשנות</a></li><li ><a href="/news-digital?partner=NewsNavBar">דיגיטל</a></li><li ><a href="https://www.mako.co.il/news-tip12?partner=NewsNavBar">TIP12</a></li><li ><a href="/news-ha_tachtit?partner=NewsNavBar">התחתית</a></li></ul>
+			</li>
+			<li ><a href="/news-channel12?partner=NewsNavBar">תוכניות</a></li><li ><a href="https://www.mako.co.il?partner=NewsNavBar"target="_blank">mako</a></li><li class="more">
+				<span class="open"></span>
+				<ul>
+					<li ><a href="/news-politics?partner=NewsNavBar">פוליטי</a></li><li class="selected" ><a href="/news-law?partner=NewsNavBar">פלילי</a></li><li ><a href="/news-israel?partner=NewsNavBar">פנים</a></li><li ><a href="/news-money?partner=NewsNavBar">כלכלה</a></li><li ><a href="/news-world?partner=NewsNavBar">בעולם</a></li><li ><a href="https://www.mako.co.il/news-n12_magazine?partner=NewsNavBar">המגזין</a></li><li ><a href="/news-sport?partner=NewsNavBar">ספורט</a></li><li ><a href="https://www.mako.co.il/news-podcast_n12?partner=NewsNavBar">הפודקאסטים</a></li><li ><a href="/news-entertainment?partner=NewsNavBar">תרבות</a></li><li ><a href="https://www.shop5.co.il/?utm_source=N12&utm_medium=link&utm_campaign=shop5_hpbar0308&partner=NewsNavBar"target="_blank">קניות</a></li><li ><a href="/news-military?partner=NewsNavBar">ביטחוני</a></li><li ><a href="https://corona.mako.co.il/?partner=NewsNavBar">קורונה</a></li><li ><a href="/news-lifestyle?partner=NewsNavBar">בריאות</a></li><li ><a href="/news-education?partner=NewsNavBar">חינוך</a></li><li ><a href="/news-money/consumer?partner=NewsNavBar">צרכנות</a></li><li ><a href="https://www.mako.co.il/news-money/real_estate?partner=NewsNavBar">נדל"ן</a></li><li ><a href="https://www.mako.co.il/news-business?partner=NewsNavBar">d&b Business</a></li><li ><a href="/news-science?partner=NewsNavBar">מדע וסביבה</a></li><li ><a href="/news-columns?partner=NewsNavBar">פרשנות</a></li><li ><a href="/news-digital?partner=NewsNavBar">דיגיטל</a></li><li ><a href="https://www.mako.co.il/news-tip12?partner=NewsNavBar">TIP12</a></li><li ><a href="/news-ha_tachtit?partner=NewsNavBar">התחתית</a></li></ul>
+			</li>
+			<li class="special" data-text="מיוחד">
+				<span class="open"></span>
+				<ul>
+					<li ><a href="https://www.mako.co.il/news-business/duns_100?partner=NewsNavBar">duns 100</a></li><li ><a href="https://www.drushim.co.il/?utm_source=N12top&partner=NewsNavBar"target="_blank">דרושים IL</a></li><li ><a href="https://www.mako.co.il/news-law_guide?partner=NewsNavBar">חוק ומשפט</a></li><li ><a href="https://www.mako.co.il/news-med12/living_with_psoriasis?partner=NewsNavBar">MED12</a></li></ul>
+			</li>
+			<li class="search-bar">
+				<form action="/newssearch" autocomplete="off">
+					<input type="search" name="searchstring_input" placeholder="חיפוש ב - N12">
+					<input type="hidden" value="70a4c2c5f933c710VgnVCM100000700a10acRCRD" name="vgnextoid" id="vgnextoid">
+					<input type="hidden" name="pageNum" value="1" />
+					<input type="hidden" name="app" value="thenews" />
+					<input type="hidden" name="fmt" value="json" />
+					<button>
+						<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24">
+							<path fill="#333538" fill-rule="nonzero" stroke="#333538" stroke-width=".95"
+								d="M6.282 5.782c2.344-2.343 6.179-2.307 8.566.081 2.04 2.04 2.363 5.135.954 7.455l4.907 4.908-1.06 1.06-4.791-4.79-.091.089c-2.355 2.184-6.07 2.097-8.404-.237-2.388-2.387-2.424-6.222-.08-8.566zm.824.824c-1.897 1.897-1.868 5.001.065 6.934 1.933 1.933 5.037 1.962 6.934.065 1.897-1.897 1.868-5.001-.065-6.934-1.933-1.933-5.037-1.962-6.934-.065z"
+								opacity=".8" />
+						</svg>
+					</button>
+				</form>
+			</li>
+		</ul>
+	</nav>
+<div class="reading-bar not-for-print">
+	<div class="progress"></div>
+</div>
+<div id="mako_main_glideDiv" class="not-for-print"><script>
+		if(window.DFP && !DFP.ozenReady){
+			if(DFP.isStandard || (typeof DFP.isNeo !=="undefined" && !DFP.isNeo && !DFP.isHP))
+				googletag.cmd.push(function() { googletag.display('mako_main_glideDiv'); });
+			else
+				DFP.savedDisplay.push('mako_main_glideDiv');
+			DFP.ozenReady=true;
+		}
+		</script>
+	<div class="ad b160X600 cm8">
+			<div id="CM8ShowAd_OZEN_160X600" data-title="OZEN_160X600">
+			<script>
+				window.DFP && DFP.showBanner('OZEN','160X600');
+			</script>
+			</div>
+		</div>
+</div>
+<div id="article-wrap">
+		<div class="ad b970X90XJAMBO large-mid-ad cm8">
+			<div id="CM8ShowAd_JAMBO1_970X90" data-title="JAMBO1_970X90">
+			<script>
+				window.DFP && DFP.showBanner('JAMBO1','970X90');
+			</script>
+			</div>
+		</div>
+<div class="ad b970X330 cm8">
+			<div id="CM8ShowAd_MEGA_PLASMA_970X330" data-title="MEGA_PLASMA_970X330">
+			<script>
+				window.DFP && DFP.showBanner('MEGA_PLASMA','970X330');
+			</script>
+			</div>
+		</div>
+<button class="up not-for-print">
+			<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+    			<path fill="#00AEEF" fill-rule="evenodd" d="M0 0h50v50H0V0zm27.97 17.828L25.143 15 11 29.142l2.828 2.829 11.314-11.314L36.456 31.97l2.828-2.829-11.313-11.314z"/>
+			</svg>
+			<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="hover">
+			    <g fill="#00AEEF" fill-rule="evenodd">
+			        <path fill-rule="nonzero" d="M2 2v46h46V2H2zM0 0h50v50H0V0z"/>
+			        <path d="M27.97 17.828l11.314 11.314-2.828 2.829-11.314-11.314L13.828 31.97 11 29.142 25.142 15l2.829 2.828z"/>
+			    </g>
+			</svg>
+		</button>
+		<article>
+			<nav class="breadcrumbs-v_2017 not_for_print">
+
+
+	  <span>
+	<ul itemscope itemtype="https://schema.org/BreadcrumbList" class="navigation navigation_small"><li class="" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item" href="/news?partner=BreadCrumbs"><span style="display: inline-block;" itemprop="name">החדשות</span></a><meta itemprop="position" content="1" /></li> <li class=" here" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item" href="/news-law?partner=BreadCrumbs"><span style="display: inline-block;" itemprop="name">פלילי</span></a><meta itemprop="position" content="2" /></li> </ul></span>
+	</nav>
+	<aside class="side-bar not-for-print">
+				<div id="root" data-status="0" data-side-chat="side-chat" data-disabled="1"></div>
+				<div id="side-chat"></div>
+				<div class="ad b300X600 cm8">
+			<div id="CM8ShowAd_POSTER_300X600" data-title="POSTER_300X600">
+			<script>
+				window.DFP && DFP.showBanner('POSTER','300X600');
+			</script>
+			</div>
+		</div>
+<script>
+		if(document.querySelector('meta[property="og:url"]')!=null){
+			var url = document.querySelector('meta[property="og:url"]').content;
+			if(url.indexOf('mako.co.il')!=-1){
+				document.write('<div class="OUTBRAIN"  data-widget-id="SB_3" data-ob-template="mako"><\/div>');
+			}
+		}
+	</script>
+<div class="ad b300X250 cm8" id="JokerAdWrapper">
+					<div id="CM8ShowAd_MONSTER1_300X250"></div>
+				</div>
+				<script>
+					window.clientCallBackFunction=function(jokerCardElementFromOutbrain){
+						const myAdElement =document.getElementById("JokerAdWrapper");
+						jokerCardElementFromOutbrain.appendChild(myAdElement);
+						console.log("jokerCardElementFromOutbrain",jokerCardElementFromOutbrain);
+						DFP.showBanner('MONSTER1','300X250');
+					};
+				</script>
+			</aside>
+			<section class="article-header i-pic">
+  <header>
+      <!-- Google snippet Article.headline -->
+      <span itemprop="headline" content="נתניהו הגיב על דברי טראמפ: &quot;מעריך מאוד את התרומה הגדולה שלו למדינת ישראל&quot;"></span>
+      <!-- Google snippet Article.inLanguge='he' -->
+      <span itemprop="inLanguage" content="he"></span>
+      <!-- Google snippet Article.discussionURL (talkbacks page) -->
+      <span itemprop="discussionUrl" content="https://www.mako.co.il/nTalkbacksPage/vgnextoid=3fca36855b4ad710VgnVCM200000650a10acRCRD&vgnextchannel=70a4c2c5f933c710VgnVCM100000700a10acRCRD&page=1&"></span>
+      <!-- Google snippet Article.articleSection (Mako Lobby) -->
+      <span itemprop="articleSection" content="החדשות"></span>
+
+      <h1>נתניהו הגיב על דברי טראמפ: "מעריך מאוד את התרומה הגדולה שלו למדינת ישראל"</h1>
+		<h2>ראש האופוזיציה הגיב על המתקפה מצד נשיא ארה"ב לשעבר, שאמר כי נתניהו "בגד בו" והוסיף: Fuck him • "היה חשוב לברך את נשיא ארה"ב הנכנס", הבהיר נתניהו • טראמפ אמר בריאיון: "לא היה אף אחד שעשה יותר עבור נתניהו ממני"</h2>
+			<!-- Google snippet Article.description -->
+	      	<span itemprop="description" content="ראש האופוזיציה הגיב על המתקפה מצד נשיא ארה&quot;ב לשעבר, שאמר כי נתניהו &quot;בגד בו&quot; והוסיף: Fuck him • &quot;היה חשוב לברך את נשיא ארה&quot;ב הנכנס&quot;, הבהיר נתניהו • טראמפ אמר בריאיון: &quot;לא היה אף אחד שעשה יותר עבור נתניהו ממני&quot;"></span>
+      	<!--  -->
+       <span>
+       	<meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage"
+       	itemid="https://www.mako.co.il/news-law/2021_q4/Article-3fca36855b4ad71026.htm"/>
+       </span>
+      <div class="writer-data">
+    <span class="source">N12</span>  <!-- Google Snippet for Article.datePublished -->
+    <span itemprop="datePublished" content="2021-12-10T14:44+0000" ></span>
+    <!-- Google Snippet for Article.dateModified -->
+    <span itemprop="dateModified" content="2021-12-10T14:44+0000"></span>
+    <!-- Google Snippet for Article.image -->
+	<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+	  <meta itemprop="url" content="https://img.mako.co.il/2020/09/15/2020-09-15T175324Z_1604421588_RC25ZI98JBAT_RTRMADP_3_ISRAEL-GULF-USA_b.jpg">
+	  <meta itemprop="width" content="232">
+	  <meta itemprop="height" content="174">
+	</span>
+	<meta itemprop="name" content="mako">
+    <span class="display-date" ><span>| פורסם 10/12/21</span> <span>16:44</span>&nbsp;</span>
+    <span class="clear"></span>
+    </div>
+    </header>
+    <ul class="icons-bar not-for-print">
+      <li class="views" data-key="3fca36855b4ad710VgnVCM200000650a10acRCRD">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="12" viewBox="0 0 20 12">
+            <defs>
+                <path id="eye-a" d="M0 .344h19.084V12H0z"/>
+                <path id="eye-c" d="M13.728 6.194C13.73 3.932 11.832 2.03 9.56 2.02c-2.256-.01-4.178 1.902-4.184 4.16-.005 2.254 1.91 4.174 4.169 4.176 2.265.002 4.18-1.904 4.183-4.162zM9.55 11.997c-2.94-.035-5.28-1.449-7.413-3.295-.63-.545-1.196-1.16-1.774-1.76-.433-.45-.507-.958-.064-1.439 2.22-2.41 4.674-4.459 8.036-5.05 1.73-.304 3.37.051 4.939.768 2.14.98 3.885 2.485 5.454 4.21.42.46.504.96.062 1.441-2.22 2.412-4.677 4.45-8.037 5.052-.131.024-.262.065-.395.07-.27.011-.538.003-.808.003zM11.465 6.2c-.012 1.043-.878 1.906-1.912 1.903-1.054-.002-1.952-.918-1.924-1.96.029-1.028.926-1.89 1.95-1.874 1.036.018 1.898.899 1.886 1.931z"/>
+            </defs>
+            <g fill="none" fill-rule="evenodd" transform="translate(0 -.344)">
+                <mask id="eye-m" fill="#fff">
+                    <use xlink:href="#eye-a"/>
+                </mask>
+                <g mask="url(#eye-m)">
+                    <mask id="eye-md" fill="#fff">
+                        <use xlink:href="#eye-c"/>
+                    </mask>
+                    <use fill="#93A4B0" xlink:href="#eye-c"/>
+                    <g fill="#000" mask="url(#eye-md)">
+                        <path d="M-65-64.656H83v148H-65z"/>
+                    </g>
+                </g>
+            </g>
+        </svg>
+          <span></span>
+        </li>
+      <li class="print">
+    		<a href="#">
+	    		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="17" viewBox="0 0 16 17">
+				    <defs>
+				        <path id="print-a" d="M0 0h15.958v16.734H0z"/>
+				        <path id="print-c" d="M12.058 14.72l-8.081.013.309-1.876.58-3.53h6.303l.582 3.53.307 1.864zM4.653 2h6.677v1.918H4.643L4.653 2zm11.305 5.185a3.277 3.277 0 0 0-2.628-3.201V1a1 1 0 0 0-1-1H3.658a1 1 0 0 0-1 .995l-.015 2.987A3.277 3.277 0 0 0 0 7.185v5.657c0 .008.007.015.016.015h2.243l-.447 2.716a.998.998 0 0 0 .987 1.162l10.439-.016a1.001 1.001 0 0 0 .985-1.163l-.445-2.7h2.18V7.186z"/>
+				    </defs>
+				    <g fill="none" fill-rule="evenodd">
+				        <mask id="print-m" fill="#fff">
+				            <use xlink:href="#print-a"/>
+				        </mask>
+				        <g mask="url(#print-m)">
+				            <mask id="print-md" fill="#fff">
+				                <use xlink:href="#print-c"/>
+				            </mask>
+				            <use fill="#1B1464" xlink:href="#print-c"/>
+				            <g fill="#000" mask="url(#print-md)">
+				                <path d="M-66-68H82V80H-66z"/>
+				            </g>
+				        </g>
+				    </g>
+				</svg>
+    			<span>הדפסה</span>
+    		</a>
+      </li>
+       <li class="gotocomments">
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="17" viewBox="0 0 16 17">
+            <defs>
+              <path id="comments-top" d="M7 13l-3.488 3.488A.3.3 0 0 1 3 16.276V13h-.2A2.8 2.8 0 0 1 0 10.2V2.8A2.8 2.8 0 0 1 2.8 0h10.4A2.8 2.8 0 0 1 16 2.8v7.4a2.8 2.8 0 0 1-2.8 2.8H7zM3.5 4a.5.5 0 0 0 0 1h9a.5.5 0 1 0 0-1h-9zm0 4a.5.5 0 0 0 0 1h9a.5.5 0 1 0 0-1h-9z"/>
+            </defs>
+            <g fill="none" fill-rule="evenodd">
+              <mask id="comments-tm" fill="#fff">
+                <use xlink:href="#comments-top"/>
+              </mask>
+              <use fill="#00AEEF" fill-rule="nonzero" xlink:href="#comments-top"/>
+              <g fill="#000" mask="url(#comments-tm)">
+                <path d="M-70-72H78V76H-70z"/>
+              </g>
+            </g>
+          </svg>
+            <span></span>
+          </a>
+        </li>
+    	</ul>
+    <div class="ad b970X90XJAMBO large-mid-ad cm8">
+			<div id="CM8ShowAd_JAMBO1_970X90" data-title="JAMBO1_970X90">
+			<script>
+				window.DFP && DFP.showBanner('JAMBO1','970X90');
+			</script>
+			</div>
+		</div>
+<div class="ad b970X330 cm8">
+			<div id="CM8ShowAd_MEGA_PLASMA_970X330" data-title="MEGA_PLASMA_970X330">
+			<script>
+				window.DFP && DFP.showBanner('MEGA_PLASMA','970X330');
+			</script>
+			</div>
+		</div>
+<aside class="share-bar not-for-print" style="display:none;">
+		<div class="fonts">
+			<a href="#" class="plus">
+				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="16" viewBox="0 0 20 16">
+				    <defs>
+				        <path id="plus" d="M19.198 3.77c-.042 1.092-.186 1.88-.432 2.362-.194.39-.66.918-1.396 1.587L16.1 8.887l3.479 6.195c.228.398.152.597-.229.597h-2.107c-.44 0-.753-.182-.94-.546l-4.05-7.694-.57.42c-.432.313-.648 1.049-.648 2.208v5.04c0 .381-.14.572-.42.572H8.738c-.347 0-.52-.2-.52-.597v-5.04c0-1.794.626-3.182 1.878-4.164l.724-.571L8.089.546C7.896.182 8.019 0 8.459 0h2.158c.33 0 .563.14.698.419l3.377 6.348.762-.711c.482-.457.74-1.063.774-1.816L16.38.47c0-.313.165-.47.495-.47h1.98c.296 0 .445.19.445.571l-.102 3.2zM1.818 9.022H.198c-.132 0-.198-.063-.198-.19v-.855c0-.133.066-.199.198-.199h1.62V6.198c0-.132.066-.198.199-.198h.854c.132 0 .198.066.198.198v1.58h1.634c.132 0 .198.065.198.198v.854c0 .128-.066.191-.198.191H3.07v1.655c0 .132-.066.198-.198.198h-.854c-.133 0-.199-.066-.199-.198V9.02z"/>
+				    </defs>
+				    <g fill="none" fill-rule="evenodd">
+				        <mask id="plus-m" fill="#fff">
+				            <use xlink:href="#plus"/>
+				        </mask>
+				        <use fill="#000" xlink:href="#plus"/>
+				        <g fill="#000" mask="url(#plus-m)">
+				            <path d="M-60-86H88V62H-60z"/>
+				        </g>
+				    </g>
+				</svg>
+			</a>
+	    	<a href="#" class="minus">
+		    	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="12" viewBox="0 0 17 12">
+				    <defs>
+				        <path id="minus" d="M15.752 2.756c-.03.756-.13 1.3-.299 1.635-.135.27-.457.635-.967 1.098l-.879.809 2.409 4.289c.158.275.105.413-.159.413h-1.459c-.304 0-.521-.126-.65-.378l-2.804-5.326-.395.29c-.3.217-.449.726-.449 1.53v3.488c0 .264-.096.396-.29.396h-1.3c-.24 0-.36-.138-.36-.413v-3.49c0-1.242.433-2.202 1.3-2.882l.501-.396L8.061.523c-.134-.252-.05-.377.255-.377H9.81c.229 0 .39.096.484.29l2.338 4.394.527-.492c.334-.317.513-.735.536-1.257l.106-2.61c0-.217.114-.325.342-.325h1.372c.205 0 .307.131.307.395l-.07 2.215zM4.824 3.805c.128 0 .192.066.192.198v.923c0 .132-.064.198-.192.198H.456c-.132 0-.198-.066-.198-.198v-.923c0-.132.066-.198.198-.198h4.368z"/>
+				    </defs>
+				    <g fill="none" fill-rule="evenodd">
+				        <mask id="minus-m" fill="#fff">
+				            <use xlink:href="#minus"/>
+				        </mask>
+				        <use fill="#000" xlink:href="#minus"/>
+				        <g fill="#000" mask="url(#minus-m)">
+				            <path d="M-86-87H62V61H-86z"/>
+				        </g>
+				    </g>
+				</svg>
+	    	</a>
+		</div>
+		<ul class="social">
+			<li class="fb">
+				<a href="#" target="_blank" title="שתף בפייסבוק">
+					<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+						<title>Social-icon-26X26px-facebook</title>
+						<desc>Created with Sketch.</desc>
+						<g id="symbol" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+							<g id="social-copy-2" transform="translate(-17.000000, -51.000000)" fill="#2D3C5A" fill-rule="nonzero">
+								<g id="Group" transform="translate(17.000000, 51.000000)">
+									<path d="M0,13 C0,5.8202979 5.8202979,0 13,0 C20.1797021,0 26,5.8202979 26,13 C26,20.1797021 20.1797021,26 13,26 C5.8202979,26 0,20.1797021 0,13 Z M14.355009,20.6437166 L14.355009,13.5710302 L16.3073797,13.5710302 L16.566111,11.1337433 L14.355009,11.1337433 L14.3583261,9.91385776 C14.3583261,9.27817583 14.4187244,8.93756292 15.3317472,8.93756292 L16.5522899,8.93756292 L16.5522899,6.5 L14.5996428,6.5 C12.2541995,6.5 11.4286643,7.68234636 11.4286643,9.67068115 L11.4286643,11.1340193 L9.96666667,11.1340193 L9.96666667,13.5713062 L11.4286643,13.5713062 L11.4286643,20.6437166 L14.355009,20.6437166 Z" id="Social-icon-26X26px-facebook"></path>
+								</g>
+							</g>
+						</g>
+					</svg>
+				</a>
+			</li>
+			<li class="whats-app">
+				<a href="#" target="_blank" title="שתף בווטסאפ">
+					<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+						<title>Social-icon-26X26px-Whatsapp</title>
+						<desc>Created with Sketch.</desc>
+						<g id="symbol" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+							<g id="social-copy-2" transform="translate(-17.000000, -100.000000)" fill="#2D3C5A">
+								<g id="Group" transform="translate(17.000000, 51.000000)">
+									<path d="M13.054332,49 C16.5181606,49.0011149 19.7680205,50.3434244 22.212417,52.7783114 C24.6568135,55.2143133 26.0011196,58.4507954 26,61.8935294 C25.9977588,68.9963981 20.1892364,74.7759101 13.0554523,74.7759101 L13.0554523,74.7759101 C10.8832777,74.7747952 8.75367291,74.2340809 6.8626824,73.2083959 L6.8626824,73.2083959 L0,75 L1.83721827,68.3230136 C0.704640422,66.3697526 0.108664739,64.1533811 0.109784994,61.8823807 C0.112025504,54.779512 5.91942765,49 13.054332,49 Z M8.82367376,55.7037037 C8.60196802,55.7037037 8.24356288,55.7811263 7.93914826,56.0876349 C7.63473365,56.3941435 6.77777778,57.1354912 6.77777778,58.6425802 C6.77777778,60.1496692 7.96671789,61.6058501 8.13213564,61.8105427 C8.2975534,62.0141747 10.4709589,65.1068358 13.7976937,66.4336256 C14.5891718,66.7496794 15.2083396,66.9384633 15.6896593,67.0795209 C16.4834348,67.3128492 17.2071375,67.2789105 17.7780585,67.2004274 C18.4156061,67.112399 19.7412456,66.4601402 20.0180906,65.7442464 C20.2937868,65.0283526 20.2937868,64.4153355 20.2110779,64.2880655 C20.1283691,64.1607955 19.9066633,64.0844335 19.5746791,63.9306489 C19.2438436,63.7779249 17.6126407,63.0365771 17.3093748,62.9347611 C17.0049602,62.8318845 16.7832545,62.7809765 16.5626975,63.0874851 C16.3409917,63.3939937 15.7057416,64.0844335 15.5127542,64.2880655 C15.3186181,64.4916975 15.1256307,64.518212 14.7936465,64.3644275 C14.4616622,64.2117035 13.3933392,63.8882255 12.1262852,62.8456721 C11.1406711,62.0332652 10.4744051,61.0299534 10.280269,60.7234448 C10.0872816,60.4169362 10.2607405,60.2504246 10.4261583,60.0987612 C10.5754937,59.9619459 10.7581425,59.7413446 10.924709,59.562106 C11.0901267,59.3828674 11.145266,59.2555974 11.2555445,59.0519654 C11.365823,58.8462122 11.3106838,58.6680342 11.2279749,58.5153102 C11.145266,58.3615256 10.4812975,56.8533761 10.2056013,56.2403589 C9.93564866,55.644311 9.66224988,55.7249154 9.45892389,55.7153701 C9.26593651,55.7058249 9.04423076,55.7037037 8.82367376,55.7037037 Z" id="Social-icon-26X26px-Whatsapp"></path>
+								</g>
+							</g>
+						</g>
+					</svg>
+				</a>
+			</li>
+			<li class="e-mail">
+				<a href="#" title="שלח לחבר">
+					<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+						<title>Social-icon-26X26px-eMail</title>
+						<desc>Created with Sketch.</desc>
+						<g id="symbol" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+							<g id="social-copy-2" transform="translate(-17.000000, -146.000000)" fill="#2D3C5A" fill-rule="nonzero">
+								<g id="Group" transform="translate(17.000000, 51.000000)">
+									<path d="M13,121 C5.82029825,121 0,115.179702 0,108 C0,100.820298 5.82029825,95 13,95 C20.1797017,95 26,100.820298 26,108 C26,115.179702 20.1797017,121 13,121 Z M13.1811333,107.270388 C14.2455733,107.270388 19.4211333,104.36 19.4211333,104.36 L19.4294533,103.84 C19.4294533,103.26592 18.9635333,102.8 18.3878933,102.8 L7.97437333,102.8 C7.39925333,102.8 6.93333333,103.26592 6.93333333,103.84 L6.93333333,104.30332 C6.93333333,104.30332 12.1655733,107.270388 13.1811333,107.270388 Z M13.1811333,108.700388 C12.1655733,108.700388 6.94113333,105.92 6.94165333,105.92 L6.93333333,112.16 C6.93333333,112.73408 7.39977333,113.2 7.97437333,113.2 L18.3878933,113.2 C18.9635333,113.2 19.4294533,112.73408 19.4294533,112.16 L19.4211333,105.92 C19.4211333,105.92 14.2944533,108.700388 13.1811333,108.700388 Z" id="Social-icon-26X26px-eMail"></path>
+								</g>
+							</g>
+						</g>
+					</svg>
+				</a>
+			</li>
+     	</ul>
+	</aside>
+<style>article .article-body .idb263b8061e294710VgnVCM100000700a10acRCRD{display:none;}</style><figure>
+               <img src="https://img.mako.co.il/2020/09/15/2020-09-15T175324Z_1604421588_RC25ZI98JBAT_RTRMADP_3_ISRAEL-GULF-USA_i.jpg" alt="נתניהו וטראמפ (צילום: רויטרס)" title="נתניהו וטראמפ (צילום: רויטרס)" width="634" height="388" />
+				 <figcaption>
+                  "מעריך את התרומה הגדולה", נתניהו וטראמפ<span> | <span>צילום</span>: רויטרס</span>
+					</figcaption>
+
+              </figure>
+              </section><!-- google_ad_section_start -->
+				<!-- Google Snippet for Article.articleBody -->
+				<section itemprop="articleBody" class="article-body">
+				<!-- Google Snippet for Article.wordCount='[content]' -->
+					<span itemprop="wordCount" content="287"></span>
+			 		<p>ראש האופוזיציה וראש הממשלה לשעבר בנימין נתניהו הגיב על הסערה שנוצרה הבוקר (שישי) בעקבות ריאיון שהעניק נשיא ארצות הברית לשעבר <a href="http://www.mako.co.il/Tagit/דונלד טראמפ?partner=gtags" target="_blank" title="כל המידע והכתבות אודות דונלד טראמפ">דונלד טראמפ</a> לעיתונאי ברק רביד. "מעריך את התרומה של טראמפ לישראל, היה חשוב לברך את הנשיא ביידן".</p>
+<p>"לא היה אף אחד שעשה יותר עבור נתניהו ממני... והאדם הראשון שרץ לברך את ביידן היה נתניהו", <a href="https://www.mako.co.il/news-world/2021_q4/Article-fb337468c21ad71027.htm?Partner=interlink" target="_blank" rel="noopener" title="אמר טראמפ בריאיון">אמר טראמפ בריאיון</a> שפורסם בידיעות אחרונות. "לא רק שהוא בירך אותו - הוא בירך אותו בסרטון מוקלט. זאת טעות נוראית. לא דיברתי איתו מאז. Fuck him".</p><div class="OUTBRAIN" data-src="DROP_PERMALINK_HERE" data-widget-id="AR_9" data-ob-template="mako"></div> <script type="text/javascript" async="async"src="//widgets.outbrain.com/outbrain.js"></script>
+<p>נתניהו הגיב היום על דבריו של טראמפ ומסר כי הוא "מעריך מאוד את התרומה הגדולה של הנשיא טראמפ למדינת ישראל ולביטחונה. הוא גם מעריך מאוד את החשיבות של הברית האיתנה בין ישראל לארצות הברית ועל כן היה חשוב לו לברך את נשיא ארצות הברית הנכנס".</p>
+<script type="application/ld+json">
+		{
+  		"@context": "https://schema.org",
+  		"@type": "ImageObject",
+  		"url":"https://img.mako.co.il/2021/06/16/GettyImages-1318749430_re_autoOrient_i.jpg",
+  		"width":"634",
+  		"height":"388"
+		}
+		</script>
+<figure class="w634x388 id479967013b41a710VgnVCM200000650a10acRCRD"><img
+					loading="lazy"
+					src="https://img.mako.co.il/2021/06/16/GettyImages-1318749430_re_autoOrient_i.jpg"
+					width="634"
+					height="388"
+					title="דונלד טראמפ, 2021 (צילום: James Devaney/GC Images, Getty Images)"
+					alt="דונלד טראמפ, 2021 (צילום: James Devaney/GC Images, Getty Images)">
+				</img><figcaption class="credit">
+<span>הנשיא טראמפ נגד נתניהו: "טעות נוראית"</span><span> | </span><span>צילום:
+							James Devaney/GC Images, Getty Images</span>
+</figcaption>
+</figure>
+
+<h4><span>"לא היה אף אחד שעשה יותר עבור נתניהו ממני"</span></h4>
+<p><span>נשיא ארה"ב לשעבר הסביר בריאיון: "הגולן היה ביג דיל. עשיתי את זה לפני הבחירות - וזה עזר לנתניהו הרבה. אם לא זה הוא היה מפסיד את הבחירות. והאדם הראשון שרץ לברך את ביידן היה נתניהו".&nbsp;</span>טראמפ המשיך לתקוף: "אני הייתי מאוכזב מביבי ברמה האישית", הוא אמר, "אני אהבתי את ביבי ואני עדיין אוהב את ביבי. אבל אני גם אוהב נאמנות. האדם הראשון שבירך את ביידן היה ביבי. לא רק שהוא בירך אותו &ndash; הוא עשה את זה בסרטון מוקלט. הוא היה יכול לשבת בשקט".</p>
+<p>באשר לאירן, אמר טראמפ: "אני זוכר את ביבי נתניהו מגיע לארצות הברית ומתחנן לאובמה לא לעשות את העסקה עם אירן". לדבריו, "כל מה שנתניהו קיבל מביידן זה ההסכם עם אירן. זה כל מה שהוא קיבל ממנו. אני לא מבין איך יהודים יכולים להצביע לביידן או לאובמה עם מה שנעשה להם עם הסכם הגרעין... אם אני לא הייתי מגיע, אני חושב שישראל הייתה מושמדת".</p><ul class="tags">
+<li>
+<a href="/Tagit/?partner=articletagit"></a>
+</li>
+</ul>
+</section>
+				<!-- google_ad_section_end --><section class="footer not-for-print">
+				<!-- source logo-->
+<div dir="rtl" class="not_for_print sourceAbout">
+
+		</div>
+	<section id="vote"  data-inview data-vote-type data-element-name="feelback"  class="not_for_print">
+                        <div class="feelingsWrapper" id="feelingsWrapper">
+                        </div>
+                </section>
+
+			<button class="go-to-comments not-for-print">
+						<span></span>
+						<span class="hover"></span>
+						<p class="content">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="17" viewBox="0 0 16 17">
+								<defs>
+									<path id="comments" d="M7 13l-3.488 3.488A.3.3 0 0 1 3 16.276V13h-.2A2.8 2.8 0 0 1 0 10.2V2.8A2.8 2.8 0 0 1 2.8 0h10.4A2.8 2.8 0 0 1 16 2.8v7.4a2.8 2.8 0 0 1-2.8 2.8H7zM3.5 4a.5.5 0 0 0 0 1h9a.5.5 0 1 0 0-1h-9zm0 4a.5.5 0 0 0 0 1h9a.5.5 0 1 0 0-1h-9z"/>
+								</defs>
+								<g fill="none" fill-rule="evenodd">
+									<mask id="comments-m" fill="#fff">
+										<use xlink:href="#comments"/>
+									</mask>
+									<use fill="#00AEEF" fill-rule="nonzero" xlink:href="#comments"/>
+									<g fill="#000" mask="url(#comments-m)">
+										<path d="M-70-72H78V76H-70z"/>
+									</g>
+								</g>
+							</svg>
+									לתגובות
+						</p>
+					</button>
+				</section>
+		</article>
+		<div class="outbrain-wrap not-for-print">
+			<script>
+		if(document.querySelector('meta[property="og:url"]')!=null){
+			var url = document.querySelector('meta[property="og:url"]').content;
+			if(url.indexOf('mako.co.il')!=-1){
+				document.write('<div class="OUTBRAIN"  data-widget-id="AR_8" data-ob-template="mako"><\/div>');
+			}
+		}
+	</script>
+</div>
+		<div class="talkbacks-wrap not-for-print"></div>
+		</div>
+    <footer>
+	<div class="wrapper">
+	<div class="icons">
+		<a class="news12_logo" href="/news?partner=NewsfooterLinks"><img src="https://rcs.mako.co.il/images/svg/news/logo-n-12-footer.svg"></a>
+		<a class="twitter" href="https://twitter.com/newschannelil" target="_blank"></a>
+		<a class="instagram" href="https://www.instagram.com/n12news/" target="_blank"></a>
+		<a class="facebook" href="https://www.facebook.com/N12News/" target="_blank"></a>
+	</div>
+	<ul class="flex-container" style="clear:both;">
+	<li>
+				<h3>ערוצים</h3>
+		<ul class="all_helpfullinks">
+		<li><a href="/news-military?partner=NewsfooterLinks" >ביטחוני</a></li>
+					<li><a href="/news-politics?partner=NewsfooterLinks" >פוליטי</a></li>
+					<li><a href="/news-law?partner=NewsfooterLinks" >פלילי</a></li>
+					<li><a href="/news-israel?partner=NewsfooterLinks" >פנים</a></li>
+					<li><a href="/news-world?partner=NewsfooterLinks" >בעולם</a></li>
+					<li><a href="/news-education?partner=NewsfooterLinks" >חינוך</a></li>
+					<li><a href="/news-columns?partner=NewsfooterLinks" >פרשנות</a></li>
+					<li><a href="/news-money?partner=NewsfooterLinks" >כלכלה</a></li>
+					<li><a href="/news-sport?partner=NewsfooterLinks" >ספורט</a></li>
+					<li><a href="/news-entertainment?partner=NewsfooterLinks" >תרבות</a></li>
+					<li><a href="/news-lifestyle?partner=NewsfooterLinks" >בריאות</a></li>
+					<li><a href="/news-digital?partner=NewsfooterLinks" >דיגיטל</a></li>
+					</ul>
+		</li>
+		<li>
+				<h3>תוכניות</h3>
+		<ul class="all_helpfullinks">
+		<li><a href="/news-channel2/world-order?partner=NewsfooterLinks" >סדר עולמי</a></li>
+					<li><a href="/news-channel2/Economy-Newcast?partner=NewsfooterLinks" >תוכנית חיסכון</a></li>
+					<li><a href="/news-channel2/Six-Newscast?partner=NewsfooterLinks" >שש עם</a></li>
+					<li><a href="/news-channel2/Friday-Newscast?partner=NewsfooterLinks" >אולפן שישי</a></li>
+					<li><a href="/news-channel2/Meet-the-Press?partner=NewsfooterLinks" >פגוש את העיתונות</a></li>
+					<li><a href="/news-channel2/Channel-2-Newscast?partner=NewsfooterLinks" >המהדורה המרכזית</a></li>
+					<li><a href="/news-channel2/rafi_reshef?partner=NewsfooterLinks" >חמש עם רפי רשף</a></li>
+					<li><a href="/news-channel2/first-edition?partner=NewsfooterLinks" >מהדורה ראשונה</a></li>
+					<li><a href="/news-channel2/Weekend-Newscast?partner=NewsfooterLinks" >חדשות סוף השבוע</a></li>
+					</ul>
+		</li>
+		<li>
+				<h3>הגדרות</h3>
+		<ul class="all_helpfullinks settings">
+		<li><a href="https://www.mako.co.il/help-terms-of-use/Article-d37908dd1674c11006.htm?partner=NewsfooterLinks" target="_blank">תנאי שימוש</a></li>
+					<li><a href="https://www.mako.co.il/help-terms-of-use/Article-d37908dd1674c11006.htm?partner=NewsfooterLinks" target="_blank">מדיניות פרטיות</a></li>
+					<li><a href="https://www.mako.co.il/collab/N12_Contact.html?partner=NewsfooterLinks" target="_blank">צור קשר</a></li>
+					<li><a href="mailto:mail@ch2news.co.il?partner=NewsfooterLinks" target="_blank">המייל האדום</a></li>
+					<li><a href="/news-israel/2020_q1/Article-2cc76c5fee85071026.htm?partner=NewsfooterLinks" target="_blank">אודות</a></li>
+					<li><a href="https://www.mako-publishers.com/n12?partner=NewsfooterLinks" target="_blank">פרסמו אצלנו</a></li>
+					<li><a href="https://www.mako.co.il/help-5bb6bf4ccf39c110/Article-b7ff18a9de86471026.htm?partner=NewsfooterLinks" >הסדרי נגישות</a></li>
+					</ul>
+		</li>
+		<li class="last">
+		<h3>הצטרפו לניוזלטר שלנו</h3>
+		<form id="sendemail" novalidate>
+			<input type="email" name="emailaddress" placeholder="mail@address.co.il">
+			<button>הרשמו</button>
+		</form>
+		<div id="messageText" style="display:none"></div>
+		<script>
+		document.querySelector('#sendemail').addEventListener('submit',sendEmail);
+		function sendEmail(e){
+				e.preventDefault();
+				var email = document.querySelector('#sendemail input');
+				var txt = document.querySelector('#messageText');
+				if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email.value))
+				{
+
+					const data = new URLSearchParams();
+					data.append("emailaddress",email.value);
+					fetch('/AjaxPage?jspName=newsFooterResponse.jsp',{method:'POST',body:data})
+					.then(function(data){
+						return data.text();
+					}).then(function(res){
+						txt.innerText=res;
+						txt.style.display='block';
+						if(res=='המייל נרשם בהצלחה'){
+							txt.classList.remove('err');
+							document.querySelector('input[name="emailaddress"]').value="";
+							document.querySelector('input[name="emailaddress"]').placeholder="";
+						}
+						else{
+							txt.classList.add('err');
+						}
+					})
+				}
+				else{
+					txt.innerText='*יש להזין כתובת מייל תקינה';
+					txt.classList.add('err');
+					txt.style.display='block';
+				}
+		}
+		</script>
+		<div class="footer_logos">
+			<a class="acum_logo" href="https://acum.org.il/?partner=NewsFooterLinks" target="_blank"><img src="https://rcs.mako.co.il/images/news/acumlogo-svg-2x.png" style="width:30px;height:33px"/></a>
+			<a class="mako_logo" href="https://www.mako.co.il/?partner=NewsFooterLinks"><img src="https://rcs.mako.co.il/images/news/mako-logo.png"/></a>
+		</div>
+	</li>
+	</ul>
+
+	</div>
+</footer>
+<script src="https://rcs.mako.co.il/js/polyfill.js"></script>
+	<script src="https://rcs.mako.co.il/js/news/article/jsBundle.js"></script>
+	<div id="mkSync"></div>
+<script src="https://rcs.mako.co.il/js/scripts/thirdParty.js"></script>
+<script async="async" src="//widgets.outbrain.com/outbrain.js"></script>
+<script src="https://rcs.mako.co.il/js/hola/hola.js"></script>
+
+
+
+<script>
+			if(currentChannelId=="b18a04870ceb5310VgnVCM2000002a0c10acRCRD"
+					|| currentChannelId=="a8a3ddbd634e6310VgnVCM2000002a0c10acRCRD"
+					|| currentChannelId=="b8e3cdcf53124410VgnVCM2000002a0c10acRCRD"
+					|| currentChannelId=="4dd8ed58288c6410VgnVCM2000002a0c10acRCRD"
+					|| currentChannelId=="23fa3444bccc6410VgnVCM2000002a0c10acRCRD"
+					|| currentChannelId=="7ab876c796cc6410VgnVCM2000002a0c10acRCRD"
+					|| currentChannelId=="96a85ac28dcc6410VgnVCM2000002a0c10acRCRD"
+					|| currentChannelId=="8c377cbc0a38a310VgnVCM2000002a0c10acRCRD"
+					|| currentChannelId=="f6b217757d02b410VgnVCM2000002a0c10acRCRD"
+					|| currentChannelId=="2d8ece65b1cfd410VgnVCM2000002a0c10acRCRD"
+					|| currentChannelId=="aa66a725a0cfd410VgnVCM2000002a0c10acRCRD"
+					|| currentChannelId=="03c5ce65b1cfd410VgnVCM2000002a0c10acRCRD"
+					|| currentChannelId=="4caece3418897110VgnVCM1000005201000aRCRD"
+					|| currentChannelId=="de1c3e46457c3510VgnVCM2000002a0c10acRCRD"
+					|| currentChannelId=="c44f38bf962ca510VgnVCM2000002a0c10acRCRD"
+					|| currentChannelId=="b998eefbad817510VgnVCM2000002a0c10acRCRD"){
+				window.isLinicomActive && (function(){
+					  var e=document.createElement('script');
+					  e.async=true; e.type='text/javascript';
+					  e.src=document.location.protocol+"null";
+					  var me = document.getElementsByTagName('script')[0];
+					  me.parentNode.insertBefore(e, me);
+					})();
+			}
+			else if(vcmidOfContent != currentChannelId)
+			{
+				window.isLinicomActive && (function(){
+				  var e=document.createElement('script');
+				  e.async=true; e.type='text/javascript';
+				  e.src=document.location.protocol+"//linicom.co.il/links/convert_90.js";
+				  var me = document.getElementsByTagName('script')[0];
+				  me.parentNode.insertBefore(e, me);
+				})();
+			}
+			else
+			{
+				window.isLinicomActive && (function(){
+					  var e=document.createElement('script');
+					  e.async=true; e.type='text/javascript';
+					  e.src=document.location.protocol+"//linicom.co.il/links/convert_10.js";
+					  var me = document.getElementsByTagName('script')[0];
+					  me.parentNode.insertBefore(e, me);
+				})();
+
+			}
+		</script>
+	<script>
+
+		window.isSekindoActive  && !document.querySelector('meta[name=shatap]') && (function(){
+			  	var e=document.createElement('script');
+			  	e.async=true; e.type='text/javascript';
+			 	e.src=document.location.protocol+"//live.sekindo.com/live/liveView.php?s=57232&subId=DEFAULT";
+			  	var me = document.getElementsByTagName('script')[0];
+			  	me.parentNode.insertBefore(e, me);
+			})();
+		</script>
+	<script type="text/javascript">
+		var myImages=new Array();
+		var myIndex = 0;
+		function sendUrl4Statistic(url)
+		{
+			if (document.images)
+			{
+				myImages[myIndex]=new Image;
+				myImages[myIndex].src=url;
+				myIndex++;
+			}
+			else
+			{
+				document.write('<IMG ALT="" BORDER="0" NAME="MYStatistics" WIDTH="1" HEIGHT="1" SRC="'+url+'" style="display:none;">');
+			}
+		}
+		var replaceFrom = '&';
+		var replaceBy = "zzzzz";
+		var statsDomainName =  'https://stats.mako.co.il';
+		var statsDomainPrefix = statsDomainName;
+		var currentUrl = location.href;
+		currentUrl = currentUrl.replace( new RegExp(replaceFrom,'g'), replaceBy);
+
+		if(!window.isClickUrlReported){
+			sendUrl4Statistic(statsDomainName+'/ClicksStatistics/clickUrl.jsp?clickURL='+encodeURIComponent(currentUrl));
+		}
+
+		</script>
+	<!-- ver -->
+</body>
+</html>
+<!-- page:include-page urlContext="/vgn-ext-templating" pagePath="/in_line/trackDependencies.jsp"/-->

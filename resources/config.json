@@ -1,0 +1,18 @@
+{
+    "elasticsearch" : {
+        "url":"https://es1.mediaquantum.eu/streamua/streamua/_search?pretty=true&q=domain:*.il&sort=timestamp%3Adesc",
+        "userName": "elastic",
+        "password":"changeme"
+    },
+    "mongo" : {
+        "url":"mongodb://localhost:27017/",
+        "userName":"",
+        "password":"",
+        "dbName":"NLP_project" 
+    },
+    "hebrew-nlp":{
+        "baseUrl":"https://hebrew-nlp.co.il/service/",
+        "token":"6B94f8CrQg3Vd2l",
+        "readable": false
+    }
+}

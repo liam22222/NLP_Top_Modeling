@@ -1,0 +1,8 @@
+{
+    "irrelevant_part_of_speach" : [
+        "CONJUNCTION",
+        "NUMBER",
+        "QUESTION_WORD",
+        "PRONOUN",
+        "PREPOSITION"]
+}

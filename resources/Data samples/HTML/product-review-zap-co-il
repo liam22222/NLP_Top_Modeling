@@ -1,0 +1,3561 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl" lang="he">
+<head><link rel="preconnect" href="https://www.googleadservices.com"/><link rel="preconnect" href="https://googleads.g.doubleclick.net"/><link rel="preconnect" href="https://securepubads.g.doubleclick.net"/><link rel="preconnect" href="https://60421001.adoric-om.com"/><link rel="preconnect" href="https://connect.facebook.net"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://www.googletagmanager.com"/><link rel="preconnect" href="https://tpc.googlesyndication.com"/><title>
+	חוות דעת אחרונות על מוצרים - זאפ השוואת מחירים
+</title><link href='https://fonts.googleapis.com/css?family=Assistant&display=swap' rel='preload' as='style' onload=this.rel='stylesheet' /><link rel="stylesheet" type="text/css" href="/css/combined/common.min_D6750F6E38FE1057B5832AEA2B56A200F2D9EDF7.css?v=86" /><link rel="stylesheet" type="text/css" href="/css/combined/select2.min_0B794DCF2206E050ABEF471CBF1B76BD75C327A7.css" /><link rel="stylesheet" type="text/css" href="/css/combined/autocompleteselect2.min_36615F758BDF0FD07D22CBC3D71322CDDEAEB74E.css" /><link rel="stylesheet" type="text/css" href="/css/combined/accessibilitycsszap.min_6BEE10C088C97BEDFC20C7FD1BAF8E1FB630206D.css" /><link rel="stylesheet" type="text/css" href="/css/combined/Sale.min_B141D814678CD038B4277FD3EA25E9EABBAF531C.css" /><link rel="stylesheet" type="text/css" href="/css/combined/ReviewsPage.min_20815CCDD593D32D203447B709679770393EC52E.css" /><script src="/js/newui/jquery-3.6.0.min.js" type="text/javascript"></script><link href="/opensearch.xml" rel="search" type="application/opensearchdescription+xml" title="זאפ השוואת מחירים" /><meta property="og:image" content="https://img.zap.co.il/imgs/newui/logo.jpg" itemprop="image" /><meta property="og:site_name" content="Zap" /><meta property="og:type" content="website" /><meta X-Frame-Options="DENY" /><meta name="referrer" Content="origin" /><meta name="msvalidate.01" Content="C6B94AFF34C001D728EC43085D0953A5" /><meta name="description" content="לפני הרכישה היכנסו ל-zap וקראו חוות דעת גולשים על מגוון רחב של מוצרים. אתר zap השוואת מחירים מספק את כל הכלים לצרכנות נבונה: חוות דעת, סקירות, מדריכי קניה, דירוג חנויות ועוד." /></head>
+<body>
+    <div id="SalePage" class="MainDiv">
+
+<script>
+    var textForJS = { closeLbl: "סגור" };
+    var autoCompleteServicePath = 'https://service.zap.co.il';
+</script>
+
+    <script type="text/javascript">
+    var dcHeadline = "";
+    var isModelPage = "False".toLowerCase() == "true";
+    var IsModelArchive = "False".toLowerCase() == "true";
+    var isModelsPage = "False".toLowerCase() == "true";
+    var pageName = "NotDefined".toLowerCase();
+    var isWithModel = "False".toLowerCase() == "true";
+    var isSaleModel = "False".toLowerCase() == "true";
+    var mainCategory = "";
+    var versionid = "";
+
+    var _gaq = []; // None used
+
+    var gaTrack = {};
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments);
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g;
+        m.parentNode.insertBefore(a, m);
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    // label, value =  optional parametrs - handled by a GA function
+        gaTrack.sendEvent = function (category, action, label, value) {
+            try {
+                window.ga('send', 'event', category, action, label, value);
+            } catch (ex) {
+                console.log('Track event failed - ' + ex);
+            }
+        };
+
+    var dcAffiliate = "zap";
+    var dcManu = "";
+    var dcChannel = "";
+    var dcCG = "";
+    var dcCategory = "";
+    var filterCategory = "";
+        var storeName = "";
+</script>
+
+
+
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments);
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g;
+        m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        window.ga('create', 'UA-2875041-2', 'auto');
+        window.ga('require', 'displayfeatures');
+        window.ga('require', 'linkid', 'linkid.js');
+        if ((!(window.pageName == "homepage" || window.pageName == "world") || window.dcHeadline.indexOf("t-") != -1) && !window.IsModelArchive ) { //|| window.dcHeadline == 't-newcar'
+            window.ga('set', 'dimension1', window.dcHeadline);
+            window.ga('set', 'dimension7', mainCategory);
+        }
+        else if (window.IsModelArchive) {
+            window.ga('set', 'dimension1', 'archive');
+        }
+        if (window.isModelsPage || window.pageName == "homepage") {
+            window.ga('set', 'dimension18', versionid);
+        }
+
+        if (window.isModelsPage) {
+            var isSogWithModel = isWithModel ? "model" : "no_model";
+            window.ga('set', 'dimension4', isSogWithModel);
+
+            window.ga('set', 'dimension7', mainCategory);
+        }
+
+        if (window.isSaleModel) {
+            window.ga('set', 'dimension8', 'sale-page');
+        }
+        if (filterCategory != "")//remove after ShoppingIL
+        {
+            window.ga('set', 'dimension10', filterCategory);
+        }
+
+        window.ga('send', 'pageview');
+
+    </script>
+
+
+
+
+
+<script src="/script/lazysizes.min.js"></script>
+<script type="text/javascript" src="/js/combined/newui/jquery.cookie.min_2CD54F63CDA23C97A2DEC51223BAF2553622E56D.js"></script>
+<script type="text/javascript" src="/js/combined/newui/commonTopper.min_1E2C906E617CB3BCB253076226884640290F8123.js?v=86"></script>
+
+<script src="/js/newui/jquery-ui-1.10.3.custom.min.js"></script>
+
+<script type="text/javascript">var googletag = googletag || {};googletag.cmd = googletag.cmd || [];(function () {var gads = document.createElement('script');gads.async = true;gads.type = 'text/javascript';var useSSL = 'https:' == document.location.protocol;gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';var node = document.getElementsByTagName('div')[0];node.parentNode.insertBefore(gads, node);})();</script><script type="text/javascript">googletag.cmd.push(function () {var SkyMapping = googletag.sizeMapping().
+                                     addSize([1300, 200], [[160, 600], [120, 600]]).
+	                                 addSize([0,0], [120, 600]).
+                                     build();googletag.defineSlot('/21828459444/zap.co.il/_general/desktop/skyscraper_120x600',[[160,600],[120,600]],'div-gpt-ad-1409215357055-10').defineSizeMapping(SkyMapping).addService(googletag.pubads()); googletag.defineSlot('/21828459444/zap.co.il/_general/desktop/skyscraper_120x600_right',[[160,600],[120,600]],'div-gpt-ad-1479207266791-0').defineSizeMapping(SkyMapping).addService(googletag.pubads()).setCollapseEmptyDiv(true); googletag.defineSlot('/21828459444/zap.co.il/_general/desktop/leaderboard_top_728x90',[728,90],'div-gpt-ad-1558419494085-0').addService(googletag.pubads()); googletag.defineSlot('/21828459444/zap.co.il/ros/desktop/martef1', [150, 161], 'div-gpt-ad-1451802878622-0').addService(googletag.pubads());googletag.defineSlot('/21828459444/zap.co.il/ros/desktop/martef2', [150, 161], 'div-gpt-ad-1451802878622-1').addService(googletag.pubads());googletag.defineSlot('/21828459444/zap.co.il/ros/desktop/martef3', [150, 161], 'div-gpt-ad-1451802878622-2').addService(googletag.pubads());googletag.defineSlot('/21828459444/zap.co.il/ros/desktop/martef4', [150, 161], 'div-gpt-ad-1451802878622-3').addService(googletag.pubads());googletag.pubads().setTargeting("channel","");
+                                   googletag.pubads().setTargeting("key","");
+                                   googletag.pubads().setTargeting("dmmn", "");
+                                   googletag.pubads().setTargeting("dmsc", "");
+                                   googletag.pubads().enableSingleRequest();
+                                   googletag.enableServices();
+                                   });</script>
+
+<div class='accessibility-nav'>
+    <a href='#sectionHeader' tabindex='0'>דלג לתפריט עליון</a>
+    <a href='#sectionContent' tabindex='0'>דלג לתוכן</a>
+    <a href='#sectionFooter' tabindex='0'>דלג לתפריט תחתון</a>
+</div>
+
+<div class="AccessibilityOption " id="div_accessibility">
+    <div class="AccessibilityCloseButton" onclick="OpenAccessibility();"></div>
+    <ul class="AccessibilityList">
+        <li>
+            <button class="AccessibilityButton" onclick="AccessibilityScreenReader();" id="ScreenReaderBtn">התאמה לקורא מסך</button>
+        </li>
+        <li>
+            <button class="AccessibilityButton" onclick="AccessibilityGrayscale();" id="grayscaleBtn">התאמה לעיוורי צבעים</button>
+        </li>
+        <li>
+            <button class="AccessibilityButton" onclick="AccessibilityInvertedColors();" id="invertedColorsBtn">התאמה לכבדי ראיה</button>
+        </li>
+        <li>
+            <button class="AccessibilityButton" onclick="AccessibilityNormal();" id="normalBtn">תצוגה רגילה</button>
+        </li>
+        <li>
+            <button class="AccessibilityButtonLast" onclick="AccessibilityShowStatement();" id="AccessibilityStatement">הצהרת נגישות</button>
+        </li>
+    </ul>
+</div>
+
+
+<div id="uc_Topper_divHeaderContainer" class="HeaderContainer">
+
+    <div class="Header" id="sectionHeader">
+        <div class="wrapper">
+             <div itemscope itemtype="https://schema.org/Organization" class="ZapLogo">
+            <a itemprop="url" href="https://www.zap.co.il/" aria-label="חזרה לדף הבית">
+                <img itemprop="logo" src="https://img.zap.co.il/imgs/newui/zapnewlogo.png" alt="זאפ השוואת מחירים" width="138" height="54" />
+            </a>
+        </div>
+        <div class="search">
+
+                <form onsubmit="return checkSearchStr();" role="search" tabindex="-1">
+                    <input aria-label="לחץ לחיפוש באתר" type="submit" class="submitSearch" value="" tabindex="-1" />
+
+                    <label for="keyword" style="display: none;">רשום ערך לחיפוש באתר</label>
+                    <select name="uc_Topper$keyword" id="keyword" role="search" class="searchField" aria-label="רשום ערך לחיפוש באתר" tabindex="0">
+</select>
+                </form>
+
+
+        </div>
+        <div id="divMorePartners" role="navigation" aria-label="partners sites links" class="more_partners">
+
+            <div id="accessibilityButton" class="accessibilityButton"></div>
+
+            <div class="ZapSites" role="list" aria-label="קישורים לאתרים פופולריים בקבוצת זאפ">
+                <a role="listitem" aria-level="1" href="https://www.doctors.co.il/" target="_blank" class="site_logo" title="לאתר זאפ דוקטורס"
+                    aria-label="לאתר זאפ דוקטורס, הדף יפתח בלשונית חדשה"></a>
+                <a role="listitem" aria-level="1" href="https://www.mitchatnim.co.il/" target="_blank" class="site_logo" title="לאתר זאפ מתחתנים" aria-label="לאתר זאפ מתחתנים, הדף יפתח בלשונית חדשה"></a>
+                <a role="listitem" aria-level="1" href="https://www.rest.co.il" target="_blank" class="site_logo" title="לאתר זאפ משלוחים" aria-label="לאתר זאפ משלוחים, הדף יפתח בלשונית חדשה"></a>
+                <a role="listitem" aria-level="1" href="https://www.d.co.il/" target="_blank" class="site_logo" title="לאתר זאפ דפי זהב" aria-label="לאתר זאפ דפי זהב, הדף יפתח בלשונית חדשה"></a>
+                <div role="button" tabindex="0" class="more_butt_box" aria-label="לאתרים נוספים בקבוצת זאפ">
+                </div>
+            </div>
+            <div role="list" aria-label="לאתרים נוספים בקבוצת זאפ" class="more_popup" style="display: none;">
+                <div class="partner_links">
+                    <a role="listitem" aria-level="1" href="https://www.wisebuy.co.il/" target="_blank" class="link_03" title="לאתר מדריכי קנייה" aria-label="לאתר מדריכי קנייה, הדף יפתח בלשונית חדשה"></a>
+                    <a role="listitem" aria-level="1" href="https://www.zap.co.il/deals" target="_blank" class="link_11" title="לאתר zap+" aria-label="לאתר zap+, הדף יפתח בלשונית חדשה"></a>
+                    <a role="listitem" aria-level="1" href="https://travel.zap.co.il/" target="_blank" class="link_06" title="לאתר זאפ תיירות" aria-label="לאתר זאפ תיירות, הדף יפתח בלשונית חדשה"></a>
+                    <a role="listitem" aria-level="1" href="https://www.zapmarket.co.il/" target="_blank" class="link_02" title="לאתר זאפ מרקט" aria-label="לאתר זאפ מרקט, הדף יפתח בלשונית חדשה"></a>
+                    <a role="listitem" aria-level="1" href="https://www.mishlohim.co.il/" target="_blank" class="link_01" title="לאתר זאפ משלוחים" aria-label="לאתר זאפ משלוחים, הדף יפתח בלשונית חדשה"></a>
+                    <a role="listitem" aria-level="1" href="https://www.mishpati.co.il/" target="_blank" class="link_04" title="לאתר משפטי" aria-label="לאתר משפטי, הדף יפתח בלשונית חדשה"></a>
+                    <a role="listitem" aria-level="1" href="http://www.adira.co.il/" target="_blank" class="link_05" title="לאתר הדירה" aria-label="לאתר הדירה, הדף יפתח בלשונית חדשה"></a>
+                    <a role="listitem" aria-level="1" href="http://www.ilimudim.co.il/" target="_blank" class="link_07" title="לאתר לימודים" aria-label="לאתר לימודים, הדף יפתח בלשונית חדשה"></a>
+                    <a role="listitem" aria-level="1" href="https://www.madas.co.il/" target="_blank" class="link_09" title="לאתר מדס" aria-label="לאתר מדס, הדף יפתח בלשונית חדשה"></a>
+                    <a role="listitem" aria-level="1" href="https://www.weekend.co.il/" target="_blank" class="link_10" title="לאתר weekend" aria-label="לאתר weekend, הדף יפתח בלשונית חדשה"></a>
+                </div>
+            </div>
+        </div>
+       <!--
+            <div role="list" aria-label="קישורים לאתרים פופולריים בקבוצת זאפ" class="iconover">
+            <a role="listitem" aria-level="1" href="https://www.doctors.co.il/" target="_blank" class="doctors" title="לאתר זאפ דוקטורס" aria-label="לאתר זאפ דוקטורס"><strong>zap</strong> doctors
+            </a>
+            <a role="listitem" aria-level="1" href="https://www.mitchatnim.co.il/" target="_blank" class="mitchatnim" title="לאתר זאפ מתחתנים" aria-label="לאתר זאפ מתחתנים"><strong>zap</strong> מתחתנים
+            </a>
+            <a role="listitem" aria-level="1" href="https://www.rest.co.il" target="_blank" class="rest" title="לאתר זאפ משלוחים" aria-label="לאתר זאפ משלוחים"><strong>zap</strong> rest
+            </a>
+            <a role="listitem" aria-level="1" href="https://www.d.co.il/" target="_blank" class="d" title="לאתר זאפ דפי זהב" aria-label="לאתר זאפ דפי זהב"><strong>zap</strong> דפי זהב
+            </a>
+        </div>
+           -->
+        </div>
+
+
+
+    </div>
+
+<div class="SubMenu-wrapper">
+    <div class="SubMenu" role="navigation" aria-label="תת תפריט" style="direction: rtl">
+
+
+                <div  class='SubMenuItem' data-cat='catall'><a href='/cat.aspx?cat=catall' aria-label='לחץ למעבר לכל הקטגוריות' target='_self'>כל הקטגוריות</a> </div>
+
+                <div  class='SubMenuItem' data-cat='electric'><a href='/cat.aspx?cat=electric' aria-label='לחץ למעבר לחשמל ואלקטרוניקה' target='_self'>חשמל ואלקטרוניקה<span></span></a> </div>
+
+                <div  class='SubMenuItem' data-cat='comp'><a href='/cat.aspx?cat=comp' aria-label='לחץ למעבר למחשבים' target='_self'>מחשבים</a> </div>
+
+                <div  class='SubMenuItem' data-cat='bait'><a href='/cat.aspx?cat=bait' aria-label='לחץ למעבר ללבית ולגן' target='_self'>לבית ולגן</a> </div>
+
+                <div  class='SubMenuItem' data-cat='sport'><a href='/cat.aspx?cat=sport' aria-label='לחץ למעבר לפנאי וספורט' target='_self'>פנאי וספורט</a> </div>
+
+                <div  class='SubMenuItem' data-cat='gifts'><a href='/cat.aspx?cat=gifts' aria-label='לחץ למעבר לילדים' target='_self'>ילדים</a> </div>
+
+                <div  class='SubMenuItem' data-cat='health'><a href='/cat.aspx?cat=health' aria-label='לחץ למעבר לבריאות ויופי' target='_self'>בריאות ויופי</a> </div>
+
+                <div  class='SubMenuItem' data-cat='etc'><a href='/cat.aspx?cat=etc' aria-label='לחץ למעבר לשונות' target='_self'>שונות</a> </div>
+
+                <div  class='SubMenuItem no-menu'><a href='https://www.zap.co.il/deals/?utm_source=zapWebsite&utm_medium=Top_category_bar&utm_campaign=PermanentLlink&zapsrc=zapWebsite&zapsubsrc=Top_category_bar' aria-label='לחץ למעבר למבצעים' target='_self'>מבצעים</a> </div>
+
+                <div  class='SubMenuItem' data-cat='20'><a href='https://www.zapcars.co.il/' aria-label='לחץ למעבר לzap cars' style='color:#81edff   ' target='_blank'>zap cars</a> </div>
+
+                <div  class='SubMenuItem-Icon no-menu'><a href='https://www.wisebuy.co.il' aria-label='לחץ למעבר לwisebuy' target='_blank'><img src='https://img.zap.co.il/imgs/newui/WBLOGO.png' width='91' height='21' alt='wisebuy' title='wisebuy'/></a> </div>
+
+
+    </div>
+        <div id="menuItemsWrapper" class="">
+            <div class="sub-menu-wrapper"></div>
+        </div>
+</div>
+</div>
+
+
+<div class="bar">
+    <div id="uc_Topper_breadcrumbsContainer">
+        <div class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+            <span itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemprop='item' href='/' aria-label='הנך נמצא בזאפ השוואת מחירים'><span itemprop='name'>זאפ השוואת מחירים</span></a> <meta itemprop='position' content='1' /></span> > <span itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>חוות דעת אחרונות על מוצרים - זאפ השוואת מחירים</span><meta itemprop='url' content='https://www.zap.co.il/reviews.aspx?sog=e-cellphone,'><meta itemprop='position' content='2' /></span>
+        </div>
+    </div>
+    <div class='loginPersonal' style='display:none;'><div class='LoginRow'><img alt="תמונת משתמש" class='UserPic' src='' onclick='javascript:OpenLoginDropdown();' width='21' height='21'/><div role="tree" aria-label="שם משתמש" tabindex="0" class='UserName' onkeypress='if(event.keyCode === 13){ javascript:OpenLoginDropdown()};' onclick='javascript:OpenLoginDropdown();'></div><div id='UserAreaArrow' class='ArrowDown' onclick='javascript:OpenLoginDropdown();'><span></span></div></div><div class='LoginDropdown'><div class='wait'>טוען מידע, אנא המתן...<br /><br /><img src='https://img.zap.co.il/imgs/newui/loader.gif' width='32' height='32' alt="loader image"/></div></div></div><div class='login' style=''><div class='loginLink'><a onkeypress='if(event.keyCode === 13){ javascript:ssoLoginWithRefresh() };' onclick='javascript:ssoLoginWithRefresh();gaTrack.sendEvent("sso clicks","click to connect");' tabindex="0" aria-label="התחברות למועדון זאפ">התחבר</a></div><div class='username'>אורח,</div><span>שלום </span></div>
+    <div class="dim">
+</div>
+<script type="text/javascript">    InitPartners();</script>
+<div id="SSO_LoginIframe" class="LoginIframe">
+    <iframe id="iframe_SSO_Login"></iframe>
+</div>
+
+</div>
+
+
+
+<div class="BlackOverlay">
+</div>
+<div class="GreyOverlay">
+</div>
+
+
+    <div id="TopBanner" role="banner" aria-label="באנר פירסומי" class="BannerBoxNew" style="border-top: none; padding: 2px 0 5px;">
+        <!-- zap.top.1 -->
+        <div id='div-gpt-ad-1558419494085-0' style='height: 90px;'>
+            <script type='text/javascript'>
+                googletag.cmd.push(function () { googletag.display('div-gpt-ad-1558419494085-0'); });
+            </script>
+        </div>
+    </div>
+
+
+
+
+        <div class="MainContent">
+
+<style>
+  /*   */
+</style>
+<div class="Filters" id="sectionContent">
+    <div class="MultiFilters" style="margin-top: 24px;">
+        <div class="filtersHeader">
+            <div class="filtersHeaderTitle">
+                חיפוש חוות דעת לפי קטגוריה
+            </div>
+        </div>
+        <div class="FiltersList">
+
+
+                        <div class="Selections">
+                            <div class="Selection">
+
+                    <a id="" aria-label="טלפונים סלולריים 2380 מוצרים" href="/Reviews.aspx?sog=e-cellphone">טלפונים סלולריים&nbsp;<span>(2380)</span></a><br />
+
+
+
+
+                    <a id="" aria-label="טלויזיות 1040 מוצרים" href="/Reviews.aspx?sog=e-tv">טלויזיות&nbsp;<span>(1040)</span></a><br />
+
+
+
+
+                    <a id="" aria-label="אוזניות 2024 מוצרים" href="/Reviews.aspx?sog=e-headphone">אוזניות&nbsp;<span>(2024)</span></a><br />
+
+
+
+
+                    <a id="" aria-label="מחשבים ניידים 146 מוצרים" href="/Reviews.aspx?sog=c-pclaptop">מחשבים ניידים&nbsp;<span>(146)</span></a><br />
+
+
+
+
+                    <a id="" aria-label="שואבי אבק 1295 מוצרים" href="/Reviews.aspx?sog=e-vaccumcleaner">שואבי אבק&nbsp;<span>(1295)</span></a><br />
+                    </div></div>
+
+                        <div class="FilterSeparator">
+                        </div>
+
+
+
+                        <div class="Selections">
+                            <div class="Selection">
+
+                    <a id="" aria-label="טאבלטים 277 מוצרים" href="/Reviews.aspx?sog=c-tabletpc">טאבלטים&nbsp;<span>(277)</span></a><br />
+
+
+
+
+                    <a id="" aria-label="מקררים 1621 מוצרים" href="/Reviews.aspx?sog=e-fridge">מקררים&nbsp;<span>(1621)</span></a><br />
+
+
+
+
+                    <a id="" aria-label="שעונים חכמים 141 מוצרים" href="/Reviews.aspx?sog=e-cellwatch">שעונים חכמים&nbsp;<span>(141)</span></a><br />
+
+
+
+
+                    <a id="" aria-label="מכונות כביסה 1440 מוצרים" href="/Reviews.aspx?sog=e-washingmachine">מכונות כביסה&nbsp;<span>(1440)</span></a><br />
+
+
+
+
+                    <a id="" aria-label="משחקי טלוויזיה - קונסולות 88 מוצרים" href="/Reviews.aspx?sog=e-tvgame">משחקי טלוויזיה - קונסולות&nbsp;<span>(88)</span></a><br />
+                    </div></div>
+
+                        <div class="FilterSeparator">
+                        </div>
+
+
+
+                        <div class="Selections">
+                            <div class="Selection">
+
+                    <a id="" aria-label="תנורי אפייה 816 מוצרים" href="/Reviews.aspx?sog=e-oven">תנורי אפייה&nbsp;<span>(816)</span></a><br />
+
+
+
+
+                    <a id="" aria-label="נעליים 111 מוצרים" href="/Reviews.aspx?sog=p-shoe">נעליים&nbsp;<span>(111)</span></a><br />
+
+
+
+
+                    <a id="" aria-label="מייבשי כביסה 871 מוצרים" href="/Reviews.aspx?sog=e-drayer">מייבשי כביסה&nbsp;<span>(871)</span></a><br />
+
+
+
+
+                    <a id="" aria-label="מסכי מחשב 289 מוצרים" href="/Reviews.aspx?sog=c-monitor">מסכי מחשב&nbsp;<span>(289)</span></a><br />
+
+
+
+
+                    <a id="" aria-label="תנורים ומפזרי חום 327 מוצרים" href="/Reviews.aspx?sog=e-airheater">תנורים ומפזרי חום&nbsp;<span>(327)</span></a><br />
+                    </div></div>
+
+                        <div class="FilterSeparator">
+                        </div>
+
+
+
+                        <div class="Selections">
+                            <div class="Selection">
+
+                    <a id="" aria-label="מדיחי כלים 699 מוצרים" href="/Reviews.aspx?sog=e-dishwasher">מדיחי כלים&nbsp;<span>(699)</span></a><br />
+
+
+
+
+                    <a id="" aria-label="מצלמות 346 מוצרים" href="/Reviews.aspx?sog=e-camera">מצלמות&nbsp;<span>(346)</span></a><br />
+
+
+
+
+                    <a id="" aria-label="כיריים 837 מוצרים" href="/Reviews.aspx?sog=e-hobs">כיריים&nbsp;<span>(837)</span></a><br />
+
+
+
+
+                    <a id="" aria-label="מקדחות, מברגות ופטישונים 278 מוצרים" href="/Reviews.aspx?sog=h-drill">מקדחות, מברגות ופטישונים&nbsp;<span>(278)</span></a><br />
+
+
+
+
+                    <a id="" aria-label="מדפסות 844 מוצרים" href="/Reviews.aspx?sog=c-printer">מדפסות&nbsp;<span>(844)</span></a><br />
+                    </div></div>
+
+                        <div class="FilterSeparator">
+                        </div>
+
+
+
+                        <div class="Selections">
+                            <div class="Selection">
+
+                    <a id="" aria-label="בשמים לאישה 308 מוצרים" href="/Reviews.aspx?sog=b-perfume">בשמים לאישה&nbsp;<span>(308)</span></a><br />
+
+
+
+
+                    <a id="" aria-label="גרילים ומעשנות 197 מוצרים" href="/Reviews.aspx?sog=h-grill">גרילים ומעשנות&nbsp;<span>(197)</span></a><br />
+
+
+
+
+                    <a id="" aria-label="מכונות קפה 591 מוצרים" href="/Reviews.aspx?sog=e-coffeemachine">מכונות קפה&nbsp;<span>(591)</span></a><br />
+
+
+
+
+                    <a id="" aria-label="כלי עבודה 85 מוצרים" href="/Reviews.aspx?sog=h-handicrafttools">כלי עבודה&nbsp;<span>(85)</span></a><br />
+
+
+
+
+                    <a id="" aria-label="רמקולים ניידים ואלחוטיים 381 מוצרים" href="/Reviews.aspx?sog=e-mpspeakers">רמקולים ניידים ואלחוטיים&nbsp;<span>(381)</span></a><br />
+                    </div></div>
+
+
+        </div>
+    </div>
+</div>
+
+
+        <div class="PriceAlert">
+            <div class="PriceAlertHeader">
+                <div class="PriceAlertTitle">
+                    <h1>
+                        חוות דעת אחרונות על מוצרים בzap
+                    </h1>
+                </div>
+            </div>
+            <div class="PriceAlertProdList">
+                <div class="ListTitles">
+                    <div style="width: 474px;" class="TitleTxt">
+                        פרטי מוצר
+                    </div>
+                    <div style="width: 102px;" class="TitleTxt">
+                        דירוג
+                    </div>
+                    <div style="width: 150px;" class="TitleTxt">
+                        תאריך כתיבת חוות הדעת
+                    </div>
+                    <div style="width: 150px;" class="TitleTxt">
+                    </div>
+                </div>
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/7/8/7/0/52900787c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מגהץ Tefal GV5262" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מגהץ Tefal GV5262" href="/ratemodel.aspx?modelid=1048173">מגהץ Tefal GV5262</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl00_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מגהץ Tefal GV5262" href="/ratemodel.aspx?modelid=1048173">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        09/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מגהץ Tefal GV5262" href="/ratemodel.aspx?modelid=1048173">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מילוי מים בעת עבודה, מסנן אבנית גדול ואמין.
+יש לשים לב, שבהפעלה ראשונית צריך ללחות באריכות עד להפעלת המשאבה לראשונה.
+        <a aria-label="לקריאת חוות דעת על מגהץ Tefal GV5262" href="/ratemodel.aspx?modelid=1048173" title="לקריאת חוות דעת על מגהץ Tefal GV5262">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/2/5/3/2/33112352c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מיטה עצמלה דניאל" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מיטה עצמלה דניאל" href="/ratemodel.aspx?modelid=745965">מיטה עצמלה דניאל</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl01_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מיטה עצמלה דניאל" href="/ratemodel.aspx?modelid=745965">
+         <div class="ReviewsStars">
+                    <span style="width: 17px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        09/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מיטה עצמלה דניאל" href="/ratemodel.aspx?modelid=745965">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        ניהיה חור בדיקט שעליו מונח המזרן.
+יש לציין שטרם ישנו על המיטה, אני לא רוצה לחשוב מה ייקרה בעוד שנה.
+        <a aria-label="לקריאת חוות דעת על מיטה עצמלה דניאל" href="/ratemodel.aspx?modelid=745965" title="לקריאת חוות דעת על מיטה עצמלה דניאל">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/8/5/7/0/55480758c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="כיריים Siemens EX975LVV1E" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על כיריים Siemens EX975LVV1E" href="/ratemodel.aspx?modelid=969128">כיריים Siemens EX975LVV1E</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl02_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על כיריים Siemens EX975LVV1E" href="/ratemodel.aspx?modelid=969128">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על כיריים Siemens EX975LVV1E" href="/ratemodel.aspx?modelid=969128">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מוצר מעולה של חברה שכל מוצר שרכשתי שלה הוא מצוין (תנור מייבש ועכשיו הכיריים)
+כיריים קלות לשימוש ומאוד נוחות, אינדוקציה חדשות עם שיטת פלקס בצדדים ממש אהבתי את זה אפשר לשים שם סירים גדולים מאוד
+הכיריים
+        <a aria-label="לקריאת חוות דעת על כיריים Siemens EX975LVV1E" href="/ratemodel.aspx?modelid=969128" title="לקריאת חוות דעת על כיריים Siemens EX975LVV1E">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/4/7/8/2/61332874c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="רחפן Dji Mavic Mini 2" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על רחפן Dji Mavic Mini 2" href="/ratemodel.aspx?modelid=1126282">רחפן Dji Mavic Mini 2</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl03_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על רחפן Dji Mavic Mini 2" href="/ratemodel.aspx?modelid=1126282">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על רחפן Dji Mavic Mini 2" href="/ratemodel.aspx?modelid=1126282">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מוצר מדהים עומד ברוחות ומצלם כאילו על סטאנד כה יציב
+        <a aria-label="לקריאת חוות דעת על רחפן Dji Mavic Mini 2" href="/ratemodel.aspx?modelid=1126282" title="לקריאת חוות דעת על רחפן Dji Mavic Mini 2">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/9/0/6/4/59454609c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מקדחה, מברגה ופטישון Worx WU132" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מקדחה, מברגה ופטישון Worx WU132" href="/ratemodel.aspx?modelid=1100035">מקדחה, מברגה ופטישון Worx WU132</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl04_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מקדחה, מברגה ופטישון Worx WU132" href="/ratemodel.aspx?modelid=1100035">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מקדחה, מברגה ופטישון Worx WU132" href="/ratemodel.aspx?modelid=1100035">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מוצר מעולי  מסדרת Worx Professional
+        <a aria-label="לקריאת חוות דעת על מקדחה, מברגה ופטישון Worx WU132" href="/ratemodel.aspx?modelid=1100035" title="לקריאת חוות דעת על מקדחה, מברגה ופטישון Worx WU132">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/4/4/9/5/53835944c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מחשב נייד HP Pavilion 15-cs3020nj 9PV80EA" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מחשב נייד HP Pavilion 15-cs3020nj 9PV80EA" href="/ratemodel.aspx?modelid=1055350">מחשב נייד HP Pavilion 15-cs3020nj 9PV80EA</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl05_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מחשב נייד HP Pavilion 15-cs3020nj 9PV80EA" href="/ratemodel.aspx?modelid=1055350">
+         <div class="ReviewsStars">
+                    <span style="width: 37px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מחשב נייד HP Pavilion 15-cs3020nj 9PV80EA" href="/ratemodel.aspx?modelid=1055350">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        המקלדת זוועתית    אי אפשר להקליד
+        <a aria-label="לקריאת חוות דעת על מחשב נייד HP Pavilion 15-cs3020nj 9PV80EA" href="/ratemodel.aspx?modelid=1055350" title="לקריאת חוות דעת על מחשב נייד HP Pavilion 15-cs3020nj 9PV80EA">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/4/0/4/1/65751404c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מכונת קפה Latte LA705" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מכונת קפה Latte LA705" href="/ratemodel.aspx?modelid=1125823">מכונת קפה Latte LA705</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl06_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מכונת קפה Latte LA705" href="/ratemodel.aspx?modelid=1125823">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מכונת קפה Latte LA705" href="/ratemodel.aspx?modelid=1125823">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מקציף חלב ברמה גבוהה ,
+מאוד חששתי לקנות אותו כי רציתי נספרסו אבל היה חסר המון זמן בשוק וחברה שלי המליצה לי עליו ואני משתמשת בו יום יום וממליצה גם לחברים שיקנו.
+        <a aria-label="לקריאת חוות דעת על מכונת קפה Latte LA705" href="/ratemodel.aspx?modelid=1125823" title="לקריאת חוות דעת על מכונת קפה Latte LA705">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/4/3/1/9/37809134c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="בושם לגבר Davidoff Cool Water 200ml E.D.T קול  ווטר  דוידוף" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על בושם לגבר Davidoff Cool Water 200ml E.D.T קול  ווטר  דוידוף" href="/ratemodel.aspx?modelid=838332">בושם לגבר Davidoff Cool Water 200ml E.D.T קול  ווטר  דוידוף</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl07_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על בושם לגבר Davidoff Cool Water 200ml E.D.T קול  ווטר  דוידוף" href="/ratemodel.aspx?modelid=838332">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על בושם לגבר Davidoff Cool Water 200ml E.D.T קול  ווטר  דוידוף" href="/ratemodel.aspx?modelid=838332">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מוצר מעולה באיכות טובה ובמחיר טוב
+        <a aria-label="לקריאת חוות דעת על בושם לגבר Davidoff Cool Water 200ml E.D.T קול  ווטר  דוידוף" href="/ratemodel.aspx?modelid=838332" title="לקריאת חוות דעת על בושם לגבר Davidoff Cool Water 200ml E.D.T קול  ווטר  דוידוף">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/0/1/6/3/58693610c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="תנור אפייה Electrolux EOK6727X" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על תנור אפייה Electrolux EOK6727X" href="/ratemodel.aspx?modelid=1092780">תנור אפייה Electrolux EOK6727X</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl08_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על תנור אפייה Electrolux EOK6727X" href="/ratemodel.aspx?modelid=1092780">
+         <div class="ReviewsStars">
+                    <span style="width: 17px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על תנור אפייה Electrolux EOK6727X" href="/ratemodel.aspx?modelid=1092780">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        בזמן הרכישה הציגו לי מוצר מאוד איכותי, קטליתי שמנקה את עצמו לבד ! ! !
+הציעו לקנות קטליטי ואמרו שהוא אפילו יותר טוב מפירוליטי.
+בחוברת שימוש המצורפת עם המוצר, מוסבר כיצד יש להפעיל את הניקוי העצמי את פונ
+        <a aria-label="לקריאת חוות דעת על תנור אפייה Electrolux EOK6727X" href="/ratemodel.aspx?modelid=1092780" title="לקריאת חוות דעת על תנור אפייה Electrolux EOK6727X">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/7/9/7/1/62161797c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="טלוויזיה LG OLED65A1PVA" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על טלוויזיה LG OLED65A1PVA" href="/ratemodel.aspx?modelid=1113599">טלוויזיה LG OLED65A1PVA</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl09_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על טלוויזיה LG OLED65A1PVA" href="/ratemodel.aspx?modelid=1113599">
+         <div class="ReviewsStars">
+                    <span style="width: 46px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על טלוויזיה LG OLED65A1PVA" href="/ratemodel.aspx?modelid=1113599">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        הטלוויזיה הייתה ברשותי 3 שנים וחצי חודשים התאורה התקלקל ונגמרה לי האחריות ביקשו ממני על התיקון 1000 שקלים אמרתי שזה לא הוגן לשלם על תיקון אחרי זמן מועט שהטלוויזיה ברשותי כי שילמתי עליה כפול בגלל שהיא
+        <a aria-label="לקריאת חוות דעת על טלוויזיה LG OLED65A1PVA" href="/ratemodel.aspx?modelid=1113599" title="לקריאת חוות דעת על טלוויזיה LG OLED65A1PVA">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/0/4/6/8/47368640c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="טלפון Motorola E202" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על טלפון Motorola E202" href="/ratemodel.aspx?modelid=988932">טלפון Motorola E202</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl10_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על טלפון Motorola E202" href="/ratemodel.aspx?modelid=988932">
+         <div class="ReviewsStars">
+                    <span style="width: 57px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על טלפון Motorola E202" href="/ratemodel.aspx?modelid=988932">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מוצר גרוע במיוחד. איכות השמע נוראית, הפנסוניק הקודם היה לאין שיעור יותר טוב.
+        <a aria-label="לקריאת חוות דעת על טלפון Motorola E202" href="/ratemodel.aspx?modelid=988932" title="לקריאת חוות דעת על טלפון Motorola E202">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/1/4/6/8/47368641c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="טלפון Motorola E201" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על טלפון Motorola E201" href="/ratemodel.aspx?modelid=988931">טלפון Motorola E201</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl11_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על טלפון Motorola E201" href="/ratemodel.aspx?modelid=988931">
+         <div class="ReviewsStars">
+                    <span style="width: 17px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על טלפון Motorola E201" href="/ratemodel.aspx?modelid=988931">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מוצר נחות. איכות השמע נוראית. אין לחצן לאיתור הטלפון בבית. קשה להבין איך. להגדיר מקש חם לצילצול מהיר. על הפנים...
+        <a aria-label="לקריאת חוות דעת על טלפון Motorola E201" href="/ratemodel.aspx?modelid=988931" title="לקריאת חוות דעת על טלפון Motorola E201">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/1/1/7/1/46181711c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מסור Makita MLT100" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מסור Makita MLT100" href="/ratemodel.aspx?modelid=751415">מסור Makita MLT100</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl12_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מסור Makita MLT100" href="/ratemodel.aspx?modelid=751415">
+         <div class="ReviewsStars">
+                    <span style="width: 17px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מסור Makita MLT100" href="/ratemodel.aspx?modelid=751415">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        חברים לא ממליץ לא מדוייק גם כשמאפסים אותו וכן החיתוך בזווית מעלות לא מדויקת קיים תזוזה במסילות
+        <a aria-label="לקריאת חוות דעת על מסור Makita MLT100" href="/ratemodel.aspx?modelid=751415" title="לקריאת חוות דעת על מסור Makita MLT100">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/1/2/2/2/50022221c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מעבד מזון Magimix CS4200JXL PREMIUM" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מעבד מזון Magimix CS4200JXL PREMIUM" href="/ratemodel.aspx?modelid=1025472">מעבד מזון Magimix CS4200JXL PREMIUM</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl13_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מעבד מזון Magimix CS4200JXL PREMIUM" href="/ratemodel.aspx?modelid=1025472">
+         <div class="ReviewsStars">
+                    <span style="width: 84px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מעבד מזון Magimix CS4200JXL PREMIUM" href="/ratemodel.aspx?modelid=1025472">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מוצר מעולה
+מומלץ בחום
+יעיל בטירוף, עושה בדיוק את מה שאמור לעשות בזריזות.
+קל יחסית לניקוי
+מאוד מרוצה
+        <a aria-label="לקריאת חוות דעת על מעבד מזון Magimix CS4200JXL PREMIUM" href="/ratemodel.aspx?modelid=1025472" title="לקריאת חוות דעת על מעבד מזון Magimix CS4200JXL PREMIUM">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/6/2/2/0/57710226c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="כסא גיימינג Asus ROG Chariot Core" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על כסא גיימינג Asus ROG Chariot Core" href="/ratemodel.aspx?modelid=1101498">כסא גיימינג Asus ROG Chariot Core</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl14_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על כסא גיימינג Asus ROG Chariot Core" href="/ratemodel.aspx?modelid=1101498">
+         <div class="ReviewsStars">
+                    <span style="width: 57px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על כסא גיימינג Asus ROG Chariot Core" href="/ratemodel.aspx?modelid=1101498">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        הכיסא איכותי, יציב, חזק - ולא נוח. בניגוד לביקורת של Wisebuy ביוטיוב על נוחות הכיסא, הבעיה העיקרית שלו היא שאין לו תמיכה בגב תחתון כמעט בכלל, ותמיכת הראש דורשת כמעט שכיבה על הכיסא. התוצאה היא כאבים בג
+        <a aria-label="לקריאת חוות דעת על כסא גיימינג Asus ROG Chariot Core" href="/ratemodel.aspx?modelid=1101498" title="לקריאת חוות דעת על כסא גיימינג Asus ROG Chariot Core">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/5/7/0/5/48725075c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="עגלה וטיולון Bumbleride Connect" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על עגלה וטיולון Bumbleride Connect" href="/ratemodel.aspx?modelid=1001643">עגלה וטיולון Bumbleride Connect</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl15_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על עגלה וטיולון Bumbleride Connect" href="/ratemodel.aspx?modelid=1001643">
+         <div class="ReviewsStars">
+                    <span style="width: 57px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על עגלה וטיולון Bumbleride Connect" href="/ratemodel.aspx?modelid=1001643">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מוצר נחמד, מעולה לשימוש עם אחים צפופים, פטנט החיבור ביניהם מעולה!
+צריך לקחת בחשבן שזה קצת מסורבל, קשה לניווט, והנסיעה לא חלקה
+        <a aria-label="לקריאת חוות דעת על עגלה וטיולון Bumbleride Connect" href="/ratemodel.aspx?modelid=1001643" title="לקריאת חוות דעת על עגלה וטיולון Bumbleride Connect">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/3/0/5/4/54354503c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="קומקום ומיחם Universe NR505" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על קומקום ומיחם Universe NR505" href="/ratemodel.aspx?modelid=921760">קומקום ומיחם Universe NR505</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl16_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על קומקום ומיחם Universe NR505" href="/ratemodel.aspx?modelid=921760">
+         <div class="ReviewsStars">
+                    <span style="width: 17px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על קומקום ומיחם Universe NR505" href="/ratemodel.aspx?modelid=921760">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מוצר שאינו מחזיק הרבה זמן , זה כבר מוצר שני שאני מחזיק מאותו דגם שהמשאבה הידנית התקלקלה די מיד בהתחלה , והמכשיר עצמו תוך 3 שנים
+        <a aria-label="לקריאת חוות דעת על קומקום ומיחם Universe NR505" href="/ratemodel.aspx?modelid=921760" title="לקריאת חוות דעת על קומקום ומיחם Universe NR505">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/8/2/7/7/42177728c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="משחק ל X-Box Xbox One Tekken 7" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על משחק ל X-Box Xbox One Tekken 7" href="/ratemodel.aspx?modelid=927384">משחק ל X-Box Xbox One Tekken 7</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl17_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על משחק ל X-Box Xbox One Tekken 7" href="/ratemodel.aspx?modelid=927384">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        07/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על משחק ל X-Box Xbox One Tekken 7" href="/ratemodel.aspx?modelid=927384">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        חבל על הזמן
+מומלץ בחום
+        <a aria-label="לקריאת חוות דעת על משחק ל X-Box Xbox One Tekken 7" href="/ratemodel.aspx?modelid=927384" title="לקריאת חוות דעת על משחק ל X-Box Xbox One Tekken 7">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/6/9/7/7/56077796c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מייבש כביסה Bosch WTG86401PL" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מייבש כביסה Bosch WTG86401PL" href="/ratemodel.aspx?modelid=1072508">מייבש כביסה Bosch WTG86401PL</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl18_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מייבש כביסה Bosch WTG86401PL" href="/ratemodel.aspx?modelid=1072508">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        07/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מייבש כביסה Bosch WTG86401PL" href="/ratemodel.aspx?modelid=1072508">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        הלוואי וקניתי את המייבש הזה לפני הרבה שנים, כמה שניתי כביסה לפני ועכשיו פשוט זה הפך להיות כיף, תוך שעה וחצי הכביסה יבשה וכבר מוכנה ..   יש החיים לפני ואחרי המוצר הזה..
+        <a aria-label="לקריאת חוות דעת על מייבש כביסה Bosch WTG86401PL" href="/ratemodel.aspx?modelid=1072508" title="לקריאת חוות דעת על מייבש כביסה Bosch WTG86401PL">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/3/6/8/7/54107863c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="בית חכם Modan Clicker לדוד" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על בית חכם Modan Clicker לדוד" href="/ratemodel.aspx?modelid=1103290">בית חכם Modan Clicker לדוד</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl19_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על בית חכם Modan Clicker לדוד" href="/ratemodel.aspx?modelid=1103290">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        07/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על בית חכם Modan Clicker לדוד" href="/ratemodel.aspx?modelid=1103290">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        שקע חכם לדוד  יעיל ונוח
+        <a aria-label="לקריאת חוות דעת על בית חכם Modan Clicker לדוד" href="/ratemodel.aspx?modelid=1103290" title="לקריאת חוות דעת על בית חכם Modan Clicker לדוד">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/9/9/5/5/47275599c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מייבש שיער Remington AC3300" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מייבש שיער Remington AC3300" href="/ratemodel.aspx?modelid=990021">מייבש שיער Remington AC3300</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl20_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מייבש שיער Remington AC3300" href="/ratemodel.aspx?modelid=990021">
+         <div class="ReviewsStars">
+                    <span style="width: 17px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        07/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מייבש שיער Remington AC3300" href="/ratemodel.aspx?modelid=990021">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        אחד המוצרים הגרועים שרכשתי. אין מצב שזה 2200w!!!!!
+הפן של הבובות של הבת שלי יותר חזק.
+בקושי יוצאת רוח כבר עדיף לעמוד בחלון השיער מתייבש מהר יותר.
+חזרתי לפן שלי הישן גם הוא 2200 אבל חיה רעה.
+        <a aria-label="לקריאת חוות דעת על מייבש שיער Remington AC3300" href="/ratemodel.aspx?modelid=990021" title="לקריאת חוות דעת על מייבש שיער Remington AC3300">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/5/7/7/2/59092775c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מטחנת בשר Moulinex ME740H25" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מטחנת בשר Moulinex ME740H25" href="/ratemodel.aspx?modelid=1098540">מטחנת בשר Moulinex ME740H25</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl21_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מטחנת בשר Moulinex ME740H25" href="/ratemodel.aspx?modelid=1098540">
+         <div class="ReviewsStars">
+                    <span style="width: 77px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        07/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מטחנת בשר Moulinex ME740H25" href="/ratemodel.aspx?modelid=1098540">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מכונה חזקה מאוד טוחנת בשר ברמה מצויינת
+אך רועשת. צורה איומה
+        <a aria-label="לקריאת חוות דעת על מטחנת בשר Moulinex ME740H25" href="/ratemodel.aspx?modelid=1098540" title="לקריאת חוות דעת על מטחנת בשר Moulinex ME740H25">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/1/2/2/7/56077221c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מעבד מזון Moulinex FP247127" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מעבד מזון Moulinex FP247127" href="/ratemodel.aspx?modelid=1077765">מעבד מזון Moulinex FP247127</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl22_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מעבד מזון Moulinex FP247127" href="/ratemodel.aspx?modelid=1077765">
+         <div class="ReviewsStars">
+                    <span style="width: 77px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        07/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מעבד מזון Moulinex FP247127" href="/ratemodel.aspx?modelid=1077765">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        המעבד הזה הוא חיה רעה, במובן הטוב. המנוע חזק, החלקים אמנם עשוים ברובם מפלסטיק, אבל איכותי ועמיד. ממש הפתיע לטובה ביחס למחירו.
+        <a aria-label="לקריאת חוות דעת על מעבד מזון Moulinex FP247127" href="/ratemodel.aspx?modelid=1077765" title="לקריאת חוות דעת על מעבד מזון Moulinex FP247127">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/7/2/9/1/59191927c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מיקרוגל Electrolux EVK6E40X" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מיקרוגל Electrolux EVK6E40X" href="/ratemodel.aspx?modelid=1099287">מיקרוגל Electrolux EVK6E40X</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl23_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מיקרוגל Electrolux EVK6E40X" href="/ratemodel.aspx?modelid=1099287">
+         <div class="ReviewsStars">
+                    <span style="width: 37px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        07/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מיקרוגל Electrolux EVK6E40X" href="/ratemodel.aspx?modelid=1099287">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מיקרוגל יפה מחמם טוב תפעול על הפנים
+
+        <a aria-label="לקריאת חוות דעת על מיקרוגל Electrolux EVK6E40X" href="/ratemodel.aspx?modelid=1099287" title="לקריאת חוות דעת על מיקרוגל Electrolux EVK6E40X">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/1/9/5/0/65890591c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="טלפון סלולרי Apple iPhone 13 Pro Max 256GB" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על טלפון סלולרי Apple iPhone 13 Pro Max 256GB" href="/ratemodel.aspx?modelid=1124722">טלפון סלולרי Apple iPhone 13 Pro Max 256GB</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl24_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על טלפון סלולרי Apple iPhone 13 Pro Max 256GB" href="/ratemodel.aspx?modelid=1124722">
+         <div class="ReviewsStars">
+                    <span style="width: 84px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        07/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על טלפון סלולרי Apple iPhone 13 Pro Max 256GB" href="/ratemodel.aspx?modelid=1124722">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        קניתי אותו לפני חודש הוא מצוין הסוללה שורדת יומיים מאוד  מומלץ
+        <a aria-label="לקריאת חוות דעת על טלפון סלולרי Apple iPhone 13 Pro Max 256GB" href="/ratemodel.aspx?modelid=1124722" title="לקריאת חוות דעת על טלפון סלולרי Apple iPhone 13 Pro Max 256GB">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/0/1/0/9/65749010c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="תנור ומפזר חום Semicom HAH-2800W" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על תנור ומפזר חום Semicom HAH-2800W" href="/ratemodel.aspx?modelid=1125818">תנור ומפזר חום Semicom HAH-2800W</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl25_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על תנור ומפזר חום Semicom HAH-2800W" href="/ratemodel.aspx?modelid=1125818">
+         <div class="ReviewsStars">
+                    <span style="width: 37px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        07/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על תנור ומפזר חום Semicom HAH-2800W" href="/ratemodel.aspx?modelid=1125818">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        לא מחמם
+ניתן למצוא מפזרים טובים יותר במחיר הזה
+        <a aria-label="לקריאת חוות דעת על תנור ומפזר חום Semicom HAH-2800W" href="/ratemodel.aspx?modelid=1125818" title="לקריאת חוות דעת על תנור ומפזר חום Semicom HAH-2800W">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/7/0/7/3/57573707c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="זכרון נייד USB SanDisk SDCZ74-512G" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על זכרון נייד USB SanDisk SDCZ74-512G" href="/ratemodel.aspx?modelid=1085984">זכרון נייד USB SanDisk SDCZ74-512G</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl26_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על זכרון נייד USB SanDisk SDCZ74-512G" href="/ratemodel.aspx?modelid=1085984">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        07/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על זכרון נייד USB SanDisk SDCZ74-512G" href="/ratemodel.aspx?modelid=1085984">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        לפני כשבועיים רכשתי מוצר זה דרך "זאפ" במחיר 184 שקל.
+כבר השבוע העתקתי לתוכו 230 ג'יגה.
+העדפתי דיסק און קי על דיסק קשיח חיצוני מ-2 סיבות:
+1) דיסק און קי הוא קטן קומפקטי ונוח.
+2) הוא מתחבר גם לסמרטפון (
+        <a aria-label="לקריאת חוות דעת על זכרון נייד USB SanDisk SDCZ74-512G" href="/ratemodel.aspx?modelid=1085984" title="לקריאת חוות דעת על זכרון נייד USB SanDisk SDCZ74-512G">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/5/9/8/5/62715895c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="טלוויזיה Samsung UE43AU8000" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על טלוויזיה Samsung UE43AU8000" href="/ratemodel.aspx?modelid=1118595">טלוויזיה Samsung UE43AU8000</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl27_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על טלוויזיה Samsung UE43AU8000" href="/ratemodel.aspx?modelid=1118595">
+         <div class="ReviewsStars">
+                    <span style="width: 57px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על טלוויזיה Samsung UE43AU8000" href="/ratemodel.aspx?modelid=1118595">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        איכות סאונד ירודה
+        <a aria-label="לקריאת חוות דעת על טלוויזיה Samsung UE43AU8000" href="/ratemodel.aspx?modelid=1118595" title="לקריאת חוות דעת על טלוויזיה Samsung UE43AU8000">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/8/4/3/5/61075348c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="בושם לאשה Valentino Donna Acqua E.D.T 100ml" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על בושם לאשה Valentino Donna Acqua E.D.T 100ml" href="/ratemodel.aspx?modelid=1108357">בושם לאשה Valentino Donna Acqua E.D.T 100ml</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl28_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על בושם לאשה Valentino Donna Acqua E.D.T 100ml" href="/ratemodel.aspx?modelid=1108357">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על בושם לאשה Valentino Donna Acqua E.D.T 100ml" href="/ratemodel.aspx?modelid=1108357">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        בושם מצוין, מומלץ
+        <a aria-label="לקריאת חוות דעת על בושם לאשה Valentino Donna Acqua E.D.T 100ml" href="/ratemodel.aspx?modelid=1108357" title="לקריאת חוות דעת על בושם לאשה Valentino Donna Acqua E.D.T 100ml">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/4/3/5/6/41836534c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="רמקולים למחשב Bose Companion 50" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על רמקולים למחשב Bose Companion 50" href="/ratemodel.aspx?modelid=916012">רמקולים למחשב Bose Companion 50</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl29_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על רמקולים למחשב Bose Companion 50" href="/ratemodel.aspx?modelid=916012">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על רמקולים למחשב Bose Companion 50" href="/ratemodel.aspx?modelid=916012">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        אני מוסיקאי שנים רבות חיפשתי רמקולים איכותיים למחשב סטייל מקרן קול, בסוף הלכתי על  הדגם הזה 2 רמקולים ובאס , וזה מעיף אותי מערכת מושלמת סופר איכותית הבאס עוצמתי ברמות ורך שומעים כל צליל גם במיד ובטרבל
+        <a aria-label="לקריאת חוות דעת על רמקולים למחשב Bose Companion 50" href="/ratemodel.aspx?modelid=916012" title="לקריאת חוות דעת על רמקולים למחשב Bose Companion 50">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/3/3/5/3/60883533c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מדיח כלים Bosch SMS45GI01E" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מדיח כלים Bosch SMS45GI01E" href="/ratemodel.aspx?modelid=1106847">מדיח כלים Bosch SMS45GI01E</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl30_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מדיח כלים Bosch SMS45GI01E" href="/ratemodel.aspx?modelid=1106847">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מדיח כלים Bosch SMS45GI01E" href="/ratemodel.aspx?modelid=1106847">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        הכלים יוצאים נקיים ומבריקים, הבדל גדול בין שטיפה ידנית לשטיפה במדיח,במדיח הכלים מבריקים ונוצצים
+        <a aria-label="לקריאת חוות דעת על מדיח כלים Bosch SMS45GI01E" href="/ratemodel.aspx?modelid=1106847" title="לקריאת חוות דעת על מדיח כלים Bosch SMS45GI01E">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/2/0/1/5/58835102c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="רמקול נייד ואלחוטי Sony SRS-XB33" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על רמקול נייד ואלחוטי Sony SRS-XB33" href="/ratemodel.aspx?modelid=1094887">רמקול נייד ואלחוטי Sony SRS-XB33</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl31_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על רמקול נייד ואלחוטי Sony SRS-XB33" href="/ratemodel.aspx?modelid=1094887">
+         <div class="ReviewsStars">
+                    <span style="width: 84px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על רמקול נייד ואלחוטי Sony SRS-XB33" href="/ratemodel.aspx?modelid=1094887">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        צליל איכותי, נגד מים, יש גם אורגן אורות מובנה שלא ישעמם
+        <a aria-label="לקריאת חוות דעת על רמקול נייד ואלחוטי Sony SRS-XB33" href="/ratemodel.aspx?modelid=1094887" title="לקריאת חוות דעת על רמקול נייד ואלחוטי Sony SRS-XB33">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/4/9/5/1/62671594c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מסך מחשב Dell P2422H" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מסך מחשב Dell P2422H" href="/ratemodel.aspx?modelid=1117956">מסך מחשב Dell P2422H</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl32_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מסך מחשב Dell P2422H" href="/ratemodel.aspx?modelid=1117956">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מסך מחשב Dell P2422H" href="/ratemodel.aspx?modelid=1117956">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        בהירות מעולה, זויות צפיה מעולות בשימוש יומיומי, יציאות USB נוחות בגב המסך.
+המעמד מתכוונן לגובה וגם מאפשר סיבוב 90 מעלות, נוח מאוד בעבודה עם מסמכים.
+לאחר שימוש של שבוע יכול להגיד שאני מאוד מרוצה מאוד
+        <a aria-label="לקריאת חוות דעת על מסך מחשב Dell P2422H" href="/ratemodel.aspx?modelid=1117956" title="לקריאת חוות דעת על מסך מחשב Dell P2422H">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/4/1/5/3/43503514c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="כיריים Fratelli Onofri 640I" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על כיריים Fratelli Onofri 640I" href="/ratemodel.aspx?modelid=979537">כיריים Fratelli Onofri 640I</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl33_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על כיריים Fratelli Onofri 640I" href="/ratemodel.aspx?modelid=979537">
+         <div class="ReviewsStars">
+                    <span style="width: 17px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על כיריים Fratelli Onofri 640I" href="/ratemodel.aspx?modelid=979537">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מוצר ממש גרוע. לא ניתן לנקות את משטח הכיריים. מה שבכיריים רגילות יורד בניגוב קל, בכיריים של Fratelli נידבק למשטח כאילו הולחם לצבע. כשפניתי לשירות ענו לי שככה זה, ואין מה לעשות. אני רוצה לציין שהכיריים
+        <a aria-label="לקריאת חוות דעת על כיריים Fratelli Onofri 640I" href="/ratemodel.aspx?modelid=979537" title="לקריאת חוות דעת על כיריים Fratelli Onofri 640I">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/3/0/3/9/40039303c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="ארגז כלים Dewalt DS150" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על ארגז כלים Dewalt DS150" href="/ratemodel.aspx?modelid=852642">ארגז כלים Dewalt DS150</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl34_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על ארגז כלים Dewalt DS150" href="/ratemodel.aspx?modelid=852642">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על ארגז כלים Dewalt DS150" href="/ratemodel.aspx?modelid=852642">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        ארגז חזק ואטום בפני מים ואבק
+        <a aria-label="לקריאת חוות דעת על ארגז כלים Dewalt DS150" href="/ratemodel.aspx?modelid=852642" title="לקריאת חוות דעת על ארגז כלים Dewalt DS150">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/7/6/5/7/64927567c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="שעון חכם Samsung Galaxy Watch4 Classic 42mm SM-R880 Bluetooth" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על שעון חכם Samsung Galaxy Watch4 Classic 42mm SM-R880 Bluetooth" href="/ratemodel.aspx?modelid=1122638">שעון חכם Samsung Galaxy Watch4 Classic 42mm SM-R880 Bluetooth</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl35_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על שעון חכם Samsung Galaxy Watch4 Classic 42mm SM-R880 Bluetooth" href="/ratemodel.aspx?modelid=1122638">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על שעון חכם Samsung Galaxy Watch4 Classic 42mm SM-R880 Bluetooth" href="/ratemodel.aspx?modelid=1122638">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        ממליץ לקנייה שעון טוב
+        <a aria-label="לקריאת חוות דעת על שעון חכם Samsung Galaxy Watch4 Classic 42mm SM-R880 Bluetooth" href="/ratemodel.aspx?modelid=1122638" title="לקריאת חוות דעת על שעון חכם Samsung Galaxy Watch4 Classic 42mm SM-R880 Bluetooth">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/8/1/3/7/61117318c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="אוזניות Earfun Air" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על אוזניות Earfun Air" href="/ratemodel.aspx?modelid=1087417">אוזניות Earfun Air</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl36_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על אוזניות Earfun Air" href="/ratemodel.aspx?modelid=1087417">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על אוזניות Earfun Air" href="/ratemodel.aspx?modelid=1087417">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        אולי האוזניות הטובות ביותר שהיו לי.
+האוזניות ממש נוחות לשימוש (סבלתי המון מאוזניות בסגנון הזה).
+המערכת לביטול רעשים עושה את עבודתה מצויין. מהרגע שאני מרכיבה את האוזניות, הן מתחברות לסלולרי ויש דממה סב
+        <a aria-label="לקריאת חוות דעת על אוזניות Earfun Air" href="/ratemodel.aspx?modelid=1087417" title="לקריאת חוות דעת על אוזניות Earfun Air">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/2/7/0/6/56396072c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מחשב אישי ממותג Intel NUC BXNUC10I5FNK" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מחשב אישי ממותג Intel NUC BXNUC10I5FNK" href="/ratemodel.aspx?modelid=1075470">מחשב אישי ממותג Intel NUC BXNUC10I5FNK</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl37_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מחשב אישי ממותג Intel NUC BXNUC10I5FNK" href="/ratemodel.aspx?modelid=1075470">
+         <div class="ReviewsStars">
+                    <span style="width: 17px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מחשב אישי ממותג Intel NUC BXNUC10I5FNK" href="/ratemodel.aspx?modelid=1075470">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        המחשב לא אמין, קורס.
+החלפתי מודל באייבורי וגם הוא קרס
+        <a aria-label="לקריאת חוות דעת על מחשב אישי ממותג Intel NUC BXNUC10I5FNK" href="/ratemodel.aspx?modelid=1075470" title="לקריאת חוות דעת על מחשב אישי ממותג Intel NUC BXNUC10I5FNK">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/9/7/1/0/61000179c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="משקל ומד שומן Tanita BC-401" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על משקל ומד שומן Tanita BC-401" href="/ratemodel.aspx?modelid=1112756">משקל ומד שומן Tanita BC-401</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl38_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על משקל ומד שומן Tanita BC-401" href="/ratemodel.aspx?modelid=1112756">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על משקל ומד שומן Tanita BC-401" href="/ratemodel.aspx?modelid=1112756">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        משקל מדוייק להפליא למדידת משקל התינוק, מדייק ברמת ה10 גרם.
+מאוד נוח לשימוש ולתפעול.
+        <a aria-label="לקריאת חוות דעת על משקל ומד שומן Tanita BC-401" href="/ratemodel.aspx?modelid=1112756" title="לקריאת חוות דעת על משקל ומד שומן Tanita BC-401">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/0/8/3/2/66542380c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מקרן קול / סאונד-בר Samsung HW-Q950A" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מקרן קול / סאונד-בר Samsung HW-Q950A" href="/ratemodel.aspx?modelid=1129488">מקרן קול / סאונד-בר Samsung HW-Q950A</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_LatestReviews_ctl39_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מקרן קול / סאונד-בר Samsung HW-Q950A" href="/ratemodel.aspx?modelid=1129488">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מקרן קול / סאונד-בר Samsung HW-Q950A" href="/ratemodel.aspx?modelid=1129488">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מכשיר מעולה, סאונד היקפי מצוין, אלגנטי ומתחבר היטב למסך (qled 85n)
+        <a aria-label="לקריאת חוות דעת על מקרן קול / סאונד-בר Samsung HW-Q950A" href="/ratemodel.aspx?modelid=1129488" title="לקריאת חוות דעת על מקרן קול / סאונד-בר Samsung HW-Q950A">עוד...</a>
+    </div>
+</div>
+
+
+            </div>
+        </div>
+
+        <div class="PriceAlert" style="margin-bottom: 20px;">
+            <div class="PriceAlertHeader">
+                <div class="PriceAlertTitle">
+                    <h1>חוות דעת על המוצרים הפופולריים ביותר</h1>
+
+                </div>
+            </div>
+            <div class="PriceAlertProdList">
+                <div class="ListTitles">
+                    <div style="width: 474px;" class="TitleTxt">
+                        פרטי מוצר
+                    </div>
+                    <div style="width: 102px;" class="TitleTxt">
+                        דירוג
+                    </div>
+                    <div style="width: 150px;" class="TitleTxt">
+                        תאריך כתיבת חוות הדעת
+                    </div>
+                    <div style="width: 150px;" class="TitleTxt">
+                    </div>
+                </div>
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/7/8/7/0/52900787c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מגהץ Tefal GV5262" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מגהץ Tefal GV5262" href="/ratemodel.aspx?modelid=1048173">מגהץ Tefal GV5262</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl00_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מגהץ Tefal GV5262" href="/ratemodel.aspx?modelid=1048173">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        09/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מגהץ Tefal GV5262" href="/ratemodel.aspx?modelid=1048173">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מילוי מים בעת עבודה, מסנן אבנית גדול ואמין.
+יש לשים לב, שבהפעלה ראשונית צריך ללחות באריכות עד להפעלת המשאבה לראשונה.
+        <a aria-label="לקריאת חוות דעת על מגהץ Tefal GV5262" href="/ratemodel.aspx?modelid=1048173" title="לקריאת חוות דעת על מגהץ Tefal GV5262">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/2/5/3/2/33112352c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מיטה עצמלה דניאל" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מיטה עצמלה דניאל" href="/ratemodel.aspx?modelid=745965">מיטה עצמלה דניאל</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl01_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מיטה עצמלה דניאל" href="/ratemodel.aspx?modelid=745965">
+         <div class="ReviewsStars">
+                    <span style="width: 17px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        09/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מיטה עצמלה דניאל" href="/ratemodel.aspx?modelid=745965">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        ניהיה חור בדיקט שעליו מונח המזרן.
+יש לציין שטרם ישנו על המיטה, אני לא רוצה לחשוב מה ייקרה בעוד שנה.
+        <a aria-label="לקריאת חוות דעת על מיטה עצמלה דניאל" href="/ratemodel.aspx?modelid=745965" title="לקריאת חוות דעת על מיטה עצמלה דניאל">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/8/5/7/0/55480758c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="כיריים Siemens EX975LVV1E" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על כיריים Siemens EX975LVV1E" href="/ratemodel.aspx?modelid=969128">כיריים Siemens EX975LVV1E</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl02_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על כיריים Siemens EX975LVV1E" href="/ratemodel.aspx?modelid=969128">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על כיריים Siemens EX975LVV1E" href="/ratemodel.aspx?modelid=969128">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מוצר מעולה של חברה שכל מוצר שרכשתי שלה הוא מצוין (תנור מייבש ועכשיו הכיריים)
+כיריים קלות לשימוש ומאוד נוחות, אינדוקציה חדשות עם שיטת פלקס בצדדים ממש אהבתי את זה אפשר לשים שם סירים גדולים מאוד
+הכיריים
+        <a aria-label="לקריאת חוות דעת על כיריים Siemens EX975LVV1E" href="/ratemodel.aspx?modelid=969128" title="לקריאת חוות דעת על כיריים Siemens EX975LVV1E">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/4/7/8/2/61332874c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="רחפן Dji Mavic Mini 2" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על רחפן Dji Mavic Mini 2" href="/ratemodel.aspx?modelid=1126282">רחפן Dji Mavic Mini 2</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl03_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על רחפן Dji Mavic Mini 2" href="/ratemodel.aspx?modelid=1126282">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על רחפן Dji Mavic Mini 2" href="/ratemodel.aspx?modelid=1126282">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מוצר מדהים עומד ברוחות ומצלם כאילו על סטאנד כה יציב
+        <a aria-label="לקריאת חוות דעת על רחפן Dji Mavic Mini 2" href="/ratemodel.aspx?modelid=1126282" title="לקריאת חוות דעת על רחפן Dji Mavic Mini 2">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/9/0/6/4/59454609c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מקדחה, מברגה ופטישון Worx WU132" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מקדחה, מברגה ופטישון Worx WU132" href="/ratemodel.aspx?modelid=1100035">מקדחה, מברגה ופטישון Worx WU132</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl04_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מקדחה, מברגה ופטישון Worx WU132" href="/ratemodel.aspx?modelid=1100035">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מקדחה, מברגה ופטישון Worx WU132" href="/ratemodel.aspx?modelid=1100035">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מוצר מעולי  מסדרת Worx Professional
+        <a aria-label="לקריאת חוות דעת על מקדחה, מברגה ופטישון Worx WU132" href="/ratemodel.aspx?modelid=1100035" title="לקריאת חוות דעת על מקדחה, מברגה ופטישון Worx WU132">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/4/4/9/5/53835944c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מחשב נייד HP Pavilion 15-cs3020nj 9PV80EA" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מחשב נייד HP Pavilion 15-cs3020nj 9PV80EA" href="/ratemodel.aspx?modelid=1055350">מחשב נייד HP Pavilion 15-cs3020nj 9PV80EA</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl05_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מחשב נייד HP Pavilion 15-cs3020nj 9PV80EA" href="/ratemodel.aspx?modelid=1055350">
+         <div class="ReviewsStars">
+                    <span style="width: 37px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מחשב נייד HP Pavilion 15-cs3020nj 9PV80EA" href="/ratemodel.aspx?modelid=1055350">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        המקלדת זוועתית    אי אפשר להקליד
+        <a aria-label="לקריאת חוות דעת על מחשב נייד HP Pavilion 15-cs3020nj 9PV80EA" href="/ratemodel.aspx?modelid=1055350" title="לקריאת חוות דעת על מחשב נייד HP Pavilion 15-cs3020nj 9PV80EA">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/4/0/4/1/65751404c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מכונת קפה Latte LA705" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מכונת קפה Latte LA705" href="/ratemodel.aspx?modelid=1125823">מכונת קפה Latte LA705</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl06_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מכונת קפה Latte LA705" href="/ratemodel.aspx?modelid=1125823">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מכונת קפה Latte LA705" href="/ratemodel.aspx?modelid=1125823">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מקציף חלב ברמה גבוהה ,
+מאוד חששתי לקנות אותו כי רציתי נספרסו אבל היה חסר המון זמן בשוק וחברה שלי המליצה לי עליו ואני משתמשת בו יום יום וממליצה גם לחברים שיקנו.
+        <a aria-label="לקריאת חוות דעת על מכונת קפה Latte LA705" href="/ratemodel.aspx?modelid=1125823" title="לקריאת חוות דעת על מכונת קפה Latte LA705">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/4/3/1/9/37809134c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="בושם לגבר Davidoff Cool Water 200ml E.D.T קול  ווטר  דוידוף" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על בושם לגבר Davidoff Cool Water 200ml E.D.T קול  ווטר  דוידוף" href="/ratemodel.aspx?modelid=838332">בושם לגבר Davidoff Cool Water 200ml E.D.T קול  ווטר  דוידוף</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl07_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על בושם לגבר Davidoff Cool Water 200ml E.D.T קול  ווטר  דוידוף" href="/ratemodel.aspx?modelid=838332">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על בושם לגבר Davidoff Cool Water 200ml E.D.T קול  ווטר  דוידוף" href="/ratemodel.aspx?modelid=838332">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מוצר מעולה באיכות טובה ובמחיר טוב
+        <a aria-label="לקריאת חוות דעת על בושם לגבר Davidoff Cool Water 200ml E.D.T קול  ווטר  דוידוף" href="/ratemodel.aspx?modelid=838332" title="לקריאת חוות דעת על בושם לגבר Davidoff Cool Water 200ml E.D.T קול  ווטר  דוידוף">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/0/1/6/3/58693610c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="תנור אפייה Electrolux EOK6727X" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על תנור אפייה Electrolux EOK6727X" href="/ratemodel.aspx?modelid=1092780">תנור אפייה Electrolux EOK6727X</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl08_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על תנור אפייה Electrolux EOK6727X" href="/ratemodel.aspx?modelid=1092780">
+         <div class="ReviewsStars">
+                    <span style="width: 17px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על תנור אפייה Electrolux EOK6727X" href="/ratemodel.aspx?modelid=1092780">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        בזמן הרכישה הציגו לי מוצר מאוד איכותי, קטליתי שמנקה את עצמו לבד ! ! !
+הציעו לקנות קטליטי ואמרו שהוא אפילו יותר טוב מפירוליטי.
+בחוברת שימוש המצורפת עם המוצר, מוסבר כיצד יש להפעיל את הניקוי העצמי את פונ
+        <a aria-label="לקריאת חוות דעת על תנור אפייה Electrolux EOK6727X" href="/ratemodel.aspx?modelid=1092780" title="לקריאת חוות דעת על תנור אפייה Electrolux EOK6727X">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/7/9/7/1/62161797c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="טלוויזיה LG OLED65A1PVA" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על טלוויזיה LG OLED65A1PVA" href="/ratemodel.aspx?modelid=1113599">טלוויזיה LG OLED65A1PVA</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl09_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על טלוויזיה LG OLED65A1PVA" href="/ratemodel.aspx?modelid=1113599">
+         <div class="ReviewsStars">
+                    <span style="width: 46px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על טלוויזיה LG OLED65A1PVA" href="/ratemodel.aspx?modelid=1113599">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        הטלוויזיה הייתה ברשותי 3 שנים וחצי חודשים התאורה התקלקל ונגמרה לי האחריות ביקשו ממני על התיקון 1000 שקלים אמרתי שזה לא הוגן לשלם על תיקון אחרי זמן מועט שהטלוויזיה ברשותי כי שילמתי עליה כפול בגלל שהיא
+        <a aria-label="לקריאת חוות דעת על טלוויזיה LG OLED65A1PVA" href="/ratemodel.aspx?modelid=1113599" title="לקריאת חוות דעת על טלוויזיה LG OLED65A1PVA">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/0/4/6/8/47368640c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="טלפון Motorola E202" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על טלפון Motorola E202" href="/ratemodel.aspx?modelid=988932">טלפון Motorola E202</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl10_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על טלפון Motorola E202" href="/ratemodel.aspx?modelid=988932">
+         <div class="ReviewsStars">
+                    <span style="width: 57px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על טלפון Motorola E202" href="/ratemodel.aspx?modelid=988932">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מוצר גרוע במיוחד. איכות השמע נוראית, הפנסוניק הקודם היה לאין שיעור יותר טוב.
+        <a aria-label="לקריאת חוות דעת על טלפון Motorola E202" href="/ratemodel.aspx?modelid=988932" title="לקריאת חוות דעת על טלפון Motorola E202">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/1/4/6/8/47368641c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="טלפון Motorola E201" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על טלפון Motorola E201" href="/ratemodel.aspx?modelid=988931">טלפון Motorola E201</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl11_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על טלפון Motorola E201" href="/ratemodel.aspx?modelid=988931">
+         <div class="ReviewsStars">
+                    <span style="width: 17px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על טלפון Motorola E201" href="/ratemodel.aspx?modelid=988931">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מוצר נחות. איכות השמע נוראית. אין לחצן לאיתור הטלפון בבית. קשה להבין איך. להגדיר מקש חם לצילצול מהיר. על הפנים...
+        <a aria-label="לקריאת חוות דעת על טלפון Motorola E201" href="/ratemodel.aspx?modelid=988931" title="לקריאת חוות דעת על טלפון Motorola E201">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/1/1/7/1/46181711c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מסור Makita MLT100" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מסור Makita MLT100" href="/ratemodel.aspx?modelid=751415">מסור Makita MLT100</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl12_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מסור Makita MLT100" href="/ratemodel.aspx?modelid=751415">
+         <div class="ReviewsStars">
+                    <span style="width: 17px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מסור Makita MLT100" href="/ratemodel.aspx?modelid=751415">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        חברים לא ממליץ לא מדוייק גם כשמאפסים אותו וכן החיתוך בזווית מעלות לא מדויקת קיים תזוזה במסילות
+        <a aria-label="לקריאת חוות דעת על מסור Makita MLT100" href="/ratemodel.aspx?modelid=751415" title="לקריאת חוות דעת על מסור Makita MLT100">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/1/2/2/2/50022221c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מעבד מזון Magimix CS4200JXL PREMIUM" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מעבד מזון Magimix CS4200JXL PREMIUM" href="/ratemodel.aspx?modelid=1025472">מעבד מזון Magimix CS4200JXL PREMIUM</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl13_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מעבד מזון Magimix CS4200JXL PREMIUM" href="/ratemodel.aspx?modelid=1025472">
+         <div class="ReviewsStars">
+                    <span style="width: 84px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מעבד מזון Magimix CS4200JXL PREMIUM" href="/ratemodel.aspx?modelid=1025472">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מוצר מעולה
+מומלץ בחום
+יעיל בטירוף, עושה בדיוק את מה שאמור לעשות בזריזות.
+קל יחסית לניקוי
+מאוד מרוצה
+        <a aria-label="לקריאת חוות דעת על מעבד מזון Magimix CS4200JXL PREMIUM" href="/ratemodel.aspx?modelid=1025472" title="לקריאת חוות דעת על מעבד מזון Magimix CS4200JXL PREMIUM">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/6/2/2/0/57710226c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="כסא גיימינג Asus ROG Chariot Core" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על כסא גיימינג Asus ROG Chariot Core" href="/ratemodel.aspx?modelid=1101498">כסא גיימינג Asus ROG Chariot Core</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl14_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על כסא גיימינג Asus ROG Chariot Core" href="/ratemodel.aspx?modelid=1101498">
+         <div class="ReviewsStars">
+                    <span style="width: 57px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על כסא גיימינג Asus ROG Chariot Core" href="/ratemodel.aspx?modelid=1101498">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        הכיסא איכותי, יציב, חזק - ולא נוח. בניגוד לביקורת של Wisebuy ביוטיוב על נוחות הכיסא, הבעיה העיקרית שלו היא שאין לו תמיכה בגב תחתון כמעט בכלל, ותמיכת הראש דורשת כמעט שכיבה על הכיסא. התוצאה היא כאבים בג
+        <a aria-label="לקריאת חוות דעת על כסא גיימינג Asus ROG Chariot Core" href="/ratemodel.aspx?modelid=1101498" title="לקריאת חוות דעת על כסא גיימינג Asus ROG Chariot Core">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/5/7/0/5/48725075c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="עגלה וטיולון Bumbleride Connect" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על עגלה וטיולון Bumbleride Connect" href="/ratemodel.aspx?modelid=1001643">עגלה וטיולון Bumbleride Connect</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl15_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על עגלה וטיולון Bumbleride Connect" href="/ratemodel.aspx?modelid=1001643">
+         <div class="ReviewsStars">
+                    <span style="width: 57px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על עגלה וטיולון Bumbleride Connect" href="/ratemodel.aspx?modelid=1001643">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מוצר נחמד, מעולה לשימוש עם אחים צפופים, פטנט החיבור ביניהם מעולה!
+צריך לקחת בחשבן שזה קצת מסורבל, קשה לניווט, והנסיעה לא חלקה
+        <a aria-label="לקריאת חוות דעת על עגלה וטיולון Bumbleride Connect" href="/ratemodel.aspx?modelid=1001643" title="לקריאת חוות דעת על עגלה וטיולון Bumbleride Connect">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/3/0/5/4/54354503c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="קומקום ומיחם Universe NR505" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על קומקום ומיחם Universe NR505" href="/ratemodel.aspx?modelid=921760">קומקום ומיחם Universe NR505</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl16_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על קומקום ומיחם Universe NR505" href="/ratemodel.aspx?modelid=921760">
+         <div class="ReviewsStars">
+                    <span style="width: 17px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        08/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על קומקום ומיחם Universe NR505" href="/ratemodel.aspx?modelid=921760">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מוצר שאינו מחזיק הרבה זמן , זה כבר מוצר שני שאני מחזיק מאותו דגם שהמשאבה הידנית התקלקלה די מיד בהתחלה , והמכשיר עצמו תוך 3 שנים
+        <a aria-label="לקריאת חוות דעת על קומקום ומיחם Universe NR505" href="/ratemodel.aspx?modelid=921760" title="לקריאת חוות דעת על קומקום ומיחם Universe NR505">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/8/2/7/7/42177728c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="משחק ל X-Box Xbox One Tekken 7" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על משחק ל X-Box Xbox One Tekken 7" href="/ratemodel.aspx?modelid=927384">משחק ל X-Box Xbox One Tekken 7</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl17_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על משחק ל X-Box Xbox One Tekken 7" href="/ratemodel.aspx?modelid=927384">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        07/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על משחק ל X-Box Xbox One Tekken 7" href="/ratemodel.aspx?modelid=927384">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        חבל על הזמן
+מומלץ בחום
+        <a aria-label="לקריאת חוות דעת על משחק ל X-Box Xbox One Tekken 7" href="/ratemodel.aspx?modelid=927384" title="לקריאת חוות דעת על משחק ל X-Box Xbox One Tekken 7">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/6/9/7/7/56077796c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מייבש כביסה Bosch WTG86401PL" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מייבש כביסה Bosch WTG86401PL" href="/ratemodel.aspx?modelid=1072508">מייבש כביסה Bosch WTG86401PL</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl18_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מייבש כביסה Bosch WTG86401PL" href="/ratemodel.aspx?modelid=1072508">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        07/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מייבש כביסה Bosch WTG86401PL" href="/ratemodel.aspx?modelid=1072508">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        הלוואי וקניתי את המייבש הזה לפני הרבה שנים, כמה שניתי כביסה לפני ועכשיו פשוט זה הפך להיות כיף, תוך שעה וחצי הכביסה יבשה וכבר מוכנה ..   יש החיים לפני ואחרי המוצר הזה..
+        <a aria-label="לקריאת חוות דעת על מייבש כביסה Bosch WTG86401PL" href="/ratemodel.aspx?modelid=1072508" title="לקריאת חוות דעת על מייבש כביסה Bosch WTG86401PL">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/3/6/8/7/54107863c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="בית חכם Modan Clicker לדוד" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על בית חכם Modan Clicker לדוד" href="/ratemodel.aspx?modelid=1103290">בית חכם Modan Clicker לדוד</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl19_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על בית חכם Modan Clicker לדוד" href="/ratemodel.aspx?modelid=1103290">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        07/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על בית חכם Modan Clicker לדוד" href="/ratemodel.aspx?modelid=1103290">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        שקע חכם לדוד  יעיל ונוח
+        <a aria-label="לקריאת חוות דעת על בית חכם Modan Clicker לדוד" href="/ratemodel.aspx?modelid=1103290" title="לקריאת חוות דעת על בית חכם Modan Clicker לדוד">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/9/9/5/5/47275599c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מייבש שיער Remington AC3300" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מייבש שיער Remington AC3300" href="/ratemodel.aspx?modelid=990021">מייבש שיער Remington AC3300</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl20_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מייבש שיער Remington AC3300" href="/ratemodel.aspx?modelid=990021">
+         <div class="ReviewsStars">
+                    <span style="width: 17px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        07/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מייבש שיער Remington AC3300" href="/ratemodel.aspx?modelid=990021">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        אחד המוצרים הגרועים שרכשתי. אין מצב שזה 2200w!!!!!
+הפן של הבובות של הבת שלי יותר חזק.
+בקושי יוצאת רוח כבר עדיף לעמוד בחלון השיער מתייבש מהר יותר.
+חזרתי לפן שלי הישן גם הוא 2200 אבל חיה רעה.
+        <a aria-label="לקריאת חוות דעת על מייבש שיער Remington AC3300" href="/ratemodel.aspx?modelid=990021" title="לקריאת חוות דעת על מייבש שיער Remington AC3300">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/5/7/7/2/59092775c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מטחנת בשר Moulinex ME740H25" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מטחנת בשר Moulinex ME740H25" href="/ratemodel.aspx?modelid=1098540">מטחנת בשר Moulinex ME740H25</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl21_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מטחנת בשר Moulinex ME740H25" href="/ratemodel.aspx?modelid=1098540">
+         <div class="ReviewsStars">
+                    <span style="width: 77px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        07/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מטחנת בשר Moulinex ME740H25" href="/ratemodel.aspx?modelid=1098540">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מכונה חזקה מאוד טוחנת בשר ברמה מצויינת
+אך רועשת. צורה איומה
+        <a aria-label="לקריאת חוות דעת על מטחנת בשר Moulinex ME740H25" href="/ratemodel.aspx?modelid=1098540" title="לקריאת חוות דעת על מטחנת בשר Moulinex ME740H25">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/1/2/2/7/56077221c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מעבד מזון Moulinex FP247127" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מעבד מזון Moulinex FP247127" href="/ratemodel.aspx?modelid=1077765">מעבד מזון Moulinex FP247127</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl22_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מעבד מזון Moulinex FP247127" href="/ratemodel.aspx?modelid=1077765">
+         <div class="ReviewsStars">
+                    <span style="width: 77px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        07/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מעבד מזון Moulinex FP247127" href="/ratemodel.aspx?modelid=1077765">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        המעבד הזה הוא חיה רעה, במובן הטוב. המנוע חזק, החלקים אמנם עשוים ברובם מפלסטיק, אבל איכותי ועמיד. ממש הפתיע לטובה ביחס למחירו.
+        <a aria-label="לקריאת חוות דעת על מעבד מזון Moulinex FP247127" href="/ratemodel.aspx?modelid=1077765" title="לקריאת חוות דעת על מעבד מזון Moulinex FP247127">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/7/2/9/1/59191927c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מיקרוגל Electrolux EVK6E40X" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מיקרוגל Electrolux EVK6E40X" href="/ratemodel.aspx?modelid=1099287">מיקרוגל Electrolux EVK6E40X</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl23_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מיקרוגל Electrolux EVK6E40X" href="/ratemodel.aspx?modelid=1099287">
+         <div class="ReviewsStars">
+                    <span style="width: 37px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        07/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מיקרוגל Electrolux EVK6E40X" href="/ratemodel.aspx?modelid=1099287">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מיקרוגל יפה מחמם טוב תפעול על הפנים
+
+        <a aria-label="לקריאת חוות דעת על מיקרוגל Electrolux EVK6E40X" href="/ratemodel.aspx?modelid=1099287" title="לקריאת חוות דעת על מיקרוגל Electrolux EVK6E40X">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/1/9/5/0/65890591c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="טלפון סלולרי Apple iPhone 13 Pro Max 256GB" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על טלפון סלולרי Apple iPhone 13 Pro Max 256GB" href="/ratemodel.aspx?modelid=1124722">טלפון סלולרי Apple iPhone 13 Pro Max 256GB</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl24_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על טלפון סלולרי Apple iPhone 13 Pro Max 256GB" href="/ratemodel.aspx?modelid=1124722">
+         <div class="ReviewsStars">
+                    <span style="width: 84px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        07/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על טלפון סלולרי Apple iPhone 13 Pro Max 256GB" href="/ratemodel.aspx?modelid=1124722">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        קניתי אותו לפני חודש הוא מצוין הסוללה שורדת יומיים מאוד  מומלץ
+        <a aria-label="לקריאת חוות דעת על טלפון סלולרי Apple iPhone 13 Pro Max 256GB" href="/ratemodel.aspx?modelid=1124722" title="לקריאת חוות דעת על טלפון סלולרי Apple iPhone 13 Pro Max 256GB">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/0/1/0/9/65749010c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="תנור ומפזר חום Semicom HAH-2800W" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על תנור ומפזר חום Semicom HAH-2800W" href="/ratemodel.aspx?modelid=1125818">תנור ומפזר חום Semicom HAH-2800W</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl25_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על תנור ומפזר חום Semicom HAH-2800W" href="/ratemodel.aspx?modelid=1125818">
+         <div class="ReviewsStars">
+                    <span style="width: 37px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        07/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על תנור ומפזר חום Semicom HAH-2800W" href="/ratemodel.aspx?modelid=1125818">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        לא מחמם
+ניתן למצוא מפזרים טובים יותר במחיר הזה
+        <a aria-label="לקריאת חוות דעת על תנור ומפזר חום Semicom HAH-2800W" href="/ratemodel.aspx?modelid=1125818" title="לקריאת חוות דעת על תנור ומפזר חום Semicom HAH-2800W">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/7/0/7/3/57573707c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="זכרון נייד USB SanDisk SDCZ74-512G" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על זכרון נייד USB SanDisk SDCZ74-512G" href="/ratemodel.aspx?modelid=1085984">זכרון נייד USB SanDisk SDCZ74-512G</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl26_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על זכרון נייד USB SanDisk SDCZ74-512G" href="/ratemodel.aspx?modelid=1085984">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        07/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על זכרון נייד USB SanDisk SDCZ74-512G" href="/ratemodel.aspx?modelid=1085984">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        לפני כשבועיים רכשתי מוצר זה דרך "זאפ" במחיר 184 שקל.
+כבר השבוע העתקתי לתוכו 230 ג'יגה.
+העדפתי דיסק און קי על דיסק קשיח חיצוני מ-2 סיבות:
+1) דיסק און קי הוא קטן קומפקטי ונוח.
+2) הוא מתחבר גם לסמרטפון (
+        <a aria-label="לקריאת חוות דעת על זכרון נייד USB SanDisk SDCZ74-512G" href="/ratemodel.aspx?modelid=1085984" title="לקריאת חוות דעת על זכרון נייד USB SanDisk SDCZ74-512G">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/5/9/8/5/62715895c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="טלוויזיה Samsung UE43AU8000" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על טלוויזיה Samsung UE43AU8000" href="/ratemodel.aspx?modelid=1118595">טלוויזיה Samsung UE43AU8000</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl27_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על טלוויזיה Samsung UE43AU8000" href="/ratemodel.aspx?modelid=1118595">
+         <div class="ReviewsStars">
+                    <span style="width: 57px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על טלוויזיה Samsung UE43AU8000" href="/ratemodel.aspx?modelid=1118595">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        איכות סאונד ירודה
+        <a aria-label="לקריאת חוות דעת על טלוויזיה Samsung UE43AU8000" href="/ratemodel.aspx?modelid=1118595" title="לקריאת חוות דעת על טלוויזיה Samsung UE43AU8000">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/8/4/3/5/61075348c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="בושם לאשה Valentino Donna Acqua E.D.T 100ml" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על בושם לאשה Valentino Donna Acqua E.D.T 100ml" href="/ratemodel.aspx?modelid=1108357">בושם לאשה Valentino Donna Acqua E.D.T 100ml</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl28_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על בושם לאשה Valentino Donna Acqua E.D.T 100ml" href="/ratemodel.aspx?modelid=1108357">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על בושם לאשה Valentino Donna Acqua E.D.T 100ml" href="/ratemodel.aspx?modelid=1108357">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        בושם מצוין, מומלץ
+        <a aria-label="לקריאת חוות דעת על בושם לאשה Valentino Donna Acqua E.D.T 100ml" href="/ratemodel.aspx?modelid=1108357" title="לקריאת חוות דעת על בושם לאשה Valentino Donna Acqua E.D.T 100ml">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/4/3/5/6/41836534c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="רמקולים למחשב Bose Companion 50" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על רמקולים למחשב Bose Companion 50" href="/ratemodel.aspx?modelid=916012">רמקולים למחשב Bose Companion 50</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl29_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על רמקולים למחשב Bose Companion 50" href="/ratemodel.aspx?modelid=916012">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על רמקולים למחשב Bose Companion 50" href="/ratemodel.aspx?modelid=916012">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        אני מוסיקאי שנים רבות חיפשתי רמקולים איכותיים למחשב סטייל מקרן קול, בסוף הלכתי על  הדגם הזה 2 רמקולים ובאס , וזה מעיף אותי מערכת מושלמת סופר איכותית הבאס עוצמתי ברמות ורך שומעים כל צליל גם במיד ובטרבל
+        <a aria-label="לקריאת חוות דעת על רמקולים למחשב Bose Companion 50" href="/ratemodel.aspx?modelid=916012" title="לקריאת חוות דעת על רמקולים למחשב Bose Companion 50">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/3/3/5/3/60883533c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מדיח כלים Bosch SMS45GI01E" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מדיח כלים Bosch SMS45GI01E" href="/ratemodel.aspx?modelid=1106847">מדיח כלים Bosch SMS45GI01E</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl30_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מדיח כלים Bosch SMS45GI01E" href="/ratemodel.aspx?modelid=1106847">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מדיח כלים Bosch SMS45GI01E" href="/ratemodel.aspx?modelid=1106847">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        הכלים יוצאים נקיים ומבריקים, הבדל גדול בין שטיפה ידנית לשטיפה במדיח,במדיח הכלים מבריקים ונוצצים
+        <a aria-label="לקריאת חוות דעת על מדיח כלים Bosch SMS45GI01E" href="/ratemodel.aspx?modelid=1106847" title="לקריאת חוות דעת על מדיח כלים Bosch SMS45GI01E">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/2/0/1/5/58835102c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="רמקול נייד ואלחוטי Sony SRS-XB33" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על רמקול נייד ואלחוטי Sony SRS-XB33" href="/ratemodel.aspx?modelid=1094887">רמקול נייד ואלחוטי Sony SRS-XB33</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl31_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על רמקול נייד ואלחוטי Sony SRS-XB33" href="/ratemodel.aspx?modelid=1094887">
+         <div class="ReviewsStars">
+                    <span style="width: 84px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על רמקול נייד ואלחוטי Sony SRS-XB33" href="/ratemodel.aspx?modelid=1094887">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        צליל איכותי, נגד מים, יש גם אורגן אורות מובנה שלא ישעמם
+        <a aria-label="לקריאת חוות דעת על רמקול נייד ואלחוטי Sony SRS-XB33" href="/ratemodel.aspx?modelid=1094887" title="לקריאת חוות דעת על רמקול נייד ואלחוטי Sony SRS-XB33">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/4/9/5/1/62671594c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מסך מחשב Dell P2422H" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מסך מחשב Dell P2422H" href="/ratemodel.aspx?modelid=1117956">מסך מחשב Dell P2422H</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl32_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מסך מחשב Dell P2422H" href="/ratemodel.aspx?modelid=1117956">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מסך מחשב Dell P2422H" href="/ratemodel.aspx?modelid=1117956">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        בהירות מעולה, זויות צפיה מעולות בשימוש יומיומי, יציאות USB נוחות בגב המסך.
+המעמד מתכוונן לגובה וגם מאפשר סיבוב 90 מעלות, נוח מאוד בעבודה עם מסמכים.
+לאחר שימוש של שבוע יכול להגיד שאני מאוד מרוצה מאוד
+        <a aria-label="לקריאת חוות דעת על מסך מחשב Dell P2422H" href="/ratemodel.aspx?modelid=1117956" title="לקריאת חוות דעת על מסך מחשב Dell P2422H">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/4/1/5/3/43503514c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="כיריים Fratelli Onofri 640I" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על כיריים Fratelli Onofri 640I" href="/ratemodel.aspx?modelid=979537">כיריים Fratelli Onofri 640I</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl33_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על כיריים Fratelli Onofri 640I" href="/ratemodel.aspx?modelid=979537">
+         <div class="ReviewsStars">
+                    <span style="width: 17px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על כיריים Fratelli Onofri 640I" href="/ratemodel.aspx?modelid=979537">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מוצר ממש גרוע. לא ניתן לנקות את משטח הכיריים. מה שבכיריים רגילות יורד בניגוב קל, בכיריים של Fratelli נידבק למשטח כאילו הולחם לצבע. כשפניתי לשירות ענו לי שככה זה, ואין מה לעשות. אני רוצה לציין שהכיריים
+        <a aria-label="לקריאת חוות דעת על כיריים Fratelli Onofri 640I" href="/ratemodel.aspx?modelid=979537" title="לקריאת חוות דעת על כיריים Fratelli Onofri 640I">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/3/0/3/9/40039303c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="ארגז כלים Dewalt DS150" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על ארגז כלים Dewalt DS150" href="/ratemodel.aspx?modelid=852642">ארגז כלים Dewalt DS150</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl34_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על ארגז כלים Dewalt DS150" href="/ratemodel.aspx?modelid=852642">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על ארגז כלים Dewalt DS150" href="/ratemodel.aspx?modelid=852642">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        ארגז חזק ואטום בפני מים ואבק
+        <a aria-label="לקריאת חוות דעת על ארגז כלים Dewalt DS150" href="/ratemodel.aspx?modelid=852642" title="לקריאת חוות דעת על ארגז כלים Dewalt DS150">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/7/6/5/7/64927567c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="שעון חכם Samsung Galaxy Watch4 Classic 42mm SM-R880 Bluetooth" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על שעון חכם Samsung Galaxy Watch4 Classic 42mm SM-R880 Bluetooth" href="/ratemodel.aspx?modelid=1122638">שעון חכם Samsung Galaxy Watch4 Classic 42mm SM-R880 Bluetooth</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl35_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על שעון חכם Samsung Galaxy Watch4 Classic 42mm SM-R880 Bluetooth" href="/ratemodel.aspx?modelid=1122638">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על שעון חכם Samsung Galaxy Watch4 Classic 42mm SM-R880 Bluetooth" href="/ratemodel.aspx?modelid=1122638">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        ממליץ לקנייה שעון טוב
+        <a aria-label="לקריאת חוות דעת על שעון חכם Samsung Galaxy Watch4 Classic 42mm SM-R880 Bluetooth" href="/ratemodel.aspx?modelid=1122638" title="לקריאת חוות דעת על שעון חכם Samsung Galaxy Watch4 Classic 42mm SM-R880 Bluetooth">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/8/1/3/7/61117318c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="אוזניות Earfun Air" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על אוזניות Earfun Air" href="/ratemodel.aspx?modelid=1087417">אוזניות Earfun Air</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl36_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על אוזניות Earfun Air" href="/ratemodel.aspx?modelid=1087417">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על אוזניות Earfun Air" href="/ratemodel.aspx?modelid=1087417">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        אולי האוזניות הטובות ביותר שהיו לי.
+האוזניות ממש נוחות לשימוש (סבלתי המון מאוזניות בסגנון הזה).
+המערכת לביטול רעשים עושה את עבודתה מצויין. מהרגע שאני מרכיבה את האוזניות, הן מתחברות לסלולרי ויש דממה סב
+        <a aria-label="לקריאת חוות דעת על אוזניות Earfun Air" href="/ratemodel.aspx?modelid=1087417" title="לקריאת חוות דעת על אוזניות Earfun Air">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/2/7/0/6/56396072c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מחשב אישי ממותג Intel NUC BXNUC10I5FNK" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מחשב אישי ממותג Intel NUC BXNUC10I5FNK" href="/ratemodel.aspx?modelid=1075470">מחשב אישי ממותג Intel NUC BXNUC10I5FNK</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl37_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מחשב אישי ממותג Intel NUC BXNUC10I5FNK" href="/ratemodel.aspx?modelid=1075470">
+         <div class="ReviewsStars">
+                    <span style="width: 17px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מחשב אישי ממותג Intel NUC BXNUC10I5FNK" href="/ratemodel.aspx?modelid=1075470">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        המחשב לא אמין, קורס.
+החלפתי מודל באייבורי וגם הוא קרס
+        <a aria-label="לקריאת חוות דעת על מחשב אישי ממותג Intel NUC BXNUC10I5FNK" href="/ratemodel.aspx?modelid=1075470" title="לקריאת חוות דעת על מחשב אישי ממותג Intel NUC BXNUC10I5FNK">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/9/7/1/0/61000179c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="משקל ומד שומן Tanita BC-401" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על משקל ומד שומן Tanita BC-401" href="/ratemodel.aspx?modelid=1112756">משקל ומד שומן Tanita BC-401</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl38_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על משקל ומד שומן Tanita BC-401" href="/ratemodel.aspx?modelid=1112756">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על משקל ומד שומן Tanita BC-401" href="/ratemodel.aspx?modelid=1112756">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        משקל מדוייק להפליא למדידת משקל התינוק, מדייק ברמת ה10 גרם.
+מאוד נוח לשימוש ולתפעול.
+        <a aria-label="לקריאת חוות דעת על משקל ומד שומן Tanita BC-401" href="/ratemodel.aspx?modelid=1112756" title="לקריאת חוות דעת על משקל ומד שומן Tanita BC-401">עוד...</a>
+    </div>
+</div>
+
+
+
+<div class="ProductRow">
+    <div class="ProdPic">
+        <img id="" class=" lazyload" data-src="https://img.zap.co.il/pics/0/8/3/2/66542380c.gif" src="https://img.zap.co.il/MainPage/CubesImages/PH.jpg" alt="מקרן קול / סאונד-בר Samsung HW-Q950A" style="border-width:0px;height:60px;width:60px;" />
+    </div>
+    <div class="ProdInfo">
+        <div class="ProdName">
+            <a id="" aria-label="לקריאת חוות דעת על מקרן קול / סאונד-בר Samsung HW-Q950A" href="/ratemodel.aspx?modelid=1129488">מקרן קול / סאונד-בר Samsung HW-Q950A</a>
+        </div>
+    </div>
+    <div class="ReviewRate">
+        <a id="rep_PopReviews_ctl39_uc_ReviewRow_hl_Rate" aria-label="לקריאת חוות דעת על מקרן קול / סאונד-בר Samsung HW-Q950A" href="/ratemodel.aspx?modelid=1129488">
+         <div class="ReviewsStars">
+                    <span style="width: 94px;"></span>
+                </div>
+        </a>
+    </div>
+    <div class="PercentChange">
+        06/12/2021
+    </div>
+    <a id="" aria-label="שלח או קרא חוות דעת על מקרן קול / סאונד-בר Samsung HW-Q950A" href="/ratemodel.aspx?modelid=1129488">
+        <div class="ReadReviewBtn">
+            צפייה בחוות הדעת
+            <div class="ReadReviewBtnBorder"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnFirstArrow"></div>
+            <div class="ReadReviewBtnArrowLeft ReadReviewBtnSecondArrow"></div>
+        </div>
+    </a>
+    <div class="ReviewText">
+        מכשיר מעולה, סאונד היקפי מצוין, אלגנטי ומתחבר היטב למסך (qled 85n)
+        <a aria-label="לקריאת חוות דעת על מקרן קול / סאונד-בר Samsung HW-Q950A" href="/ratemodel.aspx?modelid=1129488" title="לקריאת חוות דעת על מקרן קול / סאונד-בר Samsung HW-Q950A">עוד...</a>
+    </div>
+</div>
+
+
+
+            </div>
+        </div>
+            </div>
+
+    <script type="text/javascript">
+        var pushNotificationApi = 'https://api.zap360.co.il/api/push/subscribe';
+        var pushNotificationCategoryPrefix = 'push_';
+    </script>
+
+<div id="uc_Footer_footer" role="contentinfo" aria-label="footer" class="ZapHomepageFooter">
+    <div id="sectionFooter">
+        <div class="FooterSection">
+            <div class="FooterTitle">
+                אודות
+            </div>
+            <div class="FooterLinks">
+                <a aria-label="אודות zap השוואת מחירים" href="/about.aspx">אודות zap השוואת מחירים</a> <a aria-label="תנאי שימוש" href="/takanon.aspx">תנאי שימוש</a> <a aria-label="האיזור האישי" href="/myzap/home.aspx">האיזור האישי</a>
+                <a aria-label="יצירת קשר" href="/contactus.aspx">יצירת קשר</a>
+            </div>
+        </div>
+        <div class="FooterSection">
+            <div class="FooterTitle">
+                מידע שימושי
+            </div>
+            <div class="FooterLinks">
+                <a aria-label="שאלות ותשובות" href="/faq.aspx?faqid=3">שאלות ותשובות</a> <a aria-label="מדריך חנויות" href="/modelsstore.aspx?sog=g-stores">מדריך חנויות</a> <a aria-label="נפילת מחירים" href="/sale.aspx">נפילת מחירים</a> <a aria-label="כל הקטגוריות" href="/catall.aspx">כל הקטגוריות</a>
+                <a id="uc_Footer_hl_ReviewsLink" href="/reviews.aspx">חוות דעת מוצרים</a>
+
+                    <a id="footerLoginSSO" onkeypress='if(event.keyCode === 13){ javascript:ga("send", "event", "footer clicks", "registration"); ssoLoginWithRefresh(); };' onclick='javascript:ga("send", "event", "footer clicks", "registration"); ssoLoginWithRefresh();' aria-label='הרשמה/התחברות למועדון זאפ'>הרשמה לאתר</a>
+
+
+                <a id="hl_dynamic_link" href="https://www.zap.co.il/deals/blackfriday">בלאק פריידי 2021</a>
+            </div>
+        </div>
+        <div class="FooterSection">
+            <div class="FooterTitle">
+                פרסום ב zap
+            </div>
+            <div class="FooterLinks">
+                <a aria-label="הצטרפות כחנות ל-zap" href="/joinzap.aspx">הצטרפות כחנות ל-zap</a> <a aria-label="פרסום באתר" href="/advertiseinzap.aspx">פרסום באתר</a> <a aria-label="ממשק חנויות / יבואנים" href="/clientslogin.aspx?typeentry=3" target="_blank">ממשק
+                    חנויות / יבואנים</a>
+            </div>
+        </div>
+        <div class="FooterSection">
+            <div class="FooterTitle">
+                עולמות התוכן שלנו
+            </div>
+            <div class="FooterLinks">
+                <a aria-label="תיירות" href="http://travel.zap.co.il/travel">תיירות</a> <a aria-label="סופרמרקטים" href="https://www.zapmarket.co.il">סופרמרקטים</a> <a aria-label="דילים יומיים" href="https://www.zap.co.il/deals/models.aspx">דילים יומיים</a> <a target="_top" href="https://www.zapcars.co.il/">zap cars</a> <a aria-label="WiseBuy" href="http://www.wisebuy.co.il">WiseBuy</a><a aria-label="zap360- שיווק לעסקים" href="http://www.zap360.co.il/">zap360
+                        - שיווק לעסקים</a>
+            </div>
+        </div>
+        <div class="FooterSection">
+            <div class="FooterTitle" id="SmallIconDivs">
+                אפליקציות ומדיה חברתית
+            </div>
+            <div class="FooterIcons">
+                <a aria-label="מוצרים חדשים בזאפ - הזנות RSS" href="/rss.aspx">
+                    <img class="RssIcon" src="https://img.zap.co.il/imgs/newui/RssIcon.png" loading="lazy">
+                </a><a aria-label="זאפ השוואת מחירים - facebook" href="http://www.facebook.com/zapcompare" target="_blank">
+                    <img class="FBIcon" src="https://img.zap.co.il/imgs/newui/FBIcon.png"  loading="lazy">
+                </a><a aria-label="זאפ השוואת מחירים - itunes" href="https://itunes.apple.com/il/app/zap.co.il-z-p-hsww-t-mhyrym/id475731440?mt=8"
+                target="_blank">
+                <img class="AppIcon1" src="https://img.zap.co.il/imgs/newui/AppIcon1.png" loading="lazy">
+            </a>
+
+                <a aria-label="זאפ השוואת מחירים - google play" href="https://play.google.com/store/apps/details?id=com.cellerium.client.zap&hl=en"
+                target="_blank">
+                    <img class="AppIcon3" src="https://img.zap.co.il/imgs/newui/AppIcon3.png" loading="lazy" >
+            </a>
+            </div>
+        </div>
+
+
+            <div class="FooterReviews">
+                <div id="uc_Footer_divRewiews" class="FooterRewiewsSection" style="width:680px;">
+                    <div id="uc_Footer_divReviewsFooterTitle" class="FooterTitle">
+                        חוות דעת
+                    </div>
+                    <div class="ReviewsLinksBlock">
+
+                                <a href="/ratemodel.aspx?modelid=1124638" target="_top" aria-label="iPhone 13 לקריאת חוות דעת על" title="iPhone 13 לקריאת חוות דעת על">iPhone 13</a>
+
+                                <a href="/ratemodel.aspx?modelid=1040282" target="_top" aria-label="iPhone 11 לקריאת חוות דעת על" title="iPhone 11 לקריאת חוות דעת על">iPhone 11</a>
+
+                                <a href="/ratemodel.aspx?modelid=1091548" target="_top" aria-label="Galaxy S20 FE 5G SM-G78 לקריאת חוות דעת על" title="Galaxy S20 FE 5G SM-G78 לקריאת חוות דעת על">Galaxy S20 FE 5G SM-G78</a>
+
+                                <a href="/ratemodel.aspx?modelid=943747" target="_top" aria-label="PlayStation 5  Blu-ray לקריאת חוות דעת על" title="PlayStation 5  Blu-ray לקריאת חוות דעת על">PlayStation 5  Blu-ray</a>
+
+                                <a href="/ratemodel.aspx?modelid=1078896" target="_top" aria-label="iPhone 12 לקריאת חוות דעת על" title="iPhone 12 לקריאת חוות דעת על">iPhone 12</a>
+
+                                <a href="/ratemodel.aspx?modelid=1124719" target="_top" aria-label="iPhone 13 Pro לקריאת חוות דעת על" title="iPhone 13 Pro לקריאת חוות דעת על">iPhone 13 Pro</a>
+
+                                <a href="/ratemodel.aspx?modelid=1102012" target="_top" aria-label="Galaxy S21 5G SM-G991B/ לקריאת חוות דעת על" title="Galaxy S21 5G SM-G991B/ לקריאת חוות דעת על">Galaxy S21 5G SM-G991B/</a>
+
+                                <a href="/ratemodel.aspx?modelid=1124722" target="_top" aria-label="iPhone 13 Pro Max לקריאת חוות דעת על" title="iPhone 13 Pro Max לקריאת חוות דעת על">iPhone 13 Pro Max</a>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+        <div class="FooterSection Newsletter">
+            <div class="FooterTitle">
+                הרשמה לקבלת עדכונים ומבצעים
+            </div>
+            <div class="FooterLinks">
+                <form class="NewsletterForm" id="newsletterForm">
+                    <input role="textbox" aria-label="רשום כתובת דוא''ל" type="email" name="email" value="כתובת דוא''ל" required="required" />
+                    <button type="submit" aria-label="לחץ להרשמה לדיוור">שליחה</button>
+                </form>
+                <span class="TermsApproval">בהרשמה אני מאשר/ת קבלת עדכונים וחדשות בדוא"ל</span>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="BottomComment">
+    <div style="float: right; direction:rtl">
+        המידע המופיע ב- zap מסופק על ידי החנויות עצמן ובאחריותן בלבד. אם נתקלתם בבעיה כלשהי בנתונים המוצגים באתר, אנא שלחו אלינו הודעה ואנו נטפל בעניין
+    </div>
+</div>
+<!-- UsersBrowsing Data collection---->
+
+
+
+
+
+    <div class="TowerBanner">
+        <!-- zap.ozen.1 -->
+        <div id='div-gpt-ad-1409215357055-10' style='width: 160px; height: 600px;'>
+        </div>
+    </div>
+
+    <div class="TowerBannerRight">
+        <!-- /7340/zap.ozen.3 -->
+        <div id='div-gpt-ad-1479207266791-0' style='height: 600px; width: 160px;'>
+        </div>
+    </div>
+
+
+
+
+<div data-exposebox-container="" style="display: none"></div>
+
+
+<div id="isPersonalization" style="display: none">{"SaleOpen":true,"Currency":"NIS","Catalog":"zap","Id":0,"Title":null,"MinPrice":0.0,"MaxPrice":0.0,"MainCategory":"everything_else","SubCategory":"","SubCategoryHebName":"","ImageUrl":null,"Description":null,"Brand":"","Url":null,"Rate":0.0,"NormalizeRate":0.0,"ReviewsAmount":0,"PriceRange":"","IsSpecialDay":false,"PageName":"reviews","Filters":{},"Reff":null,"GUID":"57433ef6cb8d4db583cddd047025210a","ZapFpGuid":"","isValidCampaignType":false}</div>
+
+
+
+
+<!-- exposebox region-->
+<script src="/js/newui/googleevents.js?v=86" type="text/javascript"></script><script src="/js/newui/pushnotification/sw.js?v=86" type="text/javascript"></script>
+<script type="text/javascript">
+    var email = $.cookie("Cooemail");
+    var IsProd = "True".toLowerCase() == "true";
+    var IsExposejsActive = "False".toLowerCase() == "true";
+    var isExposeBoxMobile = false;
+    var pageConstants = {pageName: 'reviews', sog: 'other'};
+    var sogimWithoutModelReviews = "e-cellphoneservice"
+        var dimensionVal = "";
+
+</script>
+<div style="display: none" class="predictl-api-data" data-resource="tags"><div data-key="z_category" data-value="everything_else"></div></div>
+<script src="https://sso.zap.co.il/Scripts/sso2.min.js?SiteID=22&fields=Id,Username,Email,Cellular,Cellular_Prefix,Token&callback=SSO_CallBack&noRefresh=1&v=1" type="text/javascript"></script>
+
+
+<script type="text/javascript" src="/js/combined/newui/select2.min_73A7EE41840A3DAEBE4BEF1358E7FBD145677C21.js?v=86"></script>
+<script type="text/javascript" src="/js/combined/newui/autocomplete.min_FCA68FBE1434804EE23DC68BD958F692DD8FEC2E.js?v=86"></script>
+<script type="text/javascript" src="/js/combined/newui/FacebookEvents.min_C5E43830E4E95B924C63F228FB5BC9E07FEF37B1.js"></script>
+<script type="text/javascript" src="/js/combined/newui/common.min_8DDD6BC4F8FE00B614B6B789E6CCA5248BF2A106.js?v=86"></script>
+<script type="text/javascript" src="/js/combined/newui/generalaccesibility.min_53C4059981F8C28561BA2472BCC23C20C4C1A741.js"></script>
+<script type="text/javascript" src="/js/combined/newui/accesibility.min_77BBD340103DE19851256920CC1C721BBA5A5013.js"></script>
+
+    <script type="text/javascript">
+        SetRefCookie();
+    </script>
+
+<script type="text/javascript" src="/js/combined/newui/mobilecookiehandler.min_03EAFE7E71B0A7276EB16A4A73FAF3467A63D9DC.js" async></script>
+
+<script type="text/javascript" src="/js/combined/newui/pushnotification/main.min_2A5A4E822F4EB2D621656E1AD3A8CD507557D23E.js?v=86"></script>
+<script type="text/javascript" src="/js/combined/newui/lazysizes.min.min_22834B8D3D0429BCC181A16CE7FE42291FE808D0.js?v=86"></script>
+
+
+
+
+
+
+<script src="/script/pushnotification/sw.js?v=86"></script>
+
+    </div>
+</body>
+</html>

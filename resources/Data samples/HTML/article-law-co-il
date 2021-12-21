@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>מאניית עיבוד מידע אישי מסכנת את אזרחי ישראל - מאמרים - law.co.il</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="מאניית עיבוד מידע אישי מסכנת את אזרחי ישראל - מאמרים - law.co.il">
+    <meta name="google-site-verification" content="HV6lHW_UnzFZtEPaILE3Rv0FCJv5d1zWtQ3lShOdgps">
+    <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico?v=1" />
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <!-- Your stuff: Third-party css libraries go here -->
+
+    <!-- This file store project specific CSS -->
+    <link href="/static/css/project_rtl.css?v=9" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/print_rtl.css" media="print">
+
+
+
+
+
+
+    <meta name="description" content="אלה ימים רעים לפרטיות. ישראל נתונה למתקפת סייבר. מאגרי מידע נפרצים ודולפים לרוב. מידע אינטימי על מאות אלפי ישראלים נגנב מאתר הקהילה ההומסקסואלית, אטרף, והתוקפים מפיצים אותו בטלגרם. בית החולים הלל יפה בחדרה שותק בעקבות מתקפת כופרה שנעלה את קבציו. מידע רפואי ואישי על מאות אלפי מטופלים במכון מור זמין באינטרנט. בתי משפט הוציאו בחיפזון צווים המורים לחסום את הגישה ...">
+    <meta name="author" content="עו&quot;ד חיים רביה">
+    <meta property="og:title" content="מאניית עיבוד מידע אישי מסכנת את אזרחי ישראל">
+
+
+  </head>
+
+  <body class="annon ">
+    <header class="main-header">
+        <h1 class="logo"><a href="/"><img src="/static/images/logo.png" alt="law.co.il" /></a></h1>
+        <h2 class="slogan show-for-medium">הפורטל המשפטי לאינטרנט, סייבר וטכנולוגיית מידע</h2>
+        <div class="row collapse main-header-top-nav show-for-large">
+          <div class="medium-6 columns text-right header-lang-nav">
+            <a href="#" class="gray-link" id="toggle-nav">
+              <i class="fa fa-bars" aria-label="ניווט"></i>
+              <span class="show-for-large">ניווט</span>
+            </a>
+            <span class="language-select">
+
+              <a href="/en/">EN</a>
+
+            </span>
+          </div>
+          <div class="medium-6 columns show-for-large text-left">
+
+
+            <span class="header-login">
+              <a href="/accounts/login/" class="gray-link login-link">כניסה</a>
+              <a href="/accounts/signup/">הרשמה</a>
+            </span>
+
+
+            <span class="header-social-links">
+              <a class="gray-link" href="#">
+  <i class="fa fa-linkedin" aria-hidden="true"></i>
+  <span class="show-for-sr">לינקדאין</span>
+</a>
+<a class="gray-link" href="https://twitter.com/lawcoil">
+  <i class="fa fa-twitter" aria-hidden="true"></i>
+  <span class="show-for-sr">טוויטר</span>
+</a>
+<a class="gray-link" href="https://www.facebook.com/law.co.il">
+  <i class="fa fa-facebook" aria-hidden="true"></i>
+  <span class="show-for-sr">פייסבוק</span>
+</a>
+<a class="gray-link" href="https://t.me/cyberlaw1">
+  <i class="fa fa-telegram" aria-hidden="true"></i>
+  <span class="show-for-sr">טלגרם</span>
+</a>
+
+            </span>
+          </div>
+        </div>
+
+        <div class="alt-login hide-for-large">
+
+              <a href="/accounts/login/" class="gray-link login-link">כניסה</a>
+
+        </div>
+
+        <div class="alt-lang-nav hide-for-large">
+          <a href="#" class="gray-link" id="alt-toggle-nav">
+            <i class="fa fa-bars" aria-label="ניווט"></i>
+          </a>
+          <span class="language-select">
+
+            <a href="/en/">EN</a>
+
+          </span>
+        </div>
+
+
+        <div class="main-header-bottom-nav show-for-medium">
+          <div class="row collapse main-header-bottom-inner">
+            <form method="get" action="/search/" class="large-2 medium-1 columns top-search">
+              <label class="show-for-sr" for="search">חיפוש</label>
+              <input type="text" name="q" id="search" value="">
+              <button type="submit" class="search-button" aria-label="חיפוש">
+                <i class="fa fa-search"></i>
+              </button>
+            </form>
+
+            <a href="#" class="search-expand medium-1 columns show-for-medium-only">
+                <span class="show-for-sr">Expand search form</span>
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+
+            <nav class="large-9 medium-10 columns">
+              <ul class="top-menu">
+                <li><a class="gray-link" href="/news/">חדשות</a></li>
+                <li><a href="/articles/">מאמרים</a></li>
+
+                <li><a class="gray-link" href="/computer-law/">פסיקה</a></li>
+                <li><a class="gray-link" href="/legislation/">חקיקה</a></li>
+
+                <li><a class="gray-link" href="/links/">קישורים</a></li>
+
+                  <li><a class="gray-link" href="/knowledge-centers/">מוקדי ידע</a></li>
+                  <li><a class="gray-link" href="/updates/">עדכונים</a></li>
+
+              </ul>
+            </nav>
+
+            <div class="medium-1 columns text-left">
+              <a class="main-header-about-link" href="#">
+                <span class="show-for-sr">Info</span>
+                <span aria-hidden="true" class="about-link">i</span>
+              </a>
+            </div>
+
+            <div class="main-header-about-slogan">
+              אתר האינטרנט של עו&quot;ד חיים רביה העומד בראש קבוצת האינטרנט, הסייבר וזכויות היוצרים של פרל כהן צדק לצר ברץ. פועל מ־1996
+              <a class="main-header-about-close" href="#">
+                <span class="show-for-sr">Close</span>
+                <span aria-hidden="true" class="about-link">X</span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+          <div class="main-header-advanced-search show-for-large">
+            <div class="row collapse border-bottom border-start border-end">
+              <div class="large-2 columns advanced-search text-left">
+
+                <a href="#" class="advanced-search-link">חיפוש מתקדם</a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="dropdown-pane" id="alt-header-logged-in-dropdown" data-dropdown data-close-on-click="true" aria-label="הגדרות">
+            <a href="/my/topics/" class="gray-link">הנושאים שלי</a>
+            <a href="#" class="gray-link">ההערות שלי</a>
+            <a href="/my/content/" class="gray-link">התכנים שלי</a>
+            <a href="/my/settings/" class="gray-link">הגדרות</a>
+            <a href="/accounts/logout/" class="red-link">יציאה</a>
+          </div>
+    </header>
+
+      <div class="main-content row collapse">
+
+
+
+
+
+
+
+
+
+
+
+
+    <meta name="description" content="אלה ימים רעים לפרטיות. ישראל נתונה למתקפת סייבר. מאגרי מידע נפרצים ודולפים לרוב. מידע אינטימי על מאות אלפי ישראלים נגנב מאתר הקהילה ההומסקסואלית, אטרף, והתוקפים מפיצים אותו בטלגרם. בית החולים הלל יפה בחדרה שותק בעקבות מתקפת כופרה שנעלה את קבציו. מידע רפואי ואישי על מאות אלפי מטופלים במכון מור זמין באינטרנט. בתי משפט הוציאו בחיפזון צווים המורים לחסום את הגישה ...">
+    <meta name="author" content="עו&quot;ד חיים רביה">
+    <meta property="og:title" content="מאניית עיבוד מידע אישי מסכנת את אזרחי ישראל">
+
+<article class="grid-top-bottom-padded">
+  <header>
+    <div class="row no-margin-for-small">
+
+      <div class="hide-for-medium">
+        <time datetime=" 2021-11-24T08:42:01+02:00 " class="listing-time grid-padded">
+          24 בנובמבר 2021
+        </time>
+      </div>
+      <h1 class="medium-8 medium-offset-2 columns end content-detail-title">מאניית עיבוד מידע אישי מסכנת את אזרחי ישראל</h1>
+    </div>
+    <div class="row no-margin-for-small">
+      <div class="medium-2 columns show-for-medium">
+        <time datetime=" 2021-11-24T08:42:01+02:00 " class="listing-time grid-padded text-center">
+          24 בנובמבר 2021
+        </time>
+      </div>
+      <div class="medium-8 columns end grid-bottom-padded">
+        <div class="float-start item-tags">
+
+<span class="category-tag rounded" style="background-color: #D9707D">
+  <a href="/topics/privacy-security/" class="white-link">
+    <i class="category-icon privacy-security-icon" aria-hidden="true"></i>
+    פרטיות וסייבר
+  </a>
+
+      <a class="follow white-link login-link" href="/accounts/login/">
+        עקבו
+        <i class="fa fa-chevron-left"></i>
+      </a>
+
+</span>
+
+<span class="category-tag rounded" style="background-color: #783D54">
+  <a href="/topics/computer-crime/" class="white-link">
+    <i class="category-icon computer-crime-icon" aria-hidden="true"></i>
+    פשעי מחשב
+  </a>
+
+      <a class="follow white-link login-link" href="/accounts/login/">
+        עקבו
+        <i class="fa fa-chevron-left"></i>
+      </a>
+
+</span>
+
+<span class="category-tag rounded" style="background-color: #5E993F">
+  <a href="/topics/regulation-government/" class="white-link">
+    <i class="category-icon regulation-government-icon" aria-hidden="true"></i>
+    רגולציה וממשל
+  </a>
+
+      <a class="follow white-link login-link" href="/accounts/login/">
+        עקבו
+        <i class="fa fa-chevron-left"></i>
+      </a>
+
+</span>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="row no-margin-for-small">
+    <div class="medium-2 columns item-sidebar">
+
+        <div class="sidebar-contrib grid-padded">
+
+          <a href="/lawyers/haim-ravia/" class="contrib-photo sidebar-contrib-photo" aria-hidden="true" style="background-image:url('/media/lawyers/2a.jpg')"></a>
+
+          <div class="sidebar-contrib-name">
+            <strong>
+              מאת&rlm;
+
+              <a href="/lawyers/haim-ravia/">עו&quot;ד חיים רביה</a>
+
+            </strong>
+          </div>
+          <div class="sidebar-contrib-desc">
+            <p>שותף בכיר וראש קבוצת האינטרנט, הסייבר וזכויות היוצרים במשרד פרל כהן צדק לצר ברץ</p>
+          </div>
+        </div>
+
+
+        <div class="sidebar-published-by">
+          <div class="grid-padded">
+            מאמר זה נערך ופורסם ע&quot;י
+            <a href="/about-group/">קבוצת האינטרנט, הסייבר וזכויות היוצרים</a>
+            בפרל כהן בראשות חיים רביה
+          </div>
+        </div>
+
+
+
+    </div>
+    <div class="medium-8 columns end">
+      <div>
+        <div class="clearfix">
+          <span class="float-start reading-time">
+            <strong>זמן קריאה:</strong>
+
+            3 דקות
+
+          </span>
+          <div class="float-end item-actions">
+            <button class="hollow no-border button" type="button" data-toggle="share-actions" data-tooltip aria-haspopup="true" title="שתפו עמוד זה">
+              <span class="show-for-sr">שתפו עמוד זה</span>
+              <i class="fa fa-share-alt" aria-hidden="true"></i>
+            </button>
+            <a href="/my/save-toggle/articles/data-processing-mania/" class="hollow no-border button toggle-save" data-tooltip aria-haspopup="true" title="שמור ב&quot;תכנים שלי&quot;">
+
+              <span class="show-for-sr">שמור ב&quot;תכנים שלי&quot;</span>
+              <i class="fa fa-bookmark-o" aria-hidden="true"></i>
+
+            </a>
+            <div id="share-actions" class="dropdown-pane border-all right" data-dropdown data-auto-focus="true">
+              <a class="gray-link" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.law.co.il%2Farticles%2F2021%2F11%2F24%2Fdata-processing-mania%2F" target="_blank" data-tooltip aria-haspopup="true" title="שתפו בפייסבוק">
+                <span class="show-for-sr">שתפו בפייסבוק</span>
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+              </a>
+              <a class="gray-link" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.law.co.il%2Farticles%2F2021%2F11%2F24%2Fdata-processing-mania%2F" target="_blank" data-tooltip aria-haspopup="true" title="שתפו בלינקדאין">
+                <span class="show-for-sr">שתפו בלינקדאין</span>
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+              <a class="gray-link" href="https://plus.google.com/share?url=https%3A%2F%2Fwww.law.co.il%2Farticles%2F2021%2F11%2F24%2Fdata-processing-mania%2F" target="_blank" data-tooltip aria-haspopup="true" title="שתפו בגוגל+">
+                <span class="show-for-sr">שתפו בגוגל+</span>
+                <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+              </a>
+              <a class="gray-link" href="https://twitter.com/home?status=%D7%9E%D7%90%D7%A0%D7%99%D7%99%D7%AA+%D7%A2%D7%99%D7%91%D7%95%D7%93+%D7%9E%D7%99%D7%93%D7%A2+%D7%90%D7%99%D7%A9%D7%99+%D7%9E%D7%A1%D7%9B%D7%A0%D7%AA+%D7%90%D7%AA+%D7%90%D7%96%D7%A8%D7%97%D7%99+%D7%99%D7%A9%D7%A8%D7%90%D7%9C+https%3A%2F%2Fwww.law.co.il%2Farticles%2F2021%2F11%2F24%2Fdata-processing-mania%2F" target="_blank" data-tooltip aria-haspopup="true" title="שתפו בטוויטר">
+                <span class="show-for-sr">שתפו בטוויטר</span>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a class="gray-link" href="mailto:?subject=מאניית עיבוד מידע אישי מסכנת את אזרחי ישראל&amp;body=https%3A%2F%2Fwww.law.co.il%2Farticles%2F2021%2F11%2F24%2Fdata-processing-mania%2F" data-tooltip aria-haspopup="true" title="שתפו באמצעות דואר אלקטרוני">
+                <span class="show-for-sr">שתפו באמצעות דואר אלקטרוני</span>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <div class="article-content">
+          <p>אלה ימים רעים לפרטיות. ישראל נתונה למתקפת סייבר. מאגרי מידע נפרצים ודולפים לרוב. מידע אינטימי על מאות אלפי ישראלים נגנב מאתר הקהילה ההומסקסואלית, אטרף, והתוקפים מפיצים אותו בטלגרם. בית החולים הלל יפה בחדרה שותק בעקבות מתקפת כופרה שנעלה את קבציו. מידע רפואי ואישי על מאות אלפי מטופלים במכון מור זמין באינטרנט. בתי משפט הוציאו בחיפזון צווים המורים לחסום את הגישה למידע הזה.</p>
+
+<p>עוד בטרם ידועים הפרטים לאשורם, אצבע מאשימה מופנית כלפי החברות המסחריות המפעילות את השירותים שנפרצו. הן התרשלו בשמירה על המידע: הרשות להגנת הפרטיות הודיעה שב-2019 איתרה כשלי אבטחה בחברת סייברסרב, המפעילה את אטרף, והחברה דיווחה לה כי טיפלה בהם. מערך הסייבר הלאומי החרה החזיק אחריה ומסר שבשנה שעברה דיווח לחברה כמה פעמים על בעיות אבטחה והיא לא עשתה דבר בנדון. ח&quot;כ יוראי להב-הרצנו דיווח בהתרגשות לוועדת החוקה על אנשים הפונים אליו לאחר שחרב עליהם עולמם לנוכח חשיפת המידע וידו קצרה מלהושיע. לפחות תביעה ייצוגית אחת כבר הוגשה נגד אטרף. אחרות יגיעו: כאשר האקרים גנבו מידע מחברת הביטוח שירביט, שש תובענות ייצוגיות הוגשו נגדה בתוך ימים.</p>
+
+<p>קל להאשים את החברות שנפרצו, והפרטים המדווחים אכן מטרידים: מי שביקשו להימחק מהמאגר, לא נמחקו בפועל. מידע אינטימי מעין כמותו, על נטיה מינית ומצב בריאותי, לא הוצפן. וכמובן, מאגר המידע הרגיש הזה נפרץ. מי שהתרשל צריך לשלם.</p>
+
+<p>האמנם?</p>
+
+<p>ישראל מאוימת לא רק על ידי פושעי סייבר הפועלים לצורך בצע כסף, אלא גם על-ידי האקטיביסטים החודרים למערכות מחשב מסיבות אידאולוגיות של התנגדות לכיבוש, על-ידי ארגונים חצי-צבאיים נתמכי אירן כמו חיזבאללה וחמאס ועל-ידי מעצמות כדוגמת סין ורוסיה וגם איראן. אף תוקף לא משאיר חתימה שמשיייכת אותו לארגון צבאי ועם זאת מומחי אבטחה טוענים שההתקפות האחרונות הן חלק מ&#39;מבצע תודעה איראני&#39;.</p>
+
+<p>נקבל לרגע את ההנחה ש-8200 האיראני תקף את אטרף. תאגיד פרטי איננו צריך להיות אחראי לנזק שגרמה פעילות צבאית של מדינת אויב. אם טיל אירני היה נופל על משרדי אטרף והורג בהם חלילה אנשים, איש לא היה מעלה על הדעת לתבוע את החברה משום כך. מדוע אם כן היא נדרשת לשאת באחריות לפעולה צבאית בסייבר?</p>
+
+<p>אטרף לא נקטה אמצעי אבטחה ובכך היא משולה לחברה שאנשיה נהרגו מפני שלא קיימה את החובה להקים ממ&quot;ד, אומרים לי בפסקנות ידידים באקדמיה הישראלית.</p>
+
+<p>זוהי חכמה בדיעבד. במציאות, למגינים בסייבר אין סיכוי. בהינתן תוקף נחוש, כל מאגר מידע ייפרץ. המגן צריך לסתום אלף פרצות. זו מלאכה סיזיפית שאין לה סוף. התוקף צריך למצוא נקודת כשל אחת ויחידה. במבט שלאחר מעשה הפירצה האחת לעולם תיראה גדולה ובוהקת כאבטיח בשמש. איש לא יזקוף לזכות החברה שטיפלה באלף פרצות אחרות.</p>
+
+<p>אם אטרף אחראית זה לא מפני שנפרצה, אלא מפני שלא פעלה על בסיס ההנחה שיחדרו אליה: לכן לא הבנתה שיקולים של הגנת הפרטיות במערכות המידע שלה (פעולה הקרויה עיצוב לפרטיות), לא מיזערה את המידע שהיא אוספת ומאחסנת למינימום הדרוש לקיים את מטרת השירות שהציעה ולא מחקה מידע עודף. יש לכל הפעולות האלה עלות כספית ותפעולית. אם אטרף שקלה אותן, היא העדיפה חסכון כספי. לחסכון הזה היה מחיר הרה אסון.</p>
+
+<p>לזכותה ייאמר שהחוק בישראל אינו מחייב אותה לעשות זאת. דיני הגנת פרטיות מודרנים ברחבי עולם, כן &ndash; אבל ישראל חיה מכוח חוק מיושן מ-1981. שנים קוראים מומחי משפט לעדכונו, אבל משרד המשפטים פעל בעצלתיים ולא תיקן דבר. הצעה לתיקון שגובשה כעת כוללת תערובת מביכה של הגדרות חדשניות והסדרים מיושנים. גם הכנסת לא הזדרזה לפעול. יש מקום לאופטימיות זהירה ששינוי צפוי: בדיון בוועדת החוקה שהתקיים בעקבות ארועי הסייבר האחרונים &ndash; הדיונים האלה תמיד מתקיימים בדיעבד &ndash; התחייב יו&quot;ר הוועדה, ח&quot;כ גלעד קריב, שפרטיות תהיה מהנושאים המרכזיים על סדר יומה ב-2022.</p>
+
+<p>גרוע מזה, המדינה פועלת ממש כמו אטרף, על סמך אותה הנחה שגויה שלא תיפרץ לעולם. לכן היא אוספת לאין ערוך יותר מידע מחברות פרטיות. יוזמות כאלה מתרבות כפטריות אחר הגשם: בנק ישראל רוצה את המידע האישי על הרכישות שביצענו בכרטיסי אשראי. משרד התקשורת רוצה את המידע על כל צריכת המדיה והאינטרנט של כל אחד מאיתנו. משרד הבריאות הקים מאגרי מידע ענקיים על כל תושב וכל מי שנוסע לחו&quot;ל. רשות האוכלוסין וההגירה הקימה בלי הרשאה מאגר תמונות פנים שלנו. משטרת ישראל עוקבת אחר התנועה שלנו בדרכים באמצעות מערכת מצלמות מתוחכמת הקרויה עין הנץ. תמונות ביומטריות ממשרד הרישוי הופצו למשרדי ממשלה בחשאי. זה שנים מחזיקים ראש מערך הסייבר הלאומי והממונה על היישומים הביומטרים בממשלה בדעה שאין צורך באיסוף טביעות אצבע למאגר הביומטרי ואפשר להסתפק בתמונות פנים, אבל טביעות אצבע עוד קיימות במאגר. שרי הפנים לא הורו לבער אותן, להפך &ndash; הם מבקשים להמשיך לעת עתה באיסופן.</p>
+
+<p>הדוגמה שנותנת המדינה רעה וקשה. לא ייתכן דין אחד למדינה ודין אחר למגזר העסקי-אזרחי. &nbsp;לכולם יש הצדקות לאיסוף מידע כזה. אלה של המגזר האזרחי טובות לא פחות מאלה של המדינה: החברות הפרטיות מקבלות הסכמה של לקוחותיהם לאיסוף המידע ומציעות תמורה ישירה. המדינה רומסת את הפרטיות מכוח סמכויות שהיא נוטלת לעצמה בחוק. על המדינה לחדול ממאניית עיבוד המידע האישי שתקפה אותה בשנתיים האחרונות, ולמזער את המידע שבידה. אם לא תעשה כן, שלא תבוא בטענות לחברות פרטיות הנוהגות ממש כמוה.</p>
+
+<p>המאמר פורסם לראשונה בבלוג הפרטיות של הכותב בהארץ, <a href="https://www.haaretz.co.il/blogs/haimravia/BLOG-1.10411845">מיינד דה גפ</a>.</p>
+        </div>
+
+      </div>
+
+      <footer class="text-small grid-top-bottom-padded">
+        <strong>
+        מאמר זה נערך ופורסם ע&quot;י
+        <a href="/about-group/">קבוצת האינטרנט, הסייבר וזכויות היוצרים</a>
+
+        בפרל כהן בראשות חיים רביה. הקבוצה עוסקת בסוגיות המתעוררות בעת        שימוש במערכות מחשב ואינטרנט ונמצאות בחזית הידע המשפטי:        משפט באינטרנט, דיני וחוזי מחשבים, חתימה אלקטרונית, תקשורת,        אבטחת מידע ופרטיות, זכויות יוצרים וקניין רוחני -        כל זאת לצד עיסוק בתחומים משלימים כדוגמת משפט אזרחי ומסחרי        וייצוג והופעות בבתי משפט.
+        </strong>
+      </footer>
+
+    </div>
+  </section>
+</article>
+
+      </div>
+
+      <footer>
+
+        <div class="footer-signup row">
+          <h4>אלפי עורכי דין ואנשי משפט נעזרים בידע משפטי מהימן ועדכני. הצטרפו גם אתם:</h4>
+
+          <form  novalidate="true" action="/accounts/signup/" id="footer-signup-form" method="post">
+    <input type='hidden' name='csrfmiddlewaretoken' value='e7p8GT00MGWYFIyJBhzf8yWMdNYvJ4AVOk4Vl57dryX6UCpQ1njOH4oc8bxE7YDB' />
+
+    <div class="row label-hidden" ><div class="large-2 medium-4 columns" ><div id="div_id_username" class="holder"><label for="id_username" class="required">
+                שם משתמש<span class="asterisk">*</span></label><input type="text" name="username" placeholder="שם משתמש" minlength="1" maxlength="150" class="textinput textInput" required id="id_username" /></div></div><div class="large-4 medium-5 columns" ><div id="div_id_email" class="holder"><label for="id_email" class="required">
+                דואל<span class="asterisk">*</span></label><input type="email" name="email" placeholder="כתובת דואל" class="textinput textInput" required id="id_email" /></div></div><div class="large-2 medium-4 columns" ><div id="div_id_password1" class="holder"><label for="id_password1" class="required">
+                סיסמה<span class="asterisk">*</span></label><input type="password" name="password1" placeholder="סיסמה" class="textinput textInput" required id="id_password1" /></div></div><div class="large-2 medium-5 columns" ><div id="div_id_password2" class="holder"><label for="id_password2" class="required">
+                סיסמה (שוב)<span class="asterisk">*</span></label><input type="password" name="password2" placeholder="סיסמה (שוב)" class="textinput textInput" required id="id_password2" /></div></div><div class="large-2 medium-3 columns" ><input type="submit" name="submit_signup" value="הרשמה" class="btn btn-primary expanded dark-blue button" id="submit-id-submit_signup" /></div></div>
+
+
+
+</form>
+
+
+
+      <div class="text-left">
+
+בהרשמה לאתר ובשימוש בו אתה מאשר שקראת את        <a href="/terms/">תנאי השימוש</a> באתר
+        ו<a href="/privacy/">מדיניות הפרטיות</a>
+והסכמת להם.
+      </div>
+        </div>
+
+        <div class="main-footer">
+            <div class="row collapse footer-container">
+              <div class="medium-3 columns footer-logo-container">
+                <a href="/"><img src="/static/images/logo.png" alt="law.co.il" /></a>
+              </div>
+              <div class="large-6 medium-9 columns end">
+                  <div class="large-5 medium-6 columns">
+                    <div class="footer-alt-logo-container">
+                      <a href="/"><img src="/static/images/logo.png" alt="law.co.il" /></a>
+                    </div>
+                    <div>
+                      law.co.il מופעל בידי קבוצת האינטרנט, הסייבר וזכויות היוצרים של פרל כהן צדק לצר ברץ.
+                    </div>
+                    <div>
+                      הקבוצה מתמחה בסוגיות המתעוררות בעת שימוש בטכנולוגיות מידע ואינטרנט.
+                    </div>
+                    <div class="main-footer-button-container show-for-medium">
+                      <a href="/about-group/" class="alt-blue title-font button">אודות הקבוצה</a>
+                    </div>
+                  </div>
+                  <div class="medium-6 large-offset-1 columns end">
+                    <div class="main-footer-social-buttons">
+                      <a class="gray-link" href="#">
+  <i class="fa fa-linkedin" aria-hidden="true"></i>
+  <span class="show-for-sr">לינקדאין</span>
+</a>
+<a class="gray-link" href="https://twitter.com/lawcoil">
+  <i class="fa fa-twitter" aria-hidden="true"></i>
+  <span class="show-for-sr">טוויטר</span>
+</a>
+<a class="gray-link" href="https://www.facebook.com/law.co.il">
+  <i class="fa fa-facebook" aria-hidden="true"></i>
+  <span class="show-for-sr">פייסבוק</span>
+</a>
+<a class="gray-link" href="https://t.me/cyberlaw1">
+  <i class="fa fa-telegram" aria-hidden="true"></i>
+  <span class="show-for-sr">טלגרם</span>
+</a>
+
+                    </div>
+                    <div class="show-for-medium">
+                      <div> קבוצת האינטרנט, הסייבר וזכויות היוצרים<br>פרל כהן צדק לצר ברץ</div>
+                      <div>דרך מנחם בגין 121<br>מגדל עזריאלי שרונה – קומה 53<br>תל אביב 6701203</div>
+                      <div>טל': 03-3039000</div>
+                      <div class="main-footer-button-container">
+                        <a href="/contact-us/" class="alt-blue title-font button">צרו קשר</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="footer-pearl">
+                <a href="https://www.pearlcohen.com"><img src="/static/images/pearlcohen.png" alt="Pearl Cohen" /></a>
+              </div>
+            </div>
+        </div>
+      </footer>
+
+      <nav id="side-menu">
+        <div class="side-menu-top">
+          <h5 class="side-menu-title side-menu-padded">
+            <a href="#" id="side-menu-close" class="white-link">
+              <span class="show-for-sr">Close</span>
+              <span aria-label="ניווט" class="about-link">X</span>
+            </a>
+            <span class="show-for-medium">ניווט</span>
+          </h5>
+        </div>
+        <form method="get" action="/search/" class="hide-for-medium top-search">
+          <label class="show-for-sr" for="search">חיפוש</label>
+          <input type="text" name="q" id="search" value="">
+          <button type="submit" class="search-button" aria-label="חיפוש">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+        <div class="side-menu-bottom border-top side-menu-padded">
+          <ul class="vertical menu" data-accordion-menu>
+            <li>
+              <a href="#">מדורים</a>
+              <ul class="menu vertical nested">
+                <li><a href="/news/"> חדשות </a></li>
+                <li><a href="/articles/"> מאמרים </a></li>
+
+                <li><a href="/computer-law/"> פסיקה </a></li>
+                <li><a href="/legislation/"> חקיקה </a></li>
+                <li><a href="/knowledge-centers/">מוקדי ידע</a></li>
+
+              </ul>
+            </li>
+
+            <li>
+              <a href="#">נושאים</a>
+
+              <ul class="menu vertical nested">
+
+                <li><a href="/topics/suppliers-liability/">אחריות ספקים</a></li>
+
+                <li><a href="/topics/apple/">אפל</a></li>
+
+                <li><a href="/topics/google/">גוגל</a></li>
+
+                <li><a href="/topics/labor-employment-law/">דיני עבודה</a></li>
+
+                <li><a href="/topics/opinions/">דעות</a></li>
+
+                <li><a href="/topics/gambling/">הימורים</a></li>
+
+                <li><a href="/topics/copyright/">זכויות יוצרים</a></li>
+
+                <li><a href="/topics/freedom-of-speech/">חופש הביטוי</a></li>
+
+                <li><a href="/topics/visitors-exposure/">חשיפת גולשים</a></li>
+
+                <li><a href="/topics/e-sign/">חתימות אלקטרוניות</a></li>
+
+                <li><a href="/topics/sex-porn/">מין ופורנוגרפיה</a></li>
+
+                <li><a href="/topics/microsoft/">מיקרוסופט</a></li>
+
+                <li><a href="/topics/ecommerce/">מסחר אלקטרוני</a></li>
+
+                <li><a href="/topics/civil-procedure/">סדר דין אזרחי</a></li>
+
+                <li><a href="/topics/criminal-procedure/">סדר דין פלילי</a></li>
+
+                <li><a href="/topics/trademarks/">סימני מסחר</a></li>
+
+                <li><a href="/topics/spam-email/">ספאם ודואל</a></li>
+
+                <li><a href="/topics/commercial-torts/">עוולות מסחריות</a></li>
+
+                <li><a href="/topics/patents/">פטנטים</a></li>
+
+                <li><a href="/topics/facebook/">פייסבוק</a></li>
+
+                <li><a href="/topics/privacy-security/">פרטיות וסייבר</a></li>
+
+                <li><a href="/topics/computer-crime/">פשעי מחשב</a></li>
+
+                <li><a href="/topics/open-source/">קוד פתוח</a></li>
+
+                <li><a href="/topics/coronavirus/">קורונה</a></li>
+
+                <li><a href="/topics/CryptoCurrency/">קריפטו ומטבעות דיגיטליים</a></li>
+
+                <li><a href="/topics/electronic-evidence/">ראיות אלקטרוניות</a></li>
+
+                <li><a href="/topics/regulation-government/">רגולציה וממשל</a></li>
+
+                <li><a href="/topics/misc/">שונות</a></li>
+
+                <li><a href="/topics/domain-names/">שמות מתחם</a></li>
+
+                <li><a href="/topics/communication/">תקשורת</a></li>
+
+              </ul>
+            </li>
+
+            <li>
+              <a href="/links/">קישורים</a>
+
+              <ul class="menu vertical nested">
+
+                <li><a href="/links/courts/">בתי משפט</a></li>
+
+                <li><a href="/links/family-law/">דיני משפחה</a></li>
+
+                <li><a href="/links/communication-law/">דיני תקשורת</a></li>
+
+                <li><a href="/links/privacy/">הגנת הפרטיות</a></li>
+
+                <li><a href="/links/legal-news/">חדשות משפטיות</a></li>
+
+                <li><a href="/links/constitutions/">חוקות</a></li>
+
+                <li><a href="/links/international-laws/">חקיקה במדינות העולם</a></li>
+
+                <li><a href="/links/legal-research/">מחקר משפטי</a></li>
+
+                <li><a href="/links/legal-dictionaries/">מילונים משפטיים</a></li>
+
+                <li><a href="/links/international-law/">משפט בינלאומי</a></li>
+
+                <li><a href="/links/israeli-law/">משפט ישראלי</a></li>
+
+                <li><a href="/links/online-law/">משפט מקוון</a></li>
+
+                <li><a href="/links/business-law/">משפט עסקי</a></li>
+
+                <li><a href="/links/criminal-law/">משפט פלילי</a></li>
+
+                <li><a href="/links/legal-publishers/">ספרות משפטית ומוציאים לאור</a></li>
+
+                <li><a href="/links/law-firms/">עורכי דין</a></li>
+
+                <li><a href="/links/intellectual-property/">קניין רוחני</a></li>
+
+              </ul>
+            </li>
+
+            <li><a href="/updates/">עדכונים מהאתר</a></li>
+
+            <li>
+              <a href="/about/">אודות</a>
+            </li>
+            <li>
+              <a href="/about-group/">אודות הקבוצה</a>
+            </li>
+            <li>
+              <a href="/practice-areas/">תחומי עיסוק</a>
+            </li>
+            <li>
+              <a href="/lawyers/">עורכי הדין בקבוצה</a>
+            </li>
+            <li>
+              <a href="/terms/">תנאי שימוש</a>
+            </li>
+            <li>
+              <a href="/privacy/">מדיניות הפרטיות</a>
+            </li>
+            <li>
+              <a href="/contact-us/">צרו קשר</a>
+            </li>
+            <li>
+
+                <a href="/accounts/signup/" class="red-link">הרשמה</a>
+
+            </li>
+          </ul>
+        </div>
+        <div class="hide-for-large text-center side-menu-social-links border-top">
+          <a class="gray-link" href="#">
+  <i class="fa fa-linkedin" aria-hidden="true"></i>
+  <span class="show-for-sr">לינקדאין</span>
+</a>
+<a class="gray-link" href="https://twitter.com/lawcoil">
+  <i class="fa fa-twitter" aria-hidden="true"></i>
+  <span class="show-for-sr">טוויטר</span>
+</a>
+<a class="gray-link" href="https://www.facebook.com/law.co.il">
+  <i class="fa fa-facebook" aria-hidden="true"></i>
+  <span class="show-for-sr">פייסבוק</span>
+</a>
+<a class="gray-link" href="https://t.me/cyberlaw1">
+  <i class="fa fa-telegram" aria-hidden="true"></i>
+  <span class="show-for-sr">טלגרם</span>
+</a>
+
+        </div>
+      </nav>
+
+
+      <div class="reveal full-width" id="loginModal" data-reveal>
+        <div class="row alt-blue-bg inner">
+          <div class="large-4 large-offset-4 medium-6 medium-offset-3 columns grid-top-bottom-padded">
+            <h3 class="normal">כניסה</h3>
+            <p>
+
+              משתמשים חדשים? להרשמה <a href="/accounts/signup/">לחצו כאן</a>
+            </p>
+
+            <form  novalidate="true" action="/accounts/login/?next=/articles/2021/11/24/data-processing-mania/" id="login-form" method="post">
+    <input type='hidden' name='csrfmiddlewaretoken' value='e7p8GT00MGWYFIyJBhzf8yWMdNYvJ4AVOk4Vl57dryX6UCpQ1njOH4oc8bxE7YDB' />
+
+    <div class="alert callout"  style="display: none" id="login-error"><p><i class="fa fa-exclamation-circle"></i>&nbsp;<span></span></p></div><div class="label-hidden" ><div id="div_id_login" class="holder"><label for="id_login" class="required">
+                כניסה<span class="asterisk">*</span></label><input type="text" name="login" placeholder="שם משתמש או דואל" autofocus="autofocus" class="textinput textInput" required id="id_login" /></div><div id="div_id_password" class="holder"><label for="id_password" class="required">
+                סיסמה<span class="asterisk">*</span></label><input type="password" name="password" placeholder="סיסמה" class="textinput textInput" required id="id_password" /></div></div><div id="div_id_remember" class="holder checkbox"><input type="checkbox" name="remember" class="checkboxinput" id="id_remember" /><label for="id_remember" >
+                זכור אותי
+            </label></div><div class="row" ><div class="small-6 columns" ><input type="submit" name="submit_login" value="כניסה" class="btn btn-primary expanded button" id="submit-id-submit_login" /></div><div class="small-6 columns" ><a class="secondary expanded button" href="/accounts/password/reset/">שכחת סיסמא?</a></div></div>
+
+
+
+</form>
+
+            <button class="close-button small" data-close aria-label="Close modal" type="button">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+
+      <!-- Latest JQuery -->
+      <script src="/static/js/jquery-3.4.1.min.js"></script>
+
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="/static/js/foundation.min.js?v=1"></script>
+      <script charset="utf-8">
+        // initialize foundation
+        $(document).foundation();
+      </script>
+      <!-- Your stuff: Third-party javascript libraries go here -->
+
+      <!-- place project specific Javascript in this file -->
+      <script src="/static/js/accessibility_rtl.js"></script>
+      <script src="/static/js/project.js?v=7"></script>
+
+
+
+
+      <link rel="gettext" type="application/x-po" href="/static/js/he.po">
+      <script src="/static/js/gettext.js"></script>
+
+      <script src="/static/js/annotator.min.js"></script>
+      <script>
+          var content_uri = 'eyJwayI6MTY3Mzd9:1mvmIm:-NvR7Ca5tfI4g76KxeJmJtWRg7o',
+              load_uri = null,
+              app = new annotator.App();
+
+          var pageUri = function () {
+              return {
+                  beforeAnnotationCreated: function (ann) {
+                      ann.uri = content_uri;
+                  }
+              };
+          };
+
+          app.include(annotator.ui.main, {element: document.querySelector('.article-content')});
+          app.include(annotator.storage.http, {
+              prefix: '',
+              urls: {
+                  create: '/annotations/api/create/',
+                  update: '/annotations/api/{id}/',
+                  destroy: '/annotations/api/{id}/',
+                  search: '/annotations/api/search/'
+              }
+          });
+          app.include(pageUri)
+          app.start().then(function () {
+              if (load_uri) {
+                  app.annotations.load({uri: load_uri});
+              }
+          });
+      </script>
+
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.law.co.il/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//analytics.law.co.il/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+
+  </body>
+</html>
