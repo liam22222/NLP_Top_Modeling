@@ -1,19 +1,29 @@
-import json
 import pymongo
-import requests
-from common.utils import *
-
-from requests.auth import HTTPBasicAuth
-from common.configuration import CONF
-
-
-# projectName = conf['mongo']['dbName']
-# myClient = pymongo.MongoClient(conf['mongo']['url'])
-# dbName = myClient[projectName]
-# mycol = dbName["raw_elasticsearch"]
-
 from services.mongo_service import mongoDB_service
+from services.nlp_hebrew_service import nlp_hebrew_service
+from common.logger_initializer import LOGGER
+from common.utils import *
+from requests.auth import HTTPBasicAuth
 
-m = mongoDB_service()
-m.insert_one_object('bla',{'ron': 'ron'})
+from processes.elastic_to_mogno import init_raw_data_from_elastic
+from processes.mongo_hebrew_nlp import insert_normalized_collection
+from common.configuration import CONF, ENUM
+
+MONGO_DB = mongoDB_service()
+NLP = nlp_hebrew_service()
+
+coll_name = "raw_elstic"
+
+# Init mongo from elastic
+init_raw_data_from_elastic(coll_name)
+
+# Normelize data
+insert_normalized_collection(
+    coll_name,
+    "body",
+    NLP,
+    MONGO_DB)
+
+
+
 

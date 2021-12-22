@@ -8,9 +8,9 @@ def format_str(variable) -> str:
     """ Formats string to be fitted as Postgresql query"""
     return str(variable) if isinstance(variable, int) or isinstance(variable, float) else f"'{variable}'"
 
-def initialize_normalization(string : str , list_key_to_remove : list)-> str:
+def remove_items_from_string(string : str , list_key_to_remove : list)-> str:
     for word in list_key_to_remove:
-        string.replace(word, "")
+        string = string.replace(word, "")
     return string
         
 

@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-
+# We love alina <3 <3 <3 <3 <3 <3
 def find_abstract(html):
     soup = BeautifulSoup(html, "html.parser")
     abstract = soup.find("h2") or soup.find("h3")

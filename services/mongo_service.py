@@ -5,11 +5,18 @@ from common.configuration import CONF
 class mongoDB_service(object):
 
     def __init__(self) -> None:
-        self.__mongodb = pymongo.MongoClient(CONF['mongo']['url'])
-        self.__dbCollection = self.__mongodb[CONF['mongo']['dbName']]
+        self.mongodb = pymongo.MongoClient(CONF['mongo']['url'])
+        self.dbName = self.mongodb[CONF['mongo']['dbName']]
         
-        
-    def insert_one_object(self, col_name ,object ):
-        db_col = self.__dbCollection[f"{col_name}"]
+    def get_collection(self, collection_name: str):
+        return self.dbName[f"{collection_name}"]
+
+    def insert_one_object(self, col_name ,object):
+        db_col = self.dbName[f"{col_name}"]
         db_col.insert_one(object)
         LOGGER.info('insert object '+ f"{object}" + ' to collection '+ col_name)
+
+    def insert_many_docs(self,collection_name,docs_as_list):
+        db_col = self.dbName[f"{collection_name}"]
+        db_col.insert_many(docs_as_list)
+        LOGGER.info(f'Insert to collection {collection_name}, documents')

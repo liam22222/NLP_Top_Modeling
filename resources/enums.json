@@ -4,5 +4,17 @@
         "NUMBER",
         "QUESTION_WORD",
         "PRONOUN",
-        "PREPOSITION"]
+        "PREPOSITION"],
+    "irrelevant_signs" : [
+        "<br />",
+        "<br >", 
+        ".", 
+        ",", 
+        ":",
+        "!"
+    ],
+    "irrelevantSitesNames" : ["yaaraflowers", "bum", "tusa",
+        "love", "date", "b-zoog", "lov",
+        "makirim", "click4", "email",
+        "atraf", "soulmate", "soul"]    
 }

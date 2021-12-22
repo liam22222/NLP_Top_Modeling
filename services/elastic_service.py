@@ -3,7 +3,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 from common.logger_initializer import LOGGER
-from common.configuration import conf
+from common.configuration import CONF, ENUM
 
 
 class elasticsearch_service(object):

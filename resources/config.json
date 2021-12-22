@@ -13,6 +13,8 @@
     "hebrew-nlp":{
         "baseUrl":"https://hebrew-nlp.co.il/service/",
         "token":"6B94f8CrQg3Vd2l",
-        "readable": false
+        "morphAnalyze" : "/Morphology/Analyze"
     }
+
+    
 }
