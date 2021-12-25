@@ -1,9 +1,9 @@
-from ..services.nlp_hebrew_service import nlp_hebrew_service
-from ..services.mongo_service import mongoDB_service
-from ..common.utils import remove_items_from_string
+from services.nlp_hebrew_service import nlp_hebrew_service
+from services.mongo_service import mongoDB_service
+from common.utils import remove_items_from_string
 
-from ..common.logger_initializer import LOGGER
-from ..common.configuration import CONF, ENUM
+from common.logger_initializer import LOGGER
+from common.configuration import CONF, ENUM
 
 def normelize_collection(collection, field_to_normalize: str, NLP: nlp_hebrew_service):
     docs_as_list = []
@@ -27,5 +27,5 @@ def insert_normalized_collection(collection_name: str, field_to_normalize: str, 
     MONGO_DB = Global instance of Mongo db
     """
     raw_collection = MONGO_DB.get_collection(collection_name)
-    norm_coll_list = normelize_collection(raw_collection, field_to_normalize)
+    norm_coll_list = normelize_collection(raw_collection, field_to_normalize, NLP)
     MONGO_DB.insert_many_docs(f"normalized_{collection_name}", norm_coll_list)
