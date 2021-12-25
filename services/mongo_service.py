@@ -1,3 +1,4 @@
+from logging import exception
 import pymongo
 from common.logger_initializer import LOGGER
 from common.configuration import CONF
@@ -20,3 +21,12 @@ class mongoDB_service(object):
         db_col = self.dbName[f"{collection_name}"]
         db_col.insert_many(docs_as_list)
         LOGGER.info(f'Insert to collection {collection_name}, documents')
+
+    def drop_collection(self, collection_name: str) -> None:
+        my_collection = self.dbName[f"{collection_name}"]
+        try:
+            my_collection.drop()
+            LOGGER.info(f"Dropped {collection_name}")
+            
+        except exception:
+            LOGGER.info(f"Cant drop the {collection_name}, {exception}")
