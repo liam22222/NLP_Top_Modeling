@@ -1,3 +1,4 @@
+import re
 
 def wrap_exception(e: Exception, error_message: str) -> str:
     rw = str(e).replace('\n', '\n\t')
@@ -12,5 +13,7 @@ def remove_items_from_string(string : str , list_key_to_remove : list)-> str:
     for word in list_key_to_remove:
         string = string.replace(word, "")
     return string
-        
 
+def remove_double_spaces_from_string(s : str)-> str:
+  s = re.sub('\s{2,}', ' ', s)
+  return s

@@ -1,7 +1,7 @@
 import requests
 from common.logger_initializer import LOGGER
 from common.configuration import CONF, ENUM
-from common.utils import remove_items_from_string
+from common.utils import remove_double_spaces_from_string, remove_items_from_string
 
 MORPHOLOGY_ANALYZE_URL = "/Morphology/Analyze"
 
@@ -23,6 +23,7 @@ class nlp_hebrew_service(object):
     def clean_hebrew_nlp_result(self, nlp_result):
         paragraph = ""
         for sentence in nlp_result:
+            sentence = remove_double_spaces_from_string(sentence)
             for word in sentence:
                 best_option = word[0]
                 if best_option['partOfSpeech'] in ENUM["irrelevant_part_of_speach"]:

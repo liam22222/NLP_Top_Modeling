@@ -11,6 +11,7 @@ def normelize_collection(collection, field_to_normalize: str, NLP: nlp_hebrew_se
         text = remove_items_from_string(doc[f"{field_to_normalize}"], ENUM["irrelevant_signs"])
         hebrew_result = NLP.nlp_hebrew_call(text, CONF["hebrew-nlp"]["morphAnalyze"])
         paragraph = NLP.clean_hebrew_nlp_result(hebrew_result)
+        
         doc[f"{field_to_normalize}"] = paragraph
         docs_as_list.append(doc)
 
