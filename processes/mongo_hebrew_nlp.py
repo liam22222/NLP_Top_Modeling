@@ -13,6 +13,7 @@ def normelize_collection(collection, field_to_normalize: str, NLP: nlp_hebrew_se
         if hebrew_result == None:
             continue
         paragraph = NLP.clean_hebrew_nlp_result(hebrew_result)
+        
         doc[f"{field_to_normalize}"] = paragraph
         docs_as_list.append(doc)
 
