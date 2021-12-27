@@ -16,8 +16,13 @@ class nlp_hebrew_service(object):
         'readable': False,
         'paragraph':  doc,
         }  
-        result = requests.post(f'{CONF["hebrew-nlp"]["baseUrl"]}{path}', json=request).json()
-        LOGGER.info('Created a NLP-hebrew call')
+        result = None
+        try: 
+            result = requests.post(f'{CONF["hebrew-nlp"]["baseUrl"]}{path}', json=request).json()
+            LOGGER.info('Created a NLP-hebrew call')
+        except:
+            result = None
+            LOGGER.info("There was a problem with hebrew_nlp")
         return result
     
     def clean_hebrew_nlp_result(self, nlp_result):

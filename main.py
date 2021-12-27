@@ -19,10 +19,10 @@ init_raw_data_from_elastic(coll_name)
 
 # Normelize data
 insert_normalized_collection(
-    coll_name,
-    "body",
-    NLP,
-    MONGO_DB)
+   coll_name,
+   "body",
+   NLP,
+   MONGO_DB)
 
 
 
