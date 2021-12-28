@@ -32,12 +32,6 @@ def n_words_frequency(document: str, numberOfWords = 1) -> dict:
             else:
                 update_dict({expre : 1})
             pop_left()
-            
-
-            
-
-
-            
 
     return {k[::-1] : v for k, v in sorted(dict.items(), reverse=True, key=lambda item: item[1])}
 
