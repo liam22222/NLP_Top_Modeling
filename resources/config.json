@@ -16,7 +16,7 @@
         "morphAnalyze" : "/Morphology/Analyze"
     },
     "csv":{
-        "path": "Csv/"
+        "path": "/Csv/"
     }
     
 

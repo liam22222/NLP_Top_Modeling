@@ -5,7 +5,7 @@ from services.csv import csv_handler
 from common.logger_initializer import LOGGER
 from common.utils import *
 from requests.auth import HTTPBasicAuth
-import asyncio
+
 
 from processes.elastic_to_mogno import init_raw_data_from_elastic
 from processes.mongo_hebrew_nlp import insert_normalized_collection
@@ -25,5 +25,3 @@ from common.configuration import CONF, ENUM
 #    "body",
 #    NLP,
 #    MONGO_DB)
-
-
