@@ -1,3 +1,4 @@
+import csv
 import pymongo
 from services.mongo_service import mongoDB_service
 from services.nlp_hebrew_service import nlp_hebrew_service
@@ -25,3 +26,6 @@ from common.configuration import CONF, ENUM
 #    "body",
 #    NLP,
 #    MONGO_DB)
+
+bla = csv_handler("liam")
+bla.write([["Name", "age", "gender"], ["Liam", "21", "M"], ["Ron", "26", "M"]])
