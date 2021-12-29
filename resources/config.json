@@ -14,7 +14,11 @@
         "baseUrl":"https://hebrew-nlp.co.il/service/",
         "token":"6B94f8CrQg3Vd2l",
         "morphAnalyze" : "/Morphology/Analyze"
+    },
+    "csv":{
+        "path": "Csv/"
     }
+    
 
     
 }
