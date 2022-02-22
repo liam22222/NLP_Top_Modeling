@@ -1,8 +1,12 @@
+from logging import exception
+from bson.objectid import ObjectId
 import pymongo
-from common.logger_initializer import LOGGER
-from common.configuration import CONF
+from pymongo import collection
+from NLP_Top_Modeling.common.logger_initializer import LOGGER
+from NLP_Top_Modeling.common.configuration import CONF
 import numbers
 import numpy as np
+
 class mongoDB_service(object):
 
     def __init__(self) -> None:
@@ -11,6 +15,9 @@ class mongoDB_service(object):
 
     def get_collection(self, collection_name: str):
         return self.dbName[f"{collection_name}"]
+
+    def get_document_by_id(self, collection_name: str ,document_id: str):
+        return self.dbName[f"{collection_name}"].find_one({'_id': ObjectId(document_id)})
 
     def insert_one_object(self, col_name, doc):
         db_col = self.dbName[f"{col_name}"]

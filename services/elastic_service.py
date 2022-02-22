@@ -1,9 +1,8 @@
 import json
 import requests
 from requests.auth import HTTPBasicAuth
-
-from common.logger_initializer import LOGGER
-from common.configuration import CONF, ENUM
+from NLP_Top_Modeling.common.logger_initializer import LOGGER
+from NLP_Top_Modeling.common.configuration import CONF, ENUM
 
 
 class elasticsearch_service(object):

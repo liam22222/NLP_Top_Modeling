@@ -1,9 +1,9 @@
-from services.nlp_hebrew_service import nlp_hebrew_service
-from services.mongo_service import mongoDB_service
-from common.utils import remove_items_from_string
+from NLP_Top_Modeling.services.nlp_hebrew_service import nlp_hebrew_service
+from NLP_Top_Modeling.services.mongo_service import mongoDB_service
+from NLP_Top_Modeling.common.utils import remove_items_from_string
 
-from common.logger_initializer import LOGGER
-from common.configuration import CONF, ENUM
+from NLP_Top_Modeling.common.logger_initializer import LOGGER
+from NLP_Top_Modeling.common.configuration import CONF, ENUM
 
 def normelize_collection(collection, field_to_normalize: str, NLP: nlp_hebrew_service):
     docs_as_list = []
