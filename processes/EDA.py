@@ -32,13 +32,6 @@ def n_words_frequency(document: str, numberOfWords = 1) -> dict:
             else:
                 update_dict({expre : 1})
             pop_left()
-            
-
-            
-
-
-            
-
     return {k[::-1] : v for k, v in sorted(dict.items(), reverse=True, key=lambda item: item[1])}
 
 def plot_histogram(d: dict, size: int):
@@ -58,3 +51,6 @@ def plot_histogram(d: dict, size: int):
     plt.title("מספר החזרות בטקסט"[::-1], **hebrew_font)
     plt.bar(d.keys(), d.values())
     plt.show()
+
+print("hi")
+print(n_words_frequency("61c86065f307f55e3a3b0a9d",2))

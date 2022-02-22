@@ -1,4 +1,3 @@
-from os import listxattr
 from common.logger_initializer import LOGGER
 from common.configuration import CONF, ENUM
 from pathlib import Path
