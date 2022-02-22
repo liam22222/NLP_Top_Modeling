@@ -18,8 +18,6 @@ class elasticsearch_service(object):
 
     def get_data_from_elastic(self, url: str, user: str, password: str):
         data = elasticsearch_service.__get_json(self, url, user, password)
-        #print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1")
-        #print(type(data), data)
         data = json.loads(data)
         data = data['hits']['hits']
         return data

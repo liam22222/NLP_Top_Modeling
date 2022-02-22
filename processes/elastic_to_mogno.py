@@ -2,7 +2,7 @@ from services.elastic_service import elasticsearch_service
 from services.mongo_service import mongoDB_service
 from services.html_parser_service import *
 
-from common.configuration import CONF,ENUM
+from common.configuration import CONF, ENUM
 
 
 def init_raw_data_from_elastic(collection_name : str):

@@ -18,12 +18,12 @@ coll_name = "raw_elstic"
 init_raw_data_from_elastic(coll_name)
 
 # Normelize data
-insert_normalized_collection(
-    coll_name,
-    "body",
-    NLP,
-    MONGO_DB)
+# insert_normalized_collection(
+#     coll_name,
+#     "body",
+#     NLP,
+#     MONGO_DB)
 
+# MONGO_DB.count_diffrent_rows('elasticsearch', 'text', 'title')
 
-
-
+MONGO_DB.check_words_amount('elasticsearch')
