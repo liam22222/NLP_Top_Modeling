@@ -1,5 +1,7 @@
 from logging import exception
+from bson.objectid import ObjectId
 import pymongo
+from pymongo import collection
 from common.logger_initializer import LOGGER
 from common.configuration import CONF
 
@@ -11,6 +13,9 @@ class mongoDB_service(object):
         
     def get_collection(self, collection_name: str):
         return self.dbName[f"{collection_name}"]
+
+    def get_document_by_id(self, collection_name: str ,document_id: str):
+        return self.dbName[f"{collection_name}"].find_one({'_id': ObjectId(document_id)})
 
     def insert_one_object(self, col_name ,object):
         db_col = self.dbName[f"{col_name}"]
