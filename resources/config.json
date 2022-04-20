@@ -1,6 +1,6 @@
 {
     "elasticsearch" : {
-        "url":"https://es1.mediaquantum.eu/streamua/streamua/_search?pretty=true&q=domain:*.il&sort=timestamp%3Adesc",
+        "url":"https://es1.mediaquantum.eu/streamua/streamua/_search?pretty=true&q=domain:*.il&sort=timestamp%3Adesc&size=1000",
         "userName": "elastic",
         "password":"changeme"
     },

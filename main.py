@@ -18,8 +18,7 @@ NLP = nlp_hebrew_service()
 
 coll_name = "raw_elstic"
 
-# Init mongo from elastic
-init_raw_data_from_elastic(coll_name)
+# init_raw_data_from_elastic(coll_name)
 
 # Normelize data
 insert_normalized_collection(
@@ -47,12 +46,12 @@ def EylamsCsv(numberOfWordsInExpression: int ,collection_name: str, NLP: nlp_heb
             list_of_rows_for_csv.append(specific_row)
         final_csv.write(list_of_rows_for_csv)
 
-# docforliam =MONGO_DB.get_document_by_id("normalized_raw_elstic", "61c86065f307f55e3a3b0a9d")
-# print(n_words_frequency(docforliam['body'],3))
+
 
 EylamsCsv(numberOfWordsInExpression = 3,
  collection_name ='normalized_raw_elstic',
  NLP = NLP,
  MONGO_DB = MONGO_DB)
 
+# def sports(collection_name: str, NLP: nlp_hebrew_service, MONGO_DB: mongoDB_service) ->None:
 
