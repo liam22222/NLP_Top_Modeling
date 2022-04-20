@@ -28,6 +28,7 @@ class nlp_hebrew_service(object):
     def clean_hebrew_nlp_result(self, nlp_result):
         paragraph = ""
         for sentence in nlp_result:
+            print(sentence)
             sentence = remove_double_spaces_from_string(sentence)
             for word in sentence:
                 best_option = word[0]

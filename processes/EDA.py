@@ -52,5 +52,4 @@ def plot_histogram(d: dict, size: int):
     plt.bar(d.keys(), d.values())
     plt.show()
 
-print("hi")
 print(n_words_frequency("61c86065f307f55e3a3b0a9d",2))
