@@ -9,12 +9,11 @@ def normelize_collection(collection, field_to_normalize: str, NLP: nlp_hebrew_se
     docs_as_list = []
     for doc in collection.find():
         text = remove_items_from_string(doc[f"{field_to_normalize}"], ENUM["irrelevant_signs"])
-        hebrew_result = NLP.nlp_hebrew_call(text, CONF["hebrew-nlp"]["morphAnalyze"])
-        if hebrew_result == None:
-            continue
-        paragraph = NLP.clean_hebrew_nlp_result(hebrew_result)
-        
-        doc[f"{field_to_normalize}"] = paragraph
+        # hebrew_result = NLP.nlp_hebrew_call(text, CONF["hebrew-nlp"]["morphAnalyze"])
+        # if hebrew_result == None:
+        #     continue                                                                   //not in use until we will feagureout wihich model to use
+        # paragraph = NLP.clean_hebrew_nlp_result(hebrew_result)
+        # doc[f"{field_to_normalize}"] = paragraph
         docs_as_list.append(doc)
 
     LOGGER.info(f"We just normalize {field_to_normalize}")

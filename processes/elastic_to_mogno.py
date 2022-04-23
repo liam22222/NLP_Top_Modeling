@@ -19,7 +19,7 @@ def init_raw_data_from_elastic(collection_name : str):
         html = document['_source']['text']
         
         checkURL = [x for x in ENUM["irrelevantSitesNames"] if (x in document['_source']['url'])]
-        checkTitle = (document['_source']['title'] != "")
+        checkTitle = (document['_source']['title'] != "" and document['_source']['title'] != "Enable Cookies")
 
         abstract = find_abstract(html)
         body = find_body(html)
@@ -35,5 +35,6 @@ def init_raw_data_from_elastic(collection_name : str):
                         "date": document['_source']['date'],
                         "abstract": abstract,
                         "body": body,
-                        "summary": summary}
+                        "summary": summary
+                        }
             )
