@@ -3,7 +3,7 @@ from common.logger_initializer import LOGGER
 from common.configuration import CONF, ENUM
 from common.utils import remove_double_spaces_from_string, remove_items_from_string
 
-MORPHOLOGY_ANALYZE_URL = "/Morphology/Analyze"
+MORPHOLOGY_ANALYZE_URL = CONF['hebrew-nlp']['morphNormalize']
 
 class nlp_hebrew_service(object):
 
@@ -13,8 +13,8 @@ class nlp_hebrew_service(object):
     def nlp_hebrew_call(self, doc: str, path: str):  
         request = {
         'token': CONF["hebrew-nlp"]["token"],
-        'readable': False,
-        'paragraph':  doc,
+        "type": "SEARCH",                      
+        "text": doc,
         }  
         result = None
         try: 
@@ -28,14 +28,11 @@ class nlp_hebrew_service(object):
     def clean_hebrew_nlp_result(self, nlp_result):
         paragraph = ""
         for sentence in nlp_result:
-            print(sentence)
-            sentence = remove_double_spaces_from_string(sentence)
             for word in sentence:
-                best_option = word[0]
-                if best_option['partOfSpeech'] in ENUM["irrelevant_part_of_speach"]:
+                if word in ENUM["irrelevant_part_of_speach"]:
                     LOGGER.info(f"Found a bad word")
                 else:
-                    paragraph += best_option["baseWord"] + ' '
+                    paragraph += word + ' '
             paragraph += '\n'
-        
+        paragraph = remove_double_spaces_from_string(paragraph)
         return paragraph

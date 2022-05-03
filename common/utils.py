@@ -15,7 +15,6 @@ def remove_items_from_string(string : str , list_key_to_remove : list)-> str:
     return string
 
 def remove_double_spaces_from_string(text : str)-> str:
-        print(text)
         return re.sub('\s{2,}', ' ', text)
   
 

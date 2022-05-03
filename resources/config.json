@@ -12,8 +12,8 @@
     },
     "hebrew-nlp":{
         "baseUrl":"https://hebrew-nlp.co.il/service/",
-        "token":"6B94f8CrQg3Vd2l",
-        "morphAnalyze" : "/Morphology/Analyze"
+        "token":"pKF4Lmg1geB2hYk",
+        "morphNormalize" : "Morphology/Normalize"
     },
     "csv":{
         "path": "/Csv/"

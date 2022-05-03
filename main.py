@@ -18,7 +18,7 @@ NLP = nlp_hebrew_service()
 
 coll_name = "raw_elstic"
 
-# init_raw_data_from_elastic(coll_name)
+init_raw_data_from_elastic(coll_name)
 
 # Normelize data
 insert_normalized_collection(
@@ -27,31 +27,34 @@ insert_normalized_collection(
    NLP,
    MONGO_DB)
 
-def EylamsCsv(numberOfWordsInExpression: int ,collection_name: str, NLP: nlp_hebrew_service, MONGO_DB: mongoDB_service) -> None:
-        tested_collection = MONGO_DB.get_collection(collection_name)
-        final_csv = csv_handler("final")
-        print(tested_collection)
-        dictionary_of_the_csv={}
-        all_words_set = set()
-        list_of_rows_for_csv = []
-        for doc in tested_collection.find():
-            word_dict= n_words_frequency(doc['body'],numberOfWordsInExpression)
-            all_words_set.update(word_dict.keys())
-            dictionary_of_the_csv.update({doc["title"]:word_dict})
-        for word in all_words_set:
-            specific_row=[word]
-            for key, value in dictionary_of_the_csv.items():
-                if word in value:
-                    specific_row.append(f"{key} : {value[word]}")
-            list_of_rows_for_csv.append(specific_row)
-        final_csv.write(list_of_rows_for_csv)
 
 
 
-EylamsCsv(numberOfWordsInExpression = 3,
- collection_name ='normalized_raw_elstic',
- NLP = NLP,
- MONGO_DB = MONGO_DB)
+# def EylamsCsv(numberOfWordsInExpression: int ,collection_name: str, NLP: nlp_hebrew_service, MONGO_DB: mongoDB_service) -> None:
+#         tested_collection = MONGO_DB.get_collection(collection_name)
+#         final_csv = csv_handler("final")
+#         print(tested_collection)
+#         dictionary_of_the_csv={}
+#         all_words_set = set()
+#         list_of_rows_for_csv = []
+#         for doc in tested_collection.find():
+#             word_dict= n_words_frequency(doc['body'],numberOfWordsInExpression)
+#             all_words_set.update(word_dict.keys())
+#             dictionary_of_the_csv.update({doc["title"]:word_dict})
+#         for word in all_words_set:
+#             specific_row=[word]
+#             for key, value in dictionary_of_the_csv.items():
+#                 if word in value:
+#                     specific_row.append(f"{key} : {value[word]}")
+#             list_of_rows_for_csv.append(specific_row)
+#         final_csv.write(list_of_rows_for_csv)
+
+
+
+# EylamsCsv(numberOfWordsInExpression = 3,
+#  collection_name ='normalized_raw_elstic',
+#  NLP = NLP,
+#  MONGO_DB = MONGO_DB)
 
 # def sports(collection_name: str, NLP: nlp_hebrew_service, MONGO_DB: mongoDB_service) ->None:
 
