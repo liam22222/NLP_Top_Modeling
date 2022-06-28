@@ -18,3 +18,7 @@ def remove_double_spaces_from_string(text : str)-> str:
         return re.sub('\s{2,}', ' ', text)
   
 
+def get_body_list (docs_list):
+    data = []
+    for doc in docs_list:
+        data.append(doc.body)
