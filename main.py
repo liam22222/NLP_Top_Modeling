@@ -12,6 +12,8 @@ from processes.EDA import n_words_frequency
 from processes.elastic_to_mogno import init_raw_data_from_elastic
 from processes.mongo_hebrew_nlp import insert_normalized_collection
 from common.configuration import CONF, ENUM
+from modelling.LDA_train import lda_train
+from processes.mongo_to_list import mongo_to_list
 
 MONGO_DB = mongoDB_service()
 NLP = nlp_hebrew_service()
@@ -27,8 +29,12 @@ insert_normalized_collection(
    NLP,
    MONGO_DB)
 
+# Prepare for modelling
+#normalized_data = mongo_to_list("raw_elstic")
+#normalized_body_list = get_body_list(normalized_data)
 
-
+print("*****************************")
+#print(normalized_data)
 
 # def EylamsCsv(numberOfWordsInExpression: int ,collection_name: str, NLP: nlp_hebrew_service, MONGO_DB: mongoDB_service) -> None:
 #         tested_collection = MONGO_DB.get_collection(collection_name)
