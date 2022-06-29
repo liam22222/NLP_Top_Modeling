@@ -21,7 +21,7 @@ coll_name = "raw_elstic"
 init_raw_data_from_elastic(coll_name)
 
 # Normelize data
-insert_normalized_collection(
+insert_normalized_collection( 
    coll_name,
    "body",
    NLP,

@@ -12,6 +12,7 @@ def format_str(variable) -> str:
 def remove_items_from_string(string : str , list_key_to_remove : list)-> str:
     for word in list_key_to_remove:
         string = string.replace(word, "")
+        if len(word)==1: string.replace(word, "")
     return string
 
 def remove_double_spaces_from_string(text : str)-> str:
