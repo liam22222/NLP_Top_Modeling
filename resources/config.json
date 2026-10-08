@@ -2,7 +2,7 @@
     "elasticsearch" : {
         "url":"https://es1.mediaquantum.eu/streamua/streamua/_search?pretty=true&q=domain:*.il&sort=timestamp%3Adesc&size=1000",
         "userName": "elastic",
-        "password":"changeme"
+        "password":"YOUR_ELASTIC_PASSWORD"
     },
     "mongo" : {
         "url":"mongodb://localhost:27017/",
@@ -12,7 +12,7 @@
     },
     "hebrew-nlp":{
         "baseUrl":"https://hebrew-nlp.co.il/service/",
-        "token":"pKF4Lmg1geB2hYk",
+        "token":"YOUR_HEBREW_NLP_TOKEN",
         "morphNormalize" : "Morphology/Normalize"
     },
     "csv":{
